@@ -1,0 +1,92 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\title{Strata Filter}
+\author{Guy John \\ \texttt{guy@rumblesan.com}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+Analysis of the Strata filter. Heavily based on the Serge VCFQ, but also with influence from the Mutable Instruments Blades. Much of this is pulled verbatim from the SSM2164 SVF Analysis by Emilie Gillet and then just somewhat modified.
+
+%\begin{figure}[h]
+  %\includegraphics[width=\linewidth]{lowpass-ota-cell.png}
+  %\caption{A single OTA low pass cell}
+%\end{figure}
+
+\newpage
+
+\subsection{Notations}
+
+\begin{description}
+\item $R_i$ is the value of the resistor through which the input signal is fed to the circuit.
+\item $R_g$ is the value of the resistor through which the HP and LP outputs are fed back into the input.
+\item $R_q$ is the value of the resistor through which the attenuated BP output is fed back into the input.
+\item $R$ is the value of the resistor through which input voltages are converted into currents at the input of the 2164s, and through which the current at the output of the Q attenuator is converted back into a voltage.
+\item $C$ is the value of the integrators' capacitors.
+\item $v_{cv}$ is the cutoff frequency control voltage.
+\item $v_q$ is the resonance control voltage.
+\end{description}
+
+The input voltage is $v_i(s)$.
+
+The low-pass, band-pass and high-pass voltages are $v_{lp}(s)$, $v_{bp}(s)$, $v_{hp}(s)$ respectively.
+
+The transfer function of an individual SSM2164 gain cell is $i_{out} = i_{in}10^{-{\frac{3}{2}}v_{cv}}$.
+
+This makes the transfer function of an integrator cell $\alpha$:
+\begin{equation}
+  \alpha(s) = - \frac{1}{RCs}10^{-{\frac{3}{2}}v_{cv}}
+\end{equation}
+
+Also worth noting:
+\begin{equation}
+  v_{bp} (s) = v_{hp} (s)\alpha(s)
+\end{equation}
+
+and
+
+\begin{equation}
+  v_{lp} (s) = v_{bp} (s)\alpha(s) = v_{hp}(s)\alpha^2(s)
+\end{equation}
+
+Finally, the gain of the feedback circuit $\beta$ to control the resonance:
+
+\begin{equation}
+  \beta = \frac{1}{R}10^{-{\frac{3}{2}}v_{q}} \times -R = -10^{-{\frac{3}{2}}v_{q}}
+\end{equation}
+
+\section{High Pass Output}
+
+Looking at the first op-amp stage, it has a very high input impedance meaning that we can assume there is no current flowing into the negative terminal.
+
+\begin{equation*}
+\begin{split}
+  \frac{v_i(s)}{R_i} + \frac{v_{hp}(s)}{R_g} + \frac{v_{lp}(s)}{R_g} + \frac{v_{bp}(s)\beta}{R_q} & = 0 \\
+  \frac{v_i(s)}{R_i} + \frac{v_{hp}(s)}{R_g} + \frac{{\alpha}^2(s)v_{hp}(s)}{R_g} + \frac{{\alpha}(s)v_{hp}(s)\beta}{R_q} & = 0 \\
+\end{split}
+\end{equation*}
+
+
+\begin{equation}
+  V_{+} = \frac{V_{In}R_{s}}{R_{b} + R_{s}}
+\end{equation}
+
+\begin{equation}
+  V_{-} = \frac{V_{Out}R_{s}}{R_{b} + R_{s}}
+\end{equation}
+
+\begin{equation*}
+\begin{split}
+  I_{c} & = {gm}(V_{+} - V_{-}) \\
+  I_{c} & = {19.2}i_{ABC}(\frac{V_{In}R_{s}}{R_{b} + R_{s}} - \frac{V_{Out}R_{s}}{R_{b} + R_{s}}) \\
+\end{split}
+\end{equation*}
+
+
+\end{document}
