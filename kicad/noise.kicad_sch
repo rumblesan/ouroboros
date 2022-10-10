@@ -477,7 +477,7 @@
     (uuid 38ad742e-7632-45ea-bcb9-68cc15663334)
     (property "Reference" "C51" (id 0) (at 93.98 72.8812 90))
     (property "Value" "100nF" (id 1) (at 93.98 75.4181 90))
-    (property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm" (id 2) (at 92.71 73.025 90)
+    (property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm" (id 2) (at 92.71 73.025 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 93.98 71.12 90)
