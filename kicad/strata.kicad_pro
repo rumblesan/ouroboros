@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -120,7 +126,12 @@
         0.635,
         1.27
       ],
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -364,6 +375,26 @@
       },
       {
         "bus_width": 12.0,
+        "clearance": 0.254,
+        "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.762,
+        "microvia_drill": 0.381,
+        "name": "Ground",
+        "nets": [
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "via_diameter": 0.762,
+        "via_drill": 0.381,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
         "clearance": 0.3048,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
@@ -372,7 +403,11 @@
         "microvia_diameter": 0.762,
         "microvia_drill": 0.381,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "+5V",
+          "VCC",
+          "VEE"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.635,
@@ -489,10 +524,6 @@
     [
       "9bc8d8bb-29d4-4371-956d-620f98e83b22",
       "Delay CV"
-    ],
-    [
-      "25ee5d01-fa98-42b2-ae9d-691d76119f2d",
-      "Filter Expander"
     ],
     [
       "8910ec24-817d-4de5-97c2-6d5a7027c76c",
