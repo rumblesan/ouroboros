@@ -14,11 +14,6 @@
 \section{Introduction}
 Analysis of the Strata filter. Heavily based on the Serge VCFQ, but also with influence from the Mutable Instruments Blades. Much of this is pulled verbatim from the SSM2164 SVF Analysis by Emilie Gillet and then just somewhat modified.
 
-%\begin{figure}[h]
-  %\includegraphics[width=\linewidth]{lowpass-ota-cell.png}
-  %\caption{A single OTA low pass cell}
-%\end{figure}
-
 \newpage
 
 \subsection{Notations}
@@ -27,66 +22,195 @@ Analysis of the Strata filter. Heavily based on the Serge VCFQ, but also with in
 \item $R_i$ is the value of the resistor through which the input signal is fed to the circuit.
 \item $R_g$ is the value of the resistor through which the HP and LP outputs are fed back into the input.
 \item $R_q$ is the value of the resistor through which the attenuated BP output is fed back into the input.
-\item $R$ is the value of the resistor through which input voltages are converted into currents at the input of the 2164s, and through which the current at the output of the Q attenuator is converted back into a voltage.
+\item $R$ and $R_s$ are the values of the resistor at the voltage divider input of the OTAs.
+\item $R_f$ is the value of the resistor through which the current at the output of the Q attenuator is converted back
+into a voltage.
 \item $C$ is the value of the integrators' capacitors.
 \item $v_{cv}$ is the cutoff frequency control voltage.
 \item $v_q$ is the resonance control voltage.
+\item $v_i(s)$ is the input voltage.
+\item $v_{hp}(s)$, $v_{bp}(s)$ and $v_{lp}(s)$ are the high-pass, band-pass and low-pass output voltages.
 \end{description}
 
-The input voltage is $v_i(s)$.
-
-The low-pass, band-pass and high-pass voltages are $v_{lp}(s)$, $v_{bp}(s)$, $v_{hp}(s)$ respectively.
-
-The transfer function of an individual SSM2164 gain cell is $i_{out} = i_{in}10^{-{\frac{3}{2}}v_{cv}}$.
-
-This makes the transfer function of an integrator cell $\alpha$:
-\begin{equation}
-  \alpha(s) = - \frac{1}{RCs}10^{-{\frac{3}{2}}v_{cv}}
-\end{equation}
-
-Also worth noting:
-\begin{equation}
-  v_{bp} (s) = v_{hp} (s)\alpha(s)
-\end{equation}
-
-and
-
-\begin{equation}
-  v_{lp} (s) = v_{bp} (s)\alpha(s) = v_{hp}(s)\alpha^2(s)
-\end{equation}
-
-Finally, the gain of the feedback circuit $\beta$ to control the resonance:
-
-\begin{equation}
-  \beta = \frac{1}{R}10^{-{\frac{3}{2}}v_{q}} \times -R = -10^{-{\frac{3}{2}}v_{q}}
-\end{equation}
-
-\section{High Pass Output}
-
-Looking at the first op-amp stage, it has a very high input impedance meaning that we can assume there is no current flowing into the negative terminal.
+For reference, the standard second-order filter transfer functions are:
 
 \begin{equation*}
 \begin{split}
-  \frac{v_i(s)}{R_i} + \frac{v_{hp}(s)}{R_g} + \frac{v_{lp}(s)}{R_g} + \frac{v_{bp}(s)\beta}{R_q} & = 0 \\
-  \frac{v_i(s)}{R_i} + \frac{v_{hp}(s)}{R_g} + \frac{{\alpha}^2(s)v_{hp}(s)}{R_g} + \frac{{\alpha}(s)v_{hp}(s)\beta}{R_q} & = 0 \\
+  H_{lp}(s) & = \frac{1}{s^2T^2 + \frac{1}{q}sT + 1} \\
+  H_{bp}(s) & = \frac{1}{\frac{q}{sT} + qsT + 1} \\
+  H_{hp}(s) & = \frac{1}{\frac{1}{s^2T^2} + \frac{1}{qsT} + 1} \\
 \end{split}
 \end{equation*}
 
+\subsection{OTA Integrator Cell}
 
-\begin{equation}
-  V_{+} = \frac{V_{In}R_{s}}{R_{b} + R_{s}}
-\end{equation}
+\includegraphics[width=\linewidth]{images/otacell.png}
 
-\begin{equation}
-  V_{-} = \frac{V_{Out}R_{s}}{R_{b} + R_{s}}
-\end{equation}
+The transfer function of an OTA is:
 
 \begin{equation*}
 \begin{split}
-  I_{c} & = {gm}(V_{+} - V_{-}) \\
-  I_{c} & = {19.2}i_{ABC}(\frac{V_{In}R_{s}}{R_{b} + R_{s}} - \frac{V_{Out}R_{s}}{R_{b} + R_{s}}) \\
+  i_o & = g_m(v_+ - v_-) \\
+  i_o & = 19.2i_{cv}(v_+ - v_-) \\
 \end{split}
 \end{equation*}
+
+If $R_f$ is equal to $R_i$
+Kirchoff in $v_+$ gives:
+
+\begin{equation*}
+\begin{split}
+  \frac{1}{R}(v_i(s) - v_+(s)) & = \frac{1}{R_s}v_+(s) \\
+  R_sv_i(s) - R_sv_+(s) & = Rv_+(s) \\
+  R_sv_i(s) & = Rv_+(s) + R_sv_+(s) \\
+  R_sv_i(s) & = v_+(s)(R + R_s) \\
+  v_+(s)(R + R_s) & = R_sv_i(s) \\
+  v_+(s) & = \frac{R_s}{R + R_s}v_i(s) \\
+\end{split}
+\end{equation*}
+
+The current $i_c$ at the output if the OTA is:
+
+\begin{equation*}
+\begin{split}
+  i_c(s) & = g_m(v_+(s) - v_-(s)) \\
+   & = 19.2i_{cv}(\frac{R_s}{R + 2R_s}v_i(s) - 0) \\
+   & = 19.2i_{cv}\frac{R_s}{R + 2R_s}v_i(s) \\
+\end{split}
+\end{equation*}
+
+The voltage out of the OpAmp:
+
+\begin{equation*}
+\begin{split}
+  v_o(s) & = \frac{-i_c(s)}{Cs} \\
+  v_o(s) & = -19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)}v_i(s) \\
+\end{split}
+\end{equation*}
+
+So the transfer function is:
+
+\begin{equation}
+  \alpha(s) = -19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)}
+\end{equation}
+
+\subsection{Feedback Control}
+
+The gain of the feedback circuit is:
+
+\includegraphics[width=\linewidth]{images/inverting-feedback-amp.png}
+
+\begin{equation*}
+\begin{split}
+  v_+ & = v_i\frac{R_s}{R + R_s} \\
+  i_o & = 19.2i_{q}(v_+ - v_-) \\
+  i_o & = 19.2i_{q}(v_+ - 0) \\
+  i_o & = 19.2i_{q}v_i\frac{R_s}{R + R_s} \\
+  i_o & = R_f(v_- - v_o) \\
+  i_o & = -R_fv_o \\
+  -R_fv_o & = 19.2i_{q}v_i\frac{R_s}{R + R_s} \\
+  -R_fv_o & = 19.2i_{q}v_i\frac{R_s}{R + R_s} \\
+  v_o & = -19.2i_{q}v_i\frac{R_fR_s}{R_i + R_s} \\
+  \beta & = -19.2i_{q}\frac{R_fR_s}{R_i + R_s} \\
+\end{split}
+\end{equation*}
+
+\subsection{Filter}
+
+\begin{equation*}
+\begin{split}
+  \frac{v_i - v_-}{R_i} + \frac{v_{hp} - v_-}{R_g} + \frac{v_{lp} - v_-}{R_g}  + \frac{v_{bp}\beta - v_-}{R_q} & = i_- = 0 \\
+  \frac{v_i}{R_i} + \frac{v_{hp}}{R_g} + \frac{v_{lp}}{R_g}  + \frac{v_{bp}\beta}{R_q} & = 0 \\
+\end{split}
+\end{equation*}
+
+It is important to note that $v_{bp}(s) = v_{hp}(s)\alpha(s)$, and $v_{lp}(s) = v_{hp}(s)\alpha(s^2)$.
+
+\subsubsection{High-pass}
+
+\begin{equation*}
+\begin{split}
+  \frac{v_{hp}(s)}{R_g} & = - \frac{v_i(s)}{R_i} - \frac{v_{lp}(s)}{R_g} - \frac{v_{bp}(s)\beta}{R_q} \\
+  \frac{v_{hp}(s)}{R_g} & = - \frac{v_i(s)}{R_i} - \frac{v_{hp}(s)\alpha(s^2)}{R_g} - \frac{v_{hp}(s)\alpha(s)\beta}{R_q} \\
+  \frac{v_i(s)}{R_i} & = - \frac{v_{hp}(s)}{R_g} - \frac{v_{hp}(s)\alpha(s^2)}{R_g} - \frac{v_{hp}(s)\alpha(s)\beta}{R_q} \\
+  H_{hp}(s) & = \frac{v_{hp}(s)}{v_i(s)} \\
+  \frac{v_i(s)}{R_i} & = - v_{hp}(s)(\frac{1}{R_g} + \frac{\alpha(s^2)}{R_g} + \frac{\alpha(s)\beta}{R_q}) \\
+  \frac{1}{R_i} & = - H_{hp}(s)(\frac{1}{R_g} + \frac{\alpha(s^2)}{R_g} + \frac{\alpha(s)\beta}{R_q}) \\
+  \frac{-1}{R_i} & = H_{hp}(s)(\frac{1}{R_g} + \frac{\alpha(s^2)}{R_g} + \frac{\alpha(s)\beta}{R_q}) \\
+  H_{hp}(s) & = \frac{-1/R_i}{\frac{1}{R_g} + \frac{\alpha(s^2)}{R_g} + \frac{\alpha(s)\beta}{R_q}} \\
+  & = \frac{-R_g/R_i}{1 + \frac{R_g\alpha(s)\beta}{R_q} + \alpha(s^2) } \\
+\end{split}
+\end{equation*}
+
+\subsubsection{Low-Pass}
+
+\begin{equation*}
+\begin{split}
+  H_{lp}(s) & = \frac{v_{lp}(s)}{v_i(s)} \\
+            & = \frac{v_{hp}(s)}{v_i(s)}\alpha^2(s) \\
+            & = \frac{-R_g/R_i}{\frac{1}{\alpha^2(s)} + \frac{R_g\beta}{R_q\alpha(s)} + 1 } \\
+            & = \frac{-R_g/R_i}{\frac{1}{\alpha^2(s)} + \beta\frac{R_g}{R_q}\frac{1}{\alpha(s)} + 1 } \\
+            & = \frac{-R_g/R_i}{\frac{1}{(-19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)})^2} + (-19.2i_{q}\frac{R_fR_s}{R_i + R_s})\frac{R_g}{R_q}\frac{1}{-19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)}} + 1 } \\
+            & = \frac{-R_g/R_i}{\frac{1}{(19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)})^2} + 19.2i_{q}\frac{R_fR_s}{R_i + R_s}\frac{R_g}{R_q}\frac{1}{19.2i_{cv}\frac{R_s}{Cs(R + 2R_s)}} + 1 } \\
+            & = \frac{-R_g/R_i}{\frac{1}{\frac{1}{s^2}(19.2i_{cv}\frac{R_s}{C(R + 2R_s)})^2} + 19.2i_{q}\frac{R_fR_s}{R_i + R_s}\frac{R_g}{R_q}\frac{1}{19.2i_{cv}\frac{1}{s}\frac{R_s}{C(R + 2R_s)}} + 1 } \\
+            & = \frac{-R_g/R_i}{\frac{s^2}{(19.2i_{cv}\frac{R_s}{C(R + 2R_s)})^2} + 19.2i_{q}\frac{R_fR_s}{R_i + R_s}\frac{R_g}{R_q}\frac{s}{19.2i_{cv}\frac{R_s}{C(R + 2R_s)}} + 1 } \\
+\end{split}
+\end{equation*}
+
+One simplification worth making is to say that $R_q = R_g$.
+
+By comparing with the standard form of a second order filter transfer function we can work out the following.
+
+\begin{description}
+  \item Pass-band gain, $-\frac{R_g}{R_i}$
+  \item Cutoff frequency, $19.2i_{cv}\frac{R_s}{C2\pi(R + 2R_s)}$
+  \item Quality factor, $\frac{1}{19.2i_{q}\frac{R_fR_s}{R_i + R_s}}$
+\end{description}
+
+\subsection{Calculating cutoff frequencies}
+
+Given the calculation for frequency, and picking some standard values we can calculate cutoff for different $i_{cv}$ values.
+
+\begin{description}
+  \item $R$ is 100k
+  \item $R_s$ is 220r
+  \item $C$ is 220pF
+\end{description}
+
+\begin{equation}
+  f = 19.2i_{cv}\frac{220}{220 * 10^{-12} * 2\pi(100000 + 2(220))}
+\end{equation}
+
+\begin{description}
+  \item for $i_{cv}$ of 0.5ma $f = 15212Hz$
+  \item for $i_{cv}$ of 0.3ma $f = 9127Hz$
+  \item for $i_{cv}$ of 0.1ma $f = 3042Hz$
+  \item for $i_{cv}$ of 0.05ma $f = 1521Hz$
+  \item for $i_{cv}$ of 0.01ma $f = 304Hz$
+\end{description}
+
+\subsection{Calculating resonance}
+
+A quality factor of $1/2$ gives no resonance, whilst the resonance (and likelihood of self oscillating) increases as Q goes to infinity.
+
+\begin{description}
+  \item $R_f$ is 100k
+  \item $R_i$ is 100k
+  \item $R_s$ is 220r
+  \item $C$ is 220pF
+\end{description}
+
+\begin{equation}
+  q = \frac{1}{19.2i_{q}\frac{100000 * 220}{100000 + 220}}
+\end{equation}
+
+\begin{description}
+  \item for $i_{q}$ of 0.5ma $q = 0.47$
+  \item for $i_{q}$ of 0.3ma $q = 0.79$
+  \item for $i_{q}$ of 0.1ma $q = 2.37$
+  \item for $i_{q}$ of 0.05ma $q = 4.75$
+  \item for $i_{q}$ of 0.01ma $q = 23.7$
+\end{description}
 
 
 \end{document}
