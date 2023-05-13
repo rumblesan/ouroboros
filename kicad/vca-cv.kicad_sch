@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "The Mercurial Machine")
+    (title "Ouroboros")
     (date "2023-05-13")
     (rev "r02")
     (comment 2 "creativecommons.org/licenses/by/4.0/")

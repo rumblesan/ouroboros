@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "mercurial-graphics")(type "KiCad")(uri "${KIPRJMOD}/mercurial-graphics.pretty")(options "")(descr ""))
+  (lib (name "ouroboros-graphics")(type "KiCad")(uri "${KIPRJMOD}/ouroboros-graphics.pretty")(options "")(descr ""))
 )

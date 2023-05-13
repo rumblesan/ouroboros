@@ -1,10 +1,10 @@
 # 13700 Filter
 
-Designing a filter for the Mercurial Machine using the LM13700 OTA
+Designing a filter for the Ouroboros using the LM13700 OTA
 
 ## Creating
 
-`pdflatex mercurial-filter.tex`
+`pdflatex ouroboros-filter.tex`
 
 ## Contact
 
