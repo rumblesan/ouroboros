@@ -4105,7 +4105,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 187.96 224.79 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00b62643-e07e-4735-a57a-27b0745e22c5)
-    (property "Reference" "RV11" (id 0) (at 189.738 223.9553 0)
+    (property "Reference" "RV12" (id 0) (at 189.738 223.9553 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 189.738 226.4922 0)
@@ -4126,7 +4126,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 44.45 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 050d3b5c-d30d-4cdb-98f3-01981d734c47)
-    (property "Reference" "R159" (id 0) (at 46.228 141.4053 0)
+    (property "Reference" "R11" (id 0) (at 46.228 141.4053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (id 1) (at 46.228 143.9422 0)
@@ -4154,7 +4154,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 52.07 62.23 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0532e536-5c78-4c6e-82c3-ce90ccd3a9e8)
-    (property "Reference" "RV7" (id 0) (at 50.2921 61.3953 0)
+    (property "Reference" "RV4" (id 0) (at 50.2921 61.3953 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 50.2921 63.9322 0)
@@ -4207,7 +4207,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 372.11 16.51 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 077bd947-1add-47b5-adde-06f183388a5d)
-    (property "Reference" "TP9" (id 0) (at 376.809 15.6753 90)
+    (property "Reference" "TP4" (id 0) (at 376.809 15.6753 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+12VTestPoint" (id 1) (at 376.809 18.2122 90)
@@ -4225,7 +4225,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 120.65 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0c5222ad-c2a6-4399-9da5-ac528071f69c)
-    (property "Reference" "TP3" (id 0) (at 122.047 16.1833 0)
+    (property "Reference" "TP9" (id 0) (at 122.047 16.1833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AnalysisSignalTestPoint" (id 1) (at 122.047 18.7202 0)
@@ -4259,7 +4259,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 330.2 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0d05d3fc-0a74-402d-aaa4-5ae5b0ef0a59)
-    (property "Reference" "TP11" (id 0) (at 331.597 227.0033 0)
+    (property "Reference" "TP14" (id 0) (at 331.597 227.0033 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GNDTestPoint" (id 1) (at 331.597 229.5402 0)
@@ -4295,7 +4295,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 323.85 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1215353d-9b55-450e-bbf6-3ad0946a2097)
-    (property "Reference" "J53" (id 0) (at 323.85 22.86 0))
+    (property "Reference" "J31" (id 0) (at 323.85 22.86 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 324.485 24.1609 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4314,7 +4314,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Male") (at 342.9 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 12fea1d0-0001-4862-8ffd-6d85c01f9abb)
-    (property "Reference" "J36" (id 0) (at 344.17 80.01 0))
+    (property "Reference" "J35" (id 0) (at 344.17 80.01 0))
     (property "Value" "Conn_01x08_Male" (id 1) (at 343.535 81.3109 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4369,7 +4369,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 269.24 21.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1749fbc3-4d2c-4c03-b6e5-7d4e1229afb4)
-    (property "Reference" "J28" (id 0) (at 270.51 16.51 0)
+    (property "Reference" "J19" (id 0) (at 270.51 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 273.812 23.9272 0)
@@ -4425,7 +4425,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 182.88 21.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 18c45613-9e8a-46cc-b021-6093e6e63c1d)
-    (property "Reference" "J17" (id 0) (at 184.15 16.51 0)
+    (property "Reference" "J22" (id 0) (at 184.15 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 187.452 23.9272 0)
@@ -4449,7 +4449,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Power Small") (at 349.25 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 194e0590-d6a0-44dc-9686-57167b73fcc8)
-    (property "Reference" "J37" (id 0) (at 349.885 18.573 0))
+    (property "Reference" "J36" (id 0) (at 349.885 18.573 0))
     (property "Value" "Eurorack Power Small" (id 1) (at 349.25 32.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4490,7 +4490,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 48.26 29.21 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1a49bcb8-7ea4-461e-8c35-6deb93317ea9)
-    (property "Reference" "R165" (id 0) (at 50.038 28.3753 0)
+    (property "Reference" "R5" (id 0) (at 50.038 28.3753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 50.038 30.9122 0)
@@ -4518,7 +4518,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 266.7 168.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1ce5e142-e004-4094-befb-21629ca30a41)
-    (property "Reference" "R6" (id 0) (at 261.62 167.64 90)
+    (property "Reference" "R26" (id 0) (at 261.62 167.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120k" (id 1) (at 264.16 166.37 90)
@@ -4546,7 +4546,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 369.57 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1eb2566e-16a2-498e-930b-b40c307d9ecf)
-    (property "Reference" "TP8" (id 0) (at 374.269 49.9653 90)
+    (property "Reference" "TP11" (id 0) (at 374.269 49.9653 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5VTestPoint" (id 1) (at 374.269 52.5022 90)
@@ -4617,7 +4617,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 309.88 123.19 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2305cb56-946b-4353-bf89-53be91055c49)
-    (property "Reference" "R84" (id 0) (at 311.15 118.11 90)
+    (property "Reference" "R32" (id 0) (at 311.15 118.11 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 312.42 120.65 90)
@@ -4702,7 +4702,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 307.34 64.77 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 277cfe6e-dc12-4141-9112-2d39a5bc42b0)
-    (property "Reference" "RV18" (id 0) (at 305.5621 65.6047 0)
+    (property "Reference" "RV20" (id 0) (at 305.5621 65.6047 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 305.5621 63.0678 0)
@@ -4723,7 +4723,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 67.31 248.92 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2a2ad07d-e07b-4cf8-9efc-db755e27cf3e)
-    (property "Reference" "RV4" (id 0) (at 65.532 248.0853 0)
+    (property "Reference" "RV3" (id 0) (at 65.532 248.0853 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 65.532 250.6222 0)
@@ -4744,7 +4744,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 64.77 20.32 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2b504b34-55bd-484a-9289-1be87245fc81)
-    (property "Reference" "J4" (id 0) (at 69.342 20.1203 0)
+    (property "Reference" "J1" (id 0) (at 69.342 20.1203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 69.342 22.6572 0)
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 161.29 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2dc432a1-93fd-4a71-a8fa-e940ffcae530)
-    (property "Reference" "J14" (id 0) (at 156.718 142.0403 0)
+    (property "Reference" "J9" (id 0) (at 156.718 142.0403 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 156.718 144.5772 0)
@@ -4792,7 +4792,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 100.33 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e383781-c99c-4205-8980-e6e33ebd3fd7)
-    (property "Reference" "R52" (id 0) (at 102.108 94.4153 0)
+    (property "Reference" "R21" (id 0) (at 102.108 94.4153 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4k7" (id 1) (at 102.108 96.9522 0)
@@ -4820,7 +4820,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 184.15 165.1 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2e7fb674-886f-4e3f-8d95-576d44ea4b6e)
-    (property "Reference" "RV10" (id 0) (at 185.9279 164.2653 0)
+    (property "Reference" "RV9" (id 0) (at 185.9279 164.2653 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 185.9279 166.8022 0)
@@ -4840,7 +4840,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 109.22 88.9 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30b29e9a-70db-4f13-9b3d-cbcb10b6da78)
-    (property "Reference" "R157" (id 0) (at 109.22 84.1842 90))
+    (property "Reference" "R20" (id 0) (at 109.22 84.1842 90))
     (property "Value" "100k" (id 1) (at 109.22 86.7211 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 106.68 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4864,7 +4864,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 203.2 40.64 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 310c614c-fa31-4b7f-bd37-2bb619469ae3)
-    (property "Reference" "R168" (id 0) (at 204.978 39.8053 0)
+    (property "Reference" "R42" (id 0) (at 204.978 39.8053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 204.978 42.3422 0)
@@ -4908,7 +4908,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 118.11 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 32c39f0f-6717-4b2c-94df-d03a416295e0)
-    (property "Reference" "R65" (id 0) (at 119.888 65.2053 0)
+    (property "Reference" "R23" (id 0) (at 119.888 65.2053 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (id 1) (at 119.888 67.7422 0)
@@ -4936,7 +4936,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 57.15 167.64 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3346b666-1f0f-4799-a467-2e4804b4aa67)
-    (property "Reference" "R177" (id 0) (at 57.15 162.9242 90))
+    (property "Reference" "R24" (id 0) (at 57.15 162.9242 90))
     (property "Value" "100k" (id 1) (at 57.15 165.4611 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 59.69 165.1 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -4976,7 +4976,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 153.67 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 35e176a4-94e5-42cb-8fc5-93c6918a3803)
-    (property "Reference" "J12" (id 0) (at 153.67 160.02 0))
+    (property "Reference" "J45" (id 0) (at 153.67 160.02 0))
     (property "Value" "Conn_01x04_Female" (id 1) (at 154.305 160.9399 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4995,7 +4995,7 @@
   (symbol (lib_id "rumblesan-standard-parts:C") (at 96.52 127 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 37133eec-0633-443f-9e80-719391d28c23)
-    (property "Reference" "C3" (id 0) (at 99.441 126.1653 0)
+    (property "Reference" "C5" (id 0) (at 99.441 126.1653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 99.441 128.7022 0)
@@ -5020,7 +5020,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 200.66 31.75 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 37aa24ac-11ff-4c82-a394-3fa4c99b7512)
-    (property "Reference" "R167" (id 0) (at 198.12 30.48 90)
+    (property "Reference" "R35" (id 0) (at 198.12 30.48 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 198.12 35.56 90)
@@ -5048,7 +5048,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 242.57 21.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ac6b8eb-658f-47d8-b150-13c43d906592)
-    (property "Reference" "J24" (id 0) (at 243.84 16.51 0)
+    (property "Reference" "J20" (id 0) (at 243.84 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 247.142 23.9272 0)
@@ -5072,7 +5072,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 261.62 198.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3b483144-9cdb-44b2-88dc-c5983cf4f578)
-    (property "Reference" "R156" (id 0) (at 262.89 193.04 90)
+    (property "Reference" "R19" (id 0) (at 262.89 193.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330k" (id 1) (at 264.16 195.58 90)
@@ -5100,7 +5100,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 236.22 248.92 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3baade23-d3b8-41d8-8ce1-06c9414fba81)
-    (property "Reference" "R171" (id 0) (at 236.22 244.2042 90))
+    (property "Reference" "R13" (id 0) (at 236.22 244.2042 90))
     (property "Value" "330r" (id 1) (at 236.22 246.7411 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 238.76 246.38 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5124,7 +5124,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 40.64 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3be4407b-9b04-4f97-90f8-499e7c76e703)
-    (property "Reference" "R162" (id 0) (at 42.418 199.8253 0)
+    (property "Reference" "R22" (id 0) (at 42.418 199.8253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330r" (id 1) (at 42.418 202.3622 0)
@@ -5186,7 +5186,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 55.88 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 408e0328-35ae-424a-af16-b880c1efaccf)
-    (property "Reference" "R2" (id 0) (at 55.88 105.7742 90))
+    (property "Reference" "R1" (id 0) (at 55.88 105.7742 90))
     (property "Value" "100k" (id 1) (at 55.88 108.3111 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 58.42 107.95 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5307,7 +5307,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 83.82 212.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4256d650-9711-4d48-96bf-244bafef0f47)
-    (property "Reference" "J5" (id 0) (at 83.82 208.28 0))
+    (property "Reference" "J46" (id 0) (at 83.82 208.28 0))
     (property "Value" "Conn_01x04_Female" (id 1) (at 83.185 207.9299 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5326,7 +5326,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 24.13 184.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4271d770-aec0-4f9e-bf94-28384d7fb79c)
-    (property "Reference" "J49" (id 0) (at 23.495 176.6402 0))
+    (property "Reference" "J3" (id 0) (at 23.495 176.6402 0))
     (property "Value" "Eurorack Mono Jack" (id 1) (at 23.495 179.1771 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5380,7 +5380,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 39.37 36.83 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 45f7a871-75aa-43a5-ae3b-85f781d95834)
-    (property "Reference" "R160" (id 0) (at 39.37 32.1142 90))
+    (property "Reference" "R17" (id 0) (at 39.37 32.1142 90))
     (property "Value" "220k" (id 1) (at 39.37 34.6511 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 41.91 34.29 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5420,7 +5420,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 176.53 208.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 47a77fbd-33bc-4f1b-8ea2-bd6d633a04c0)
-    (property "Reference" "J16" (id 0) (at 171.958 208.0803 0)
+    (property "Reference" "J12" (id 0) (at 171.958 208.0803 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 171.958 210.6172 0)
@@ -5444,7 +5444,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 31.75 172.72 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4b69ffdc-46d2-4739-940e-0e7fb10724a6)
-    (property "Reference" "R164" (id 0) (at 29.972 171.8853 0)
+    (property "Reference" "R2" (id 0) (at 29.972 171.8853 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 29.972 174.4222 0)
@@ -5488,7 +5488,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Female") (at 340.36 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4d851e94-03e5-4bad-861a-92f365188e8c)
-    (property "Reference" "J35" (id 0) (at 337.82 80.01 0)
+    (property "Reference" "J40" (id 0) (at 337.82 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08_Female" (id 1) (at 341.0712 93.1422 0)
@@ -5559,7 +5559,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 29.21 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4f8c60ba-7ae6-4e1e-a2f8-2f50b2ac2a6e)
-    (property "Reference" "R163" (id 0) (at 30.988 221.4153 0)
+    (property "Reference" "R8" (id 0) (at 30.988 221.4153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330r" (id 1) (at 30.988 223.9522 0)
@@ -5637,7 +5637,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 220.98 34.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 57177173-d597-4b2a-813a-5ff56d12e96a)
-    (property "Reference" "J20" (id 0) (at 222.25 29.21 0)
+    (property "Reference" "J25" (id 0) (at 222.25 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 225.552 36.6272 0)
@@ -5700,7 +5700,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 55.88 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5a6e784c-bc42-4795-8e46-92178697a99f)
-    (property "Reference" "R3" (id 0) (at 55.88 128.6342 90))
+    (property "Reference" "R14" (id 0) (at 55.88 128.6342 90))
     (property "Value" "100k" (id 1) (at 55.88 131.1711 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 58.42 130.81 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5740,7 +5740,7 @@
   (symbol (lib_id "rumblesan-standard-parts:C_Polarized") (at 397.51 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5bf0b729-aac6-4585-bac0-2e1a7ffbf3b9)
-    (property "Reference" "C7" (id 0) (at 400.431 60.5063 0)
+    (property "Reference" "C62" (id 0) (at 400.431 60.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 400.431 63.0432 0)
@@ -5768,7 +5768,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 274.32 34.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6084a268-b1e0-4ece-9cbe-c74257dcc8db)
-    (property "Reference" "J30" (id 0) (at 275.59 29.21 0)
+    (property "Reference" "J23" (id 0) (at 275.59 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 278.892 36.6272 0)
@@ -5808,7 +5808,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 276.86 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 618ba0d4-8c38-4be8-85f6-efa6402bdd89)
-    (property "Reference" "J31" (id 0) (at 272.288 69.6503 0)
+    (property "Reference" "J13" (id 0) (at 272.288 69.6503 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 272.288 72.1872 0)
@@ -5832,7 +5832,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 116.84 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 65afb25a-04b8-4c1b-8d00-219911f9acbb)
-    (property "Reference" "TP2" (id 0) (at 113.538 43.9252 90))
+    (property "Reference" "TP10" (id 0) (at 113.538 43.9252 90))
     (property "Value" "DivisionCVTestPoint" (id 1) (at 113.538 46.4621 90))
     (property "Footprint" "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" (id 2) (at 116.84 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5846,7 +5846,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 44.45 133.35 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 65bf44f3-843f-40ca-b097-19a621109db5)
-    (property "Reference" "RV3" (id 0) (at 42.6721 132.5153 0)
+    (property "Reference" "RV10" (id 0) (at 42.6721 132.5153 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 42.6721 135.0522 0)
@@ -5883,7 +5883,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 294.64 121.92 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6820993b-bef6-46b0-917c-7050665df8ba)
-    (property "Reference" "J33" (id 0) (at 290.068 121.7203 0)
+    (property "Reference" "J14" (id 0) (at 290.068 121.7203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 290.068 124.2572 0)
@@ -5955,7 +5955,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 308.61 147.32 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6afb388f-8890-4f47-9d8b-7d8e98bac5e7)
-    (property "Reference" "R32" (id 0) (at 308.61 142.6042 90))
+    (property "Reference" "R45" (id 0) (at 308.61 142.6042 90))
     (property "Value" "1k" (id 1) (at 308.61 145.1411 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 311.15 144.78 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5979,7 +5979,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 62.23 232.41 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6bcec6a4-d928-4f85-833f-ef23ecc53229)
-    (property "Reference" "RV5" (id 0) (at 60.452 231.5753 0)
+    (property "Reference" "RV7" (id 0) (at 60.452 231.5753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 60.452 234.1122 0)
@@ -6032,7 +6032,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Male") (at 166.37 38.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6e88fa18-b73c-4e20-9b77-920481c1027d)
-    (property "Reference" "J13" (id 0) (at 163.83 27.94 0)
+    (property "Reference" "J34" (id 0) (at 163.83 27.94 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x08_Male" (id 1) (at 165.735 29.2409 0)
@@ -6057,7 +6057,7 @@
   (symbol (lib_id "Regulator_Linear:L78L05_TO92") (at 356.87 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6efbcb2f-d0a9-4b95-9153-41be0a4938a1)
-    (property "Reference" "U2" (id 0) (at 356.87 51.5452 0))
+    (property "Reference" "U8" (id 0) (at 356.87 51.5452 0))
     (property "Value" "L78L05_TO92" (id 1) (at 356.87 54.0821 0))
     (property "Footprint" "rumblesan-standard-parts:TO-92_Inline_Wide" (id 2) (at 356.87 51.435 0)
       (effects (font (size 1.27 1.27) italic) hide)
@@ -6073,7 +6073,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 63.5 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 705d3eae-d201-489c-a6a2-6f76b8b98e55)
-    (property "Reference" "R4" (id 0) (at 63.5 57.5142 90))
+    (property "Reference" "R10" (id 0) (at 63.5 57.5142 90))
     (property "Value" "100k" (id 1) (at 63.5 60.0511 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 66.04 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6097,7 +6097,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 382.27 25.4 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7088ce75-847a-460c-974d-9e412fa29a79)
-    (property "Reference" "TP16" (id 0) (at 386.969 24.5653 90)
+    (property "Reference" "TP13" (id 0) (at 386.969 24.5653 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GNDTestPoint" (id 1) (at 386.969 27.1022 90)
@@ -6115,7 +6115,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 44.45 86.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71688d84-4fd4-435f-9f90-3d1712e05fd4)
-    (property "Reference" "RV1" (id 0) (at 42.6721 85.5253 0)
+    (property "Reference" "RV5" (id 0) (at 42.6721 85.5253 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 42.6721 88.0622 0)
@@ -6136,7 +6136,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Male") (at 91.44 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 72c9314f-52b3-4fcc-ad38-9a023f5ac74d)
-    (property "Reference" "J8" (id 0) (at 91.44 234.95 0))
+    (property "Reference" "J28" (id 0) (at 91.44 234.95 0))
     (property "Value" "Conn_01x06_Male" (id 1) (at 92.075 234.9809 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6173,7 +6173,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 88.9 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 72ddfe6f-d421-4fb9-a25c-0ec47227b6b4)
-    (property "Reference" "J6" (id 0) (at 87.63 233.68 0)
+    (property "Reference" "J47" (id 0) (at 87.63 233.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06_Female" (id 1) (at 89.6112 244.2722 0)
@@ -6196,7 +6196,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 46.99 160.02 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 75f6528a-bcf0-4d23-bceb-d1298d01eed5)
-    (property "Reference" "J39" (id 0) (at 41.91 162.56 0)
+    (property "Reference" "J10" (id 0) (at 41.91 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x03_Male" (id 1) (at 46.99 155.5035 90)
@@ -6216,7 +6216,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 290.83 71.12 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7779f44e-ecc4-4b56-88db-f99e3cc1db74)
-    (property "Reference" "R83" (id 0) (at 292.1 66.04 90)
+    (property "Reference" "R34" (id 0) (at 292.1 66.04 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 293.37 68.58 90)
@@ -6271,7 +6271,7 @@
   (symbol (lib_id "Connector:Conn_01x08_Female") (at 162.56 63.5 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a6d379d-4511-429c-bf89-283e058cadf1)
-    (property "Reference" "J15" (id 0) (at 165.1 53.34 0)
+    (property "Reference" "J41" (id 0) (at 165.1 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08_Female" (id 1) (at 161.8488 66.4722 0)
@@ -6296,7 +6296,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 215.9 21.59 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a9c6d23-2dfb-4662-8090-56b1cabcceed)
-    (property "Reference" "J19" (id 0) (at 217.17 16.51 0)
+    (property "Reference" "J21" (id 0) (at 217.17 16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 220.472 23.9272 0)
@@ -6320,7 +6320,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 309.88 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ca9668d-dc0f-464e-8fca-b3e65bc11d25)
-    (property "Reference" "RV19" (id 0) (at 311.658 92.2747 0)
+    (property "Reference" "RV18" (id 0) (at 311.658 92.2747 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 311.658 89.7378 0)
@@ -6357,7 +6357,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 21.59 234.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ee7c24a-ec6d-41b0-a09c-aeef3a02aeef)
-    (property "Reference" "J50" (id 0) (at 20.955 227.4402 0))
+    (property "Reference" "J6" (id 0) (at 20.955 227.4402 0))
     (property "Value" "Eurorack Mono Jack" (id 1) (at 20.955 229.9771 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6379,7 +6379,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 247.65 196.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7faf5986-eb65-4fde-ad6d-6b9452b98e29)
-    (property "Reference" "J51" (id 0) (at 243.078 196.6503 0)
+    (property "Reference" "J8" (id 0) (at 243.078 196.6503 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 243.078 199.1872 0)
@@ -6403,7 +6403,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 38.1 127 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 81115bc5-4cf7-4448-a086-69a257321be3)
-    (property "Reference" "R158" (id 0) (at 38.1 122.2842 90))
+    (property "Reference" "R9" (id 0) (at 38.1 122.2842 90))
     (property "Value" "47k" (id 1) (at 38.1 124.8211 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 35.56 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6427,7 +6427,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 375.92 34.29 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8404ddfd-6c37-47f7-bff6-52ebb388d8b8)
-    (property "Reference" "TP10" (id 0) (at 380.619 33.4553 90)
+    (property "Reference" "TP1" (id 0) (at 380.619 33.4553 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-12VTestPoint" (id 1) (at 380.619 35.9922 90)
@@ -6461,7 +6461,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 55.88 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8640ea10-94ab-4fb7-a456-1e303db85ed9)
-    (property "Reference" "R1" (id 0) (at 55.88 81.6442 90))
+    (property "Reference" "R7" (id 0) (at 55.88 81.6442 90))
     (property "Value" "100k" (id 1) (at 55.88 84.1811 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 58.42 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6501,7 +6501,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 364.49 177.8 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 86a537fa-3ae6-4b9f-83a9-709349582b52)
-    (property "Reference" "TP5" (id 0) (at 369.189 176.9653 90)
+    (property "Reference" "TP7" (id 0) (at 369.189 176.9653 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VCACVTestPoint" (id 1) (at 369.189 179.5022 90)
@@ -6519,7 +6519,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 87.63 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 86f8483c-3d09-4246-b3b4-f874abb9e047)
-    (property "Reference" "RV8" (id 0) (at 85.8521 33.4553 0)
+    (property "Reference" "RV13" (id 0) (at 85.8521 33.4553 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 85.8521 35.9922 0)
@@ -6540,7 +6540,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 27.94 100.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 87478b9f-68c6-40f4-bee9-0cc76117983c)
-    (property "Reference" "J3" (id 0) (at 23.368 100.1303 0)
+    (property "Reference" "J2" (id 0) (at 23.368 100.1303 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 23.368 102.6672 0)
@@ -6652,7 +6652,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 154.94 30.48 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8c9b8d4d-437d-43e9-92c4-dcf865bc6727)
-    (property "Reference" "R67" (id 0) (at 156.21 27.94 90)
+    (property "Reference" "R99" (id 0) (at 156.21 27.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 151.13 27.94 90)
@@ -6760,7 +6760,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 299.72 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 93786150-c72a-4bf7-9be9-654f178e544e)
-    (property "Reference" "J32" (id 0) (at 297.18 171.45 0)
+    (property "Reference" "J43" (id 0) (at 297.18 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x06_Female" (id 1) (at 300.4312 182.0422 0)
@@ -6799,7 +6799,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 187.96 34.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 96147a40-5d5c-48a7-b967-f012f31e7264)
-    (property "Reference" "J18" (id 0) (at 189.23 29.21 0)
+    (property "Reference" "J26" (id 0) (at 189.23 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 192.532 36.6272 0)
@@ -6839,7 +6839,7 @@
   (symbol (lib_id "Diode:1N5818") (at 361.95 29.21 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b1b4f9b-46cc-46c8-9bce-f25d1fe97020)
-    (property "Reference" "D3" (id 0) (at 361.95 35.56 0))
+    (property "Reference" "D21" (id 0) (at 361.95 35.56 0))
     (property "Value" "1N5818" (id 1) (at 361.95 33.02 0))
     (property "Footprint" "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 361.95 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6870,7 +6870,7 @@
   (symbol (lib_id "Diode:1N5818") (at 368.3 63.5 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9de58565-29c7-47ae-93bc-3aac23644bc7)
-    (property "Reference" "D4" (id 0) (at 361.95 63.5 0))
+    (property "Reference" "D7" (id 0) (at 361.95 63.5 0))
     (property "Value" "1N5818" (id 1) (at 364.49 63.5 0))
     (property "Footprint" "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 363.855 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6917,7 +6917,7 @@
   (symbol (lib_id "rumblesan-standard-parts:C") (at 54.61 184.15 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a0684895-17c9-4a0d-87f2-8db99a727cae)
-    (property "Reference" "C73" (id 0) (at 54.61 178.2912 90))
+    (property "Reference" "C6" (id 0) (at 54.61 178.2912 90))
     (property "Value" "22pF" (id 1) (at 54.61 180.8281 90))
     (property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm" (id 2) (at 55.88 189.865 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6938,7 +6938,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 368.3 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a1a16d4d-5364-4f55-9429-ea97dc55a2fb)
-    (property "Reference" "TP7" (id 0) (at 364.998 120.1252 90))
+    (property "Reference" "TP5" (id 0) (at 364.998 120.1252 90))
     (property "Value" "FilterResCVTestPoint" (id 1) (at 364.998 122.6621 90))
     (property "Footprint" "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" (id 2) (at 368.3 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6968,7 +6968,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 321.31 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a46ac766-984b-4c0b-9aa7-4c0bf810ab4f)
-    (property "Reference" "J52" (id 0) (at 321.31 24.13 0))
+    (property "Reference" "J44" (id 0) (at 321.31 24.13 0))
     (property "Value" "Conn_01x04_Female" (id 1) (at 320.675 23.7799 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6987,7 +6987,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 87.63 212.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a5ade47b-f574-4b6f-ba73-1db2a7732c5c)
-    (property "Reference" "J7" (id 0) (at 87.63 207.01 0))
+    (property "Reference" "J29" (id 0) (at 87.63 207.01 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 88.265 208.3109 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7006,7 +7006,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 176.53 43.18 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7476275-b8cd-454e-ac49-8c5769249dcf)
-    (property "Reference" "R166" (id 0) (at 173.99 41.91 90)
+    (property "Reference" "R43" (id 0) (at 173.99 41.91 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 173.99 46.99 90)
@@ -7034,7 +7034,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 273.05 198.12 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7d6bb7b-8d59-4f82-9bce-aaa8e61c19cb)
-    (property "Reference" "RV16" (id 0) (at 274.828 197.2853 0)
+    (property "Reference" "RV11" (id 0) (at 274.828 197.2853 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 274.828 199.8222 0)
@@ -7055,7 +7055,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 172.72 176.53 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a856e9f0-7658-44a2-a45b-39d038f6031e)
-    (property "Reference" "RV9" (id 0) (at 174.498 175.6953 0)
+    (property "Reference" "RV8" (id 0) (at 174.498 175.6953 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 174.498 178.2322 0)
@@ -7075,7 +7075,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 312.42 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a894056a-0bb4-495f-867d-84bde023e2fb)
-    (property "Reference" "TP4" (id 0) (at 313.817 227.0033 0)
+    (property "Reference" "TP2" (id 0) (at 313.817 227.0033 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GNDTestPoint" (id 1) (at 313.817 229.5402 0)
@@ -7143,7 +7143,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 294.64 100.33 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ae284e36-6d7a-4207-9dcd-99f599b0835d)
-    (property "Reference" "RV17" (id 0) (at 292.8621 99.4953 0)
+    (property "Reference" "RV21" (id 0) (at 292.8621 99.4953 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 292.8621 102.0322 0)
@@ -7244,7 +7244,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 267.97 256.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b88f894a-797d-471e-91fc-b1029d7ea90d)
-    (property "Reference" "J26" (id 0) (at 263.398 256.3403 0)
+    (property "Reference" "J7" (id 0) (at 263.398 256.3403 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 263.398 258.8772 0)
@@ -7316,7 +7316,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Female") (at 105.41 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c0ef6783-0817-48dc-b59a-1dd2ae61b6b2)
-    (property "Reference" "J9" (id 0) (at 105.41 27.94 0))
+    (property "Reference" "J42" (id 0) (at 105.41 27.94 0))
     (property "Value" "Conn_01x04_Female" (id 1) (at 104.775 27.5899 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7335,7 +7335,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 69.85 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c2b681fb-48ce-49b0-b35a-0f7ae3ec99e2)
-    (property "Reference" "R161" (id 0) (at 71.628 199.8253 0)
+    (property "Reference" "R25" (id 0) (at 71.628 199.8253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (id 1) (at 71.628 202.3622 0)
@@ -7395,7 +7395,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 264.16 53.34 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c376044d-ae23-4ce7-bcbc-fdc62071cf93)
-    (property "Reference" "R173" (id 0) (at 261.62 53.34 90)
+    (property "Reference" "R44" (id 0) (at 261.62 53.34 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 261.62 58.42 90)
@@ -7423,7 +7423,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 232.41 34.29 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c381711a-d930-4cd3-8ec4-bac025c92e6f)
-    (property "Reference" "R169" (id 0) (at 229.87 33.02 90)
+    (property "Reference" "R39" (id 0) (at 229.87 33.02 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 229.87 38.1 90)
@@ -7483,7 +7483,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Male") (at 302.26 179.07 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ca17d5c3-d04f-480f-8e9b-47858bc07289)
-    (property "Reference" "J34" (id 0) (at 303.53 171.45 0))
+    (property "Reference" "J32" (id 0) (at 303.53 171.45 0))
     (property "Value" "Conn_01x06_Male" (id 1) (at 302.895 172.7509 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7536,7 +7536,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 259.08 35.56 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cca16d90-5ee5-475a-8daf-abf705825b67)
-    (property "Reference" "R172" (id 0) (at 256.54 34.29 90)
+    (property "Reference" "R41" (id 0) (at 256.54 34.29 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 256.54 39.37 90)
@@ -7596,7 +7596,7 @@
   (symbol (lib_id "Diode:1N5818") (at 361.95 21.59 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf493694-8aea-46e5-bc57-b818f3edfaf7)
-    (property "Reference" "D2" (id 0) (at 362.2675 16.6202 0))
+    (property "Reference" "D20" (id 0) (at 362.2675 16.6202 0))
     (property "Value" "1N5818" (id 1) (at 362.2675 19.1571 0))
     (property "Footprint" "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 361.95 17.145 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7627,7 +7627,7 @@
   (symbol (lib_id "rumblesan-standard-parts:C") (at 82.55 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d1b0e052-fc3f-4c83-b316-cde6c2551510)
-    (property "Reference" "C1" (id 0) (at 82.55 47.4812 90))
+    (property "Reference" "C3" (id 0) (at 82.55 47.4812 90))
     (property "Value" "22pF" (id 1) (at 82.55 50.0181 90))
     (property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm" (id 2) (at 81.28 47.625 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7648,7 +7648,7 @@
   (symbol (lib_id "rumblesan-standard-parts:C_Polarized") (at 397.51 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d1c4b4fd-5762-4000-9df8-83bd7b665ce2)
-    (property "Reference" "C6" (id 0) (at 400.431 47.8063 0)
+    (property "Reference" "C63" (id 0) (at 400.431 47.8063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (id 1) (at 400.431 50.3432 0)
@@ -7676,7 +7676,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 22.86 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d6104186-3306-4925-a87b-d080acea14f8)
-    (property "Reference" "R116" (id 0) (at 22.86 42.2742 90))
+    (property "Reference" "R16" (id 0) (at 22.86 42.2742 90))
     (property "Value" "10k" (id 1) (at 22.86 44.8111 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 25.4 44.45 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7718,7 +7718,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 302.26 153.67 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d982e766-536d-42a5-8df9-87b0f5942798)
-    (property "Reference" "R31" (id 0) (at 304.038 152.8353 0)
+    (property "Reference" "R40" (id 0) (at 304.038 152.8353 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (id 1) (at 304.038 155.3722 0)
@@ -7778,7 +7778,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 21.59 261.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ddd9018c-b196-483c-a6e7-6d8f0594215d)
-    (property "Reference" "J1" (id 0) (at 19.05 256.54 0))
+    (property "Reference" "J4" (id 0) (at 19.05 256.54 0))
     (property "Value" "Eurorack Mono Jack" (id 1) (at 20.955 256.6471 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7800,7 +7800,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 247.65 34.29 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ddf02ac7-b8bc-47f2-a4d0-ddb7dc39dbc7)
-    (property "Reference" "J25" (id 0) (at 248.92 29.21 0)
+    (property "Reference" "J24" (id 0) (at 248.92 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 252.222 36.6272 0)
@@ -7848,7 +7848,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 93.98 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3c8cb66-ce8c-4f81-b47b-58e26571078a)
-    (property "Reference" "TP1" (id 0) (at 98.679 61.3953 90)
+    (property "Reference" "TP16" (id 0) (at 98.679 61.3953 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MixerTestPoint" (id 1) (at 98.679 63.9322 90)
@@ -7882,7 +7882,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 82.55 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e53ae35a-9d43-4480-93aa-b9fdfce1dbaa)
-    (property "Reference" "R5" (id 0) (at 82.55 57.5142 90))
+    (property "Reference" "R15" (id 0) (at 82.55 57.5142 90))
     (property "Value" "100k" (id 1) (at 82.55 60.0511 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 85.09 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7906,7 +7906,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 234.95 41.91 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e609d2b2-9fb8-4946-bab8-ac2f808ee8f0)
-    (property "Reference" "R170" (id 0) (at 237.49 40.64 90)
+    (property "Reference" "R46" (id 0) (at 237.49 40.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 237.49 45.72 90)
@@ -7934,7 +7934,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 323.85 107.95 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ea48695a-2ff9-40e8-a9c7-06bde94a60f8)
-    (property "Reference" "RV20" (id 0) (at 325.628 108.7847 0)
+    (property "Reference" "RV19" (id 0) (at 325.628 108.7847 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 325.628 106.2478 0)
@@ -7955,7 +7955,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 238.76 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ece6f2d1-4164-49e4-8d6a-65b79497dc12)
-    (property "Reference" "J29" (id 0) (at 234.188 156.0103 0)
+    (property "Reference" "J11" (id 0) (at 234.188 156.0103 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 234.188 158.5472 0)
@@ -7979,7 +7979,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 110.49 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ed62ab2c-5de7-4c03-aeb0-d255ac9038e7)
-    (property "Reference" "J10" (id 0) (at 110.49 26.67 0))
+    (property "Reference" "J33" (id 0) (at 110.49 26.67 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 111.125 27.9709 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7998,7 +7998,7 @@
   (symbol (lib_id "Eurorack_Hardware:Eurorack Mono Jack") (at 27.94 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eed6728c-28f6-4294-add7-82a7cd0abbd9)
-    (property "Reference" "J2" (id 0) (at 23.368 76.0003 0)
+    (property "Reference" "J5" (id 0) (at 23.368 76.0003 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Eurorack Mono Jack" (id 1) (at 23.368 78.5372 0)
@@ -8024,7 +8024,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Male") (at 149.86 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ef01b575-8f27-4d45-bace-3e796ab1beeb)
-    (property "Reference" "J11" (id 0) (at 149.86 160.02 0))
+    (property "Reference" "J30" (id 0) (at 149.86 160.02 0))
     (property "Value" "Conn_01x04_Male" (id 1) (at 149.225 161.3209 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -8043,7 +8043,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 54.61 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f5985b43-e20b-4665-aade-a9bb071ad017)
-    (property "Reference" "R176" (id 0) (at 54.61 170.5442 90))
+    (property "Reference" "R18" (id 0) (at 54.61 170.5442 90))
     (property "Value" "100k" (id 1) (at 54.61 173.0811 90))
     (property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 57.15 172.72 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -8083,7 +8083,7 @@
   (symbol (lib_id "rumblesan-standard-parts:R") (at 254 144.78 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f65873e3-6d29-44ea-9669-dbc7e7d00ded)
-    (property "Reference" "R174" (id 0) (at 248.92 143.51 90)
+    (property "Reference" "R27" (id 0) (at 248.92 143.51 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "330r" (id 1) (at 251.46 142.24 90)
@@ -8143,7 +8143,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 347.98 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff19bfae-767f-4902-b91f-e49e979d4ea2)
-    (property "Reference" "TP12" (id 0) (at 349.377 228.2733 0)
+    (property "Reference" "TP3" (id 0) (at 349.377 228.2733 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GNDTestPoint" (id 1) (at 349.377 230.8102 0)
@@ -8177,7 +8177,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 266.7 181.61 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ff88ce57-7720-49f8-9ed8-14da4dc190cb)
-    (property "Reference" "RV15" (id 0) (at 264.9221 180.7753 0)
+    (property "Reference" "RV14" (id 0) (at 264.9221 180.7753 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (id 1) (at 264.9221 183.3122 0)
@@ -9042,269 +9042,269 @@
     (path "/06cc109c-9915-431d-8e3f-61e50a6d83c6"
       (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
     )
+    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/38ad742e-7632-45ea-bcb9-68cc15663334"
+      (reference "C1") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/e64822a2-742e-44ae-97aa-2a93e23a989e"
+      (reference "C2") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
     (path "/d1b0e052-fc3f-4c83-b316-cde6c2551510"
-      (reference "C1") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/d3034e81-cdf7-4d27-9fd4-d7640c9463df"
-      (reference "C2") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/37133eec-0633-443f-9e80-719391d28c23"
-      (reference "C3") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C3") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/26aee799-a50a-4c97-86a0-80173e147f83"
       (reference "C4") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/f085cb01-e4c1-4eb4-8744-3160cff41c28"
+    (path "/37133eec-0633-443f-9e80-719391d28c23"
       (reference "C5") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/d1c4b4fd-5762-4000-9df8-83bd7b665ce2"
-      (reference "C6") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
+    (path "/a0684895-17c9-4a0d-87f2-8db99a727cae"
+      (reference "C6") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/5bf0b729-aac6-4585-bac0-2e1a7ffbf3b9"
-      (reference "C7") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/49ac19a1-1281-47e6-bd4d-0c4df811b7aa"
+      (reference "C7") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/8fedaf81-144e-4069-b4a7-05f99da9d028"
-      (reference "C8") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/f8efe1f7-318c-43cb-9eb5-2ca0dcfd739b"
+      (reference "C8") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/c91a99fc-155d-4c98-ac3d-8306eeaa4798"
-      (reference "C9") (unit 1) (value "470nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/4ad3061d-3a6e-4330-8efa-d43569c4c9c0"
+      (reference "C9") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ff556b99-65ed-48a2-966b-e88be7bebea5"
-      (reference "C10") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ee168e36-7fa2-4f24-96a9-45bf407e2927"
-      (reference "C11") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/37fc07a4-b414-4070-8c0b-ffb8e3cf6c86"
-      (reference "C12") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/1b5de37d-f3ae-40d3-a60b-d8d12b5426c7"
-      (reference "C13") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/0ee6ea30-0dc3-4184-ab6a-486efb66e095"
-      (reference "C14") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/4ddf042e-9ddf-4a8b-ab4d-2df4486c7e7c"
-      (reference "C15") (unit 1) (value "47uF") (footprint "rumblesan-standard-parts:CP_Radial_D6.3.0mm_L11.0mm_P2.00mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/082bd943-8af9-4b2e-8f31-bb791b0964d9"
-      (reference "C16") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/d3034e81-cdf7-4d27-9fd4-d7640c9463df"
+      (reference "C10") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/05b60263-687d-410f-b087-b07f0a9c5a90"
-      (reference "C17") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C11") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/4b23bfd2-1384-403d-b44c-280382585dbf"
-      (reference "C18") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/082bd943-8af9-4b2e-8f31-bb791b0964d9"
+      (reference "C12") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/14daa883-656e-426a-a5e9-267e390fc14d"
+      (reference "C13") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/713568ca-5f42-4fa7-af5a-f3e63073a382"
-      (reference "C19") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C14") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/8c8fe19f-fdae-441b-988d-880da5237cb6"
+    (path "/256127d0-0479-4408-a803-d00b3565e635/37fc07a4-b414-4070-8c0b-ffb8e3cf6c86"
+      (reference "C15") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/8fedaf81-144e-4069-b4a7-05f99da9d028"
+      (reference "C16") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ff556b99-65ed-48a2-966b-e88be7bebea5"
+      (reference "C17") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/c91a99fc-155d-4c98-ac3d-8306eeaa4798"
+      (reference "C18") (unit 1) (value "470nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/0ee6ea30-0dc3-4184-ab6a-486efb66e095"
+      (reference "C19") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/4b23bfd2-1384-403d-b44c-280382585dbf"
       (reference "C20") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/4e1b5a31-bdd0-44f8-8862-083736a95b4d"
-      (reference "C21") (unit 1) (value "560pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/cfa276a3-83d0-46c5-a5a0-39e4701f402c"
+      (reference "C21") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/102388f9-bcb5-4437-9670-f018267c112d"
       (reference "C22") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/e173a745-e0e9-41c9-8c9e-35e00d5410da"
-      (reference "C23") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ce7679bb-1b5e-4d27-af26-ad0e13281f3e"
-      (reference "C24") (unit 1) (value "560pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/9acfaa6f-0c67-44a8-9cee-fa73a345298c"
-      (reference "C25") (unit 1) (value "4n7F") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/27b6e1cf-4acc-4200-bcd7-fc53d4668c32"
-      (reference "C26") (unit 1) (value "4n7F") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/e56086c5-59a2-4e57-8bb6-103912f52f97"
-      (reference "C27") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/cfa276a3-83d0-46c5-a5a0-39e4701f402c"
-      (reference "C28") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ee168e36-7fa2-4f24-96a9-45bf407e2927"
+      (reference "C23") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/5b3cb3f1-de45-4f03-9b3f-67f18e354dc1"
-      (reference "C29") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C24") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/d76e38f3-bd3b-4231-867b-c833f30e6ce2"
-      (reference "C30") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C25") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7aa363ae-7202-4614-9add-01b7dfde64b9"
-      (reference "C31") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/8c8fe19f-fdae-441b-988d-880da5237cb6"
+      (reference "C26") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52fd9281-580e-4a7e-8b78-8fa5cbb9a649"
-      (reference "C32") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/4ddf042e-9ddf-4a8b-ab4d-2df4486c7e7c"
+      (reference "C27") (unit 1) (value "47uF") (footprint "rumblesan-standard-parts:CP_Radial_D6.3.0mm_L11.0mm_P2.00mm_Horizontal")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8c09235f-7db0-4062-bb0b-02714d88b0fc"
-      (reference "C33") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/4e1b5a31-bdd0-44f8-8862-083736a95b4d"
+      (reference "C28") (unit 1) (value "560pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/f0111aba-a880-4cdc-b54f-a2be8d598be0"
-      (reference "C34") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ce7679bb-1b5e-4d27-af26-ad0e13281f3e"
+      (reference "C29") (unit 1) (value "560pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/71d7ba8b-da79-442a-9dcf-6bc3b17a0ea0"
-      (reference "C35") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/0e416c80-1d68-4066-b059-c91aa6bc30ef"
-      (reference "C36") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6d2dcbdb-f367-4953-9d19-74fdf6e52ed8"
-      (reference "C37") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/1ee9fb28-7320-4068-95b2-19afd01ce1cf"
-      (reference "C38") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/be5c5ab6-5c5d-42e3-b2f1-008d5f835fa0"
-      (reference "C39") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/b749c586-31e6-4d3c-9124-e080d8457588"
-      (reference "C41") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52c2e54b-535e-4392-9c22-d04d801fc420"
-      (reference "C42") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6e2a7f60-581a-48c0-a50c-ecd5ae5d4c06"
-      (reference "C43") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/86f28111-6872-402e-98cd-e1ce0bf66036"
-      (reference "C44") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7bfd7267-2e0c-4047-bdd7-94f5e3d6f18f"
-      (reference "C45") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/1bf4697e-591d-415f-99d0-a9a26faaf383"
-      (reference "C46") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/14daa883-656e-426a-a5e9-267e390fc14d"
-      (reference "C47") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e8e8a274-c8b7-465d-b818-88441b1f25bf"
-      (reference "C48") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/38ad742e-7632-45ea-bcb9-68cc15663334"
-      (reference "C51") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/e64822a2-742e-44ae-97aa-2a93e23a989e"
-      (reference "C52") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/d32de3a2-00a7-4a92-8f0c-925a5f51ebec"
-      (reference "C53") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/99fb29d9-6794-4967-8bac-b36064014549"
-      (reference "C54") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/25b2826f-6684-4da5-b9f0-5c7c8cbd3cd5"
-      (reference "C55") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/c5730e73-af62-47b5-a781-14d5231de373"
-      (reference "C56") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/09aaa3bc-9084-402c-bd2d-4d4ac93f4e43"
-      (reference "C57") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/b5103092-6fe3-4d05-97da-02c4fd01a809"
-      (reference "C58") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/f7b94d5d-e91b-496a-8db8-ef65bb742e2c"
-      (reference "C59") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/e173a745-e0e9-41c9-8c9e-35e00d5410da"
+      (reference "C30") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/64e5d0a5-14dd-40dd-ac57-055cb945168f"
-      (reference "C60") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C31") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/7f1e80f7-97f7-402b-8831-d6856b87c13f"
-      (reference "C61") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/2f788fee-e431-44e1-9769-a86c4f8c2c07"
-      (reference "C62") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/1b5de37d-f3ae-40d3-a60b-d8d12b5426c7"
+      (reference "C32") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/aec41b89-4497-4e64-b510-e194f374848f"
-      (reference "C63") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+      (reference "C33") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/6e39361d-792a-4413-9e02-f938f0375dac"
-      (reference "C64") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/e56086c5-59a2-4e57-8bb6-103912f52f97"
+      (reference "C34") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/e6692509-2587-4a45-85f9-e511484f8f4b"
+      (reference "C35") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/27b6e1cf-4acc-4200-bcd7-fc53d4668c32"
+      (reference "C36") (unit 1) (value "4n7F") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/6e39361d-792a-4413-9e02-f938f0375dac"
+      (reference "C37") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/9acfaa6f-0c67-44a8-9cee-fa73a345298c"
+      (reference "C38") (unit 1) (value "4n7F") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/2f788fee-e431-44e1-9769-a86c4f8c2c07"
+      (reference "C39") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/7f1e80f7-97f7-402b-8831-d6856b87c13f"
+      (reference "C40") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/b5103092-6fe3-4d05-97da-02c4fd01a809"
+      (reference "C41") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/1ee9fb28-7320-4068-95b2-19afd01ce1cf"
+      (reference "C42") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7bfd7267-2e0c-4047-bdd7-94f5e3d6f18f"
+      (reference "C43") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/be5c5ab6-5c5d-42e3-b2f1-008d5f835fa0"
+      (reference "C44") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/f7b94d5d-e91b-496a-8db8-ef65bb742e2c"
+      (reference "C45") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/09aaa3bc-9084-402c-bd2d-4d4ac93f4e43"
+      (reference "C46") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/1bf4697e-591d-415f-99d0-a9a26faaf383"
+      (reference "C47") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/71d7ba8b-da79-442a-9dcf-6bc3b17a0ea0"
+      (reference "C48") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/f0111aba-a880-4cdc-b54f-a2be8d598be0"
+      (reference "C49") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6d2dcbdb-f367-4953-9d19-74fdf6e52ed8"
+      (reference "C50") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/0e416c80-1d68-4066-b059-c91aa6bc30ef"
+      (reference "C51") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8c09235f-7db0-4062-bb0b-02714d88b0fc"
+      (reference "C52") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/f085cb01-e4c1-4eb4-8744-3160cff41c28"
+      (reference "C53") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/b749c586-31e6-4d3c-9124-e080d8457588"
+      (reference "C54") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52c2e54b-535e-4392-9c22-d04d801fc420"
+      (reference "C55") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/86f28111-6872-402e-98cd-e1ce0bf66036"
+      (reference "C56") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e8e8a274-c8b7-465d-b818-88441b1f25bf"
+      (reference "C57") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/99fb29d9-6794-4967-8bac-b36064014549"
+      (reference "C58") (unit 1) (value "220pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/25b2826f-6684-4da5-b9f0-5c7c8cbd3cd5"
+      (reference "C59") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/d32de3a2-00a7-4a92-8f0c-925a5f51ebec"
+      (reference "C60") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6e2a7f60-581a-48c0-a50c-ecd5ae5d4c06"
+      (reference "C61") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/5bf0b729-aac6-4585-bac0-2e1a7ffbf3b9"
+      (reference "C62") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
+    )
+    (path "/d1c4b4fd-5762-4000-9df8-83bd7b665ce2"
+      (reference "C63") (unit 1) (value "10uF") (footprint "rumblesan-standard-parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52fd9281-580e-4a7e-8b78-8fa5cbb9a649"
+      (reference "C64") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/c5730e73-af62-47b5-a781-14d5231de373"
       (reference "C65") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/49ac19a1-1281-47e6-bd4d-0c4df811b7aa"
-      (reference "C66") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/f8efe1f7-318c-43cb-9eb5-2ca0dcfd739b"
-      (reference "C67") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/4ad3061d-3a6e-4330-8efa-d43569c4c9c0"
-      (reference "C68") (unit 1) (value "100nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/a0684895-17c9-4a0d-87f2-8db99a727cae"
-      (reference "C73") (unit 1) (value "22pF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
-    )
-    (path "/cf493694-8aea-46e5-bc57-b818f3edfaf7"
-      (reference "D2") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/9b1b4f9b-46cc-46c8-9bce-f25d1fe97020"
-      (reference "D3") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
-    )
-    (path "/9de58565-29c7-47ae-93bc-3aac23644bc7"
-      (reference "D4") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7aa363ae-7202-4614-9add-01b7dfde64b9"
+      (reference "C66") (unit 1) (value "10nF") (footprint "rumblesan-standard-parts:C_Rect_L7.0mm_W2.5mm_P5.00mm")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/d11bd860-0699-413b-95a8-b0b7852075f3"
-      (reference "D5") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/0ce8c58e-a117-42e0-8226-060b752d8997"
-      (reference "D6") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D1") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/53b0c8c7-61db-4ffb-b859-f2f2e714dac4"
-      (reference "D7") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D2") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/0ce8c58e-a117-42e0-8226-060b752d8997"
+      (reference "D3") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/57d245d9-6719-451c-86c9-4ba98759c4f0"
-      (reference "D8") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D4") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/5f090e55-af87-4e9c-9eed-48d8fd6ca8fc"
-      (reference "D9") (unit 1) (value "1n4001") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D5") (unit 1) (value "1n4001") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/926fd9eb-91ce-4c4c-b60e-13bd23b32693"
+      (reference "D6") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/9de58565-29c7-47ae-93bc-3aac23644bc7"
+      (reference "D7") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/fa7584c5-7416-4cbf-8ee0-fcc98e999265"
+      (reference "D8") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/b291d6bd-effd-4e8e-a2bd-98ac92b1f81c"
-      (reference "D10") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D9") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/10901465-867e-4ade-b6ea-99ecf446dd64"
+      (reference "D10") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/6f6c8002-840f-43d3-a24d-f786ad3b8b31"
       (reference "D11") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/926fd9eb-91ce-4c4c-b60e-13bd23b32693"
-      (reference "D12") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/fa7584c5-7416-4cbf-8ee0-fcc98e999265"
-      (reference "D13") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/9039cf40-9fc2-49f3-9766-e33b2a48b36c"
-      (reference "D14") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e169ef4b-692d-4f07-92d6-8663f8daaf9f"
-      (reference "D15") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/ab377f70-12eb-4c3c-9670-bc08a3e2afbb"
-      (reference "D16") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/25a71959-bab2-4c12-a0c9-837e7a08a346"
-      (reference "D17") (unit 1) (value "4v7") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/20fc79ab-5c66-48af-bc58-800674d77834"
-      (reference "D18") (unit 1) (value "4v7") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/82d7d970-4eb8-41c1-92f3-df18a94a1833"
-      (reference "D19") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/7d5033aa-8a8b-467c-9276-fea9991726ab"
-      (reference "D20") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/10901465-867e-4ade-b6ea-99ecf446dd64"
-      (reference "D37") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
-    )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/48013190-1836-4881-9c80-a2c938913438"
-      (reference "D38") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D12") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/153ecf7e-2201-4471-a457-69b9252f0848/8960a849-0c09-4bf3-8d0d-21fbafcc4518"
-      (reference "D40") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D13") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/82d7d970-4eb8-41c1-92f3-df18a94a1833"
+      (reference "D14") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/20fc79ab-5c66-48af-bc58-800674d77834"
+      (reference "D15") (unit 1) (value "4v7") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/25a71959-bab2-4c12-a0c9-837e7a08a346"
+      (reference "D16") (unit 1) (value "4v7") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/7d5033aa-8a8b-467c-9276-fea9991726ab"
+      (reference "D17") (unit 1) (value "1N4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/ab377f70-12eb-4c3c-9670-bc08a3e2afbb"
+      (reference "D18") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e169ef4b-692d-4f07-92d6-8663f8daaf9f"
+      (reference "D19") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
+    )
+    (path "/cf493694-8aea-46e5-bc57-b818f3edfaf7"
+      (reference "D20") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/9b1b4f9b-46cc-46c8-9bce-f25d1fe97020"
+      (reference "D21") (unit 1) (value "1N5818") (footprint "rumblesan-standard-parts:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/9039cf40-9fc2-49f3-9766-e33b2a48b36c"
+      (reference "D22") (unit 1) (value "1n4148") (footprint "rumblesan-standard-parts:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/3ef4b008-eb04-4b0d-9d13-77a53afdb996"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "rumblesan-standard-parts:MountingHole_3.2mm_M3_DIN965_Pad")
@@ -9318,686 +9318,686 @@
     (path "/5492893b-f5c4-4481-8dad-4b4cf8c8d239"
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "rumblesan-standard-parts:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/ddd9018c-b196-483c-a6e7-6d8f0594215d"
+    (path "/2b504b34-55bd-484a-9289-1be87245fc81"
       (reference "J1") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/eed6728c-28f6-4294-add7-82a7cd0abbd9"
+    (path "/87478b9f-68c6-40f4-bee9-0cc76117983c"
       (reference "J2") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/87478b9f-68c6-40f4-bee9-0cc76117983c"
+    (path "/4271d770-aec0-4f9e-bf94-28384d7fb79c"
       (reference "J3") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/2b504b34-55bd-484a-9289-1be87245fc81"
+    (path "/ddd9018c-b196-483c-a6e7-6d8f0594215d"
       (reference "J4") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/4256d650-9711-4d48-96bf-244bafef0f47"
-      (reference "J5") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+    (path "/eed6728c-28f6-4294-add7-82a7cd0abbd9"
+      (reference "J5") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/72ddfe6f-d421-4fb9-a25c-0ec47227b6b4"
-      (reference "J6") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
-    )
-    (path "/a5ade47b-f574-4b6f-ba73-1db2a7732c5c"
-      (reference "J7") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/72c9314f-52b3-4fcc-ad38-9a023f5ac74d"
-      (reference "J8") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
-    )
-    (path "/c0ef6783-0817-48dc-b59a-1dd2ae61b6b2"
-      (reference "J9") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
-    )
-    (path "/ed62ab2c-5de7-4c03-aeb0-d255ac9038e7"
-      (reference "J10") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/ef01b575-8f27-4d45-bace-3e796ab1beeb"
-      (reference "J11") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
-    )
-    (path "/35e176a4-94e5-42cb-8fc5-93c6918a3803"
-      (reference "J12") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
-    )
-    (path "/6e88fa18-b73c-4e20-9b77-920481c1027d"
-      (reference "J13") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
-    )
-    (path "/2dc432a1-93fd-4a71-a8fa-e940ffcae530"
-      (reference "J14") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/7a6d379d-4511-429c-bf89-283e058cadf1"
-      (reference "J15") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
-    )
-    (path "/47a77fbd-33bc-4f1b-8ea2-bd6d633a04c0"
-      (reference "J16") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/18c45613-9e8a-46cc-b021-6093e6e63c1d"
-      (reference "J17") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/96147a40-5d5c-48a7-b967-f012f31e7264"
-      (reference "J18") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/7a9c6d23-2dfb-4662-8090-56b1cabcceed"
-      (reference "J19") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/57177173-d597-4b2a-813a-5ff56d12e96a"
-      (reference "J20") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/02075c72-c7bd-4341-84a6-bbeef3f4fba5"
-      (reference "J21") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c46f7e9c-29eb-408d-8db1-7f0e07dc8d97"
-      (reference "J22") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/ad3ca76b-cc7a-431a-9c58-24d2a1d1b99b"
-      (reference "J23") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/3ac6b8eb-658f-47d8-b150-13c43d906592"
-      (reference "J24") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/ddf02ac7-b8bc-47f2-a4d0-ddb7dc39dbc7"
-      (reference "J25") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/7ee7c24a-ec6d-41b0-a09c-aeef3a02aeef"
+      (reference "J6") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/b88f894a-797d-471e-91fc-b1029d7ea90d"
+      (reference "J7") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/7faf5986-eb65-4fde-ad6d-6b9452b98e29"
+      (reference "J8") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/2dc432a1-93fd-4a71-a8fa-e940ffcae530"
+      (reference "J9") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/75f6528a-bcf0-4d23-bceb-d1298d01eed5"
+      (reference "J10") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/ece6f2d1-4164-49e4-8d6a-65b79497dc12"
+      (reference "J11") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/47a77fbd-33bc-4f1b-8ea2-bd6d633a04c0"
+      (reference "J12") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/618ba0d4-8c38-4be8-85f6-efa6402bdd89"
+      (reference "J13") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/6820993b-bef6-46b0-917c-7050665df8ba"
+      (reference "J14") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/ad3ca76b-cc7a-431a-9c58-24d2a1d1b99b"
+      (reference "J15") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c46f7e9c-29eb-408d-8db1-7f0e07dc8d97"
+      (reference "J16") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/02075c72-c7bd-4341-84a6-bbeef3f4fba5"
+      (reference "J17") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/36e693dd-e1e8-4407-9c4f-78a573218b04"
+      (reference "J18") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/1749fbc3-4d2c-4c03-b6e5-7d4e1229afb4"
+      (reference "J19") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/3ac6b8eb-658f-47d8-b150-13c43d906592"
+      (reference "J20") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/7a9c6d23-2dfb-4662-8090-56b1cabcceed"
+      (reference "J21") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/18c45613-9e8a-46cc-b021-6093e6e63c1d"
+      (reference "J22") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/6084a268-b1e0-4ece-9cbe-c74257dcc8db"
+      (reference "J23") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/ddf02ac7-b8bc-47f2-a4d0-ddb7dc39dbc7"
+      (reference "J24") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/57177173-d597-4b2a-813a-5ff56d12e96a"
+      (reference "J25") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    )
+    (path "/96147a40-5d5c-48a7-b967-f012f31e7264"
       (reference "J26") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
     (path "/de87d317-5db1-4f50-9be9-c2d0e5f1f7db"
       (reference "J27") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
     )
-    (path "/1749fbc3-4d2c-4c03-b6e5-7d4e1229afb4"
-      (reference "J28") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/72c9314f-52b3-4fcc-ad38-9a023f5ac74d"
+      (reference "J28") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
-    (path "/ece6f2d1-4164-49e4-8d6a-65b79497dc12"
-      (reference "J29") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/a5ade47b-f574-4b6f-ba73-1db2a7732c5c"
+      (reference "J29") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/6084a268-b1e0-4ece-9cbe-c74257dcc8db"
-      (reference "J30") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/ef01b575-8f27-4d45-bace-3e796ab1beeb"
+      (reference "J30") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/618ba0d4-8c38-4be8-85f6-efa6402bdd89"
-      (reference "J31") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/93786150-c72a-4bf7-9be9-654f178e544e"
-      (reference "J32") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
-    )
-    (path "/6820993b-bef6-46b0-917c-7050665df8ba"
-      (reference "J33") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/1215353d-9b55-450e-bbf6-3ad0946a2097"
+      (reference "J31") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/ca17d5c3-d04f-480f-8e9b-47858bc07289"
-      (reference "J34") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+      (reference "J32") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
-    (path "/4d851e94-03e5-4bad-861a-92f365188e8c"
-      (reference "J35") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+    (path "/ed62ab2c-5de7-4c03-aeb0-d255ac9038e7"
+      (reference "J33") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/6e88fa18-b73c-4e20-9b77-920481c1027d"
+      (reference "J34") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/12fea1d0-0001-4862-8ffd-6d85c01f9abb"
-      (reference "J36") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J35") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/194e0590-d6a0-44dc-9686-57167b73fcc8"
-      (reference "J37") (unit 1) (value "Eurorack Power Small") (footprint "eurorack-power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded")
+      (reference "J36") (unit 1) (value "Eurorack Power Small") (footprint "eurorack-power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8fd4e8ef-599a-4b58-b808-58b4936d30b9"
+      (reference "J37") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/5796cc4b-9bd8-423e-87eb-f9450ca0004d"
       (reference "J38") (unit 1) (value "Conn_02x04_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
-    (path "/75f6528a-bcf0-4d23-bceb-d1298d01eed5"
-      (reference "J39") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
     (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/06a304ff-9d25-4fc3-96c4-a18ac1f2c9bc"
-      (reference "J40") (unit 1) (value "SPI") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+      (reference "J39") (unit 1) (value "SPI") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8fd4e8ef-599a-4b58-b808-58b4936d30b9"
-      (reference "J41") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    (path "/4d851e94-03e5-4bad-861a-92f365188e8c"
+      (reference "J40") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/36e693dd-e1e8-4407-9c4f-78a573218b04"
-      (reference "J48") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/7a6d379d-4511-429c-bf89-283e058cadf1"
+      (reference "J41") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
-    (path "/4271d770-aec0-4f9e-bf94-28384d7fb79c"
-      (reference "J49") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/c0ef6783-0817-48dc-b59a-1dd2ae61b6b2"
+      (reference "J42") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
-    (path "/7ee7c24a-ec6d-41b0-a09c-aeef3a02aeef"
-      (reference "J50") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
-    )
-    (path "/7faf5986-eb65-4fde-ad6d-6b9452b98e29"
-      (reference "J51") (unit 1) (value "Eurorack Mono Jack") (footprint "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical")
+    (path "/93786150-c72a-4bf7-9be9-654f178e544e"
+      (reference "J43") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/a46ac766-984b-4c0b-9aa7-4c0bf810ab4f"
-      (reference "J52") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+      (reference "J44") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
-    (path "/1215353d-9b55-450e-bbf6-3ad0946a2097"
-      (reference "J53") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    (path "/35e176a4-94e5-42cb-8fc5-93c6918a3803"
+      (reference "J45") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+    )
+    (path "/4256d650-9711-4d48-96bf-244bafef0f47"
+      (reference "J46") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+    )
+    (path "/72ddfe6f-d421-4fb9-a25c-0ec47227b6b4"
+      (reference "J47") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/0a6a17b5-b0f3-47f5-85eb-068828961a41"
       (reference "JP1") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/4e4c86d2-88be-44a1-91f9-77b653ee25a6"
-      (reference "Q1") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/892a90c2-d38f-4627-b704-f6bf8570aefa"
-      (reference "Q2") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/81b335e7-4d0d-4e9e-a2e1-556dece5e91b"
-      (reference "Q3") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
     (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/8b75c62a-fe0b-4b92-92ae-6a255b61a572"
-      (reference "Q9") (unit 1) (value "BC547") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+      (reference "Q1") (unit 1) (value "BC547") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
     )
     (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/446436b7-ad09-4b98-95f9-241e17cea592"
-      (reference "Q10") (unit 1) (value "BC549C") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+      (reference "Q2") (unit 1) (value "BC549C") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/4e4c86d2-88be-44a1-91f9-77b653ee25a6"
+      (reference "Q3") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/dda27904-ac0d-49a7-a577-b0ffd0229e1e"
+      (reference "Q4") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/9b3e97ff-2322-4f4f-90aa-2c438e7e7ed4"
+      (reference "Q5") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/892a90c2-d38f-4627-b704-f6bf8570aefa"
+      (reference "Q6") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/b28a5edb-61b3-437f-ab48-f9fbbb1935b0"
+      (reference "Q7") (unit 1) (value "2N3906") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/81b335e7-4d0d-4e9e-a2e1-556dece5e91b"
+      (reference "Q8") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/c7599ba1-2043-453d-8c18-638da869d73e"
+      (reference "Q9") (unit 1) (value "2N3906") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/7e798bf8-6d71-4844-9622-95c39bb1435a"
+      (reference "Q10") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/c30ce759-14e1-4293-96e6-b6609bbafa4c"
       (reference "Q11") (unit 1) (value "2N3906") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/7e798bf8-6d71-4844-9622-95c39bb1435a"
-      (reference "Q12") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/c7599ba1-2043-453d-8c18-638da869d73e"
-      (reference "Q13") (unit 1) (value "2N3906") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/b28a5edb-61b3-437f-ab48-f9fbbb1935b0"
-      (reference "Q14") (unit 1) (value "2N3906") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/9b3e97ff-2322-4f4f-90aa-2c438e7e7ed4"
-      (reference "Q15") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/dda27904-ac0d-49a7-a577-b0ffd0229e1e"
-      (reference "Q16") (unit 1) (value "2N3904") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
-    )
-    (path "/8640ea10-94ab-4fb7-a456-1e303db85ed9"
+    (path "/408e0328-35ae-424a-af16-b880c1efaccf"
       (reference "R1") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/408e0328-35ae-424a-af16-b880c1efaccf"
-      (reference "R2") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/5a6e784c-bc42-4795-8e46-92178697a99f"
-      (reference "R3") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/705d3eae-d201-489c-a6a2-6f76b8b98e55"
-      (reference "R4") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/e53ae35a-9d43-4480-93aa-b9fdfce1dbaa"
-      (reference "R5") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/1ce5e142-e004-4094-befb-21629ca30a41"
-      (reference "R6") (unit 1) (value "120k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/62928a6c-3fc8-4d82-9519-0b1783d02929"
-      (reference "R7") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/1cfa8c4e-ddc6-40fe-9134-9d6586a737c1"
-      (reference "R8") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/4506f6e2-c356-40cc-9853-8a5e8b2e2a0e"
-      (reference "R9") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/39cf2821-28af-4c09-b52d-63de9a934c70"
-      (reference "R10") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/c90f7435-6b18-4fd4-811f-b720f20f464f"
-      (reference "R11") (unit 1) (value "33k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/d97f6e8d-1912-4dfa-9f44-810d7b492bc7"
-      (reference "R12") (unit 1) (value "560k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/dd8dad88-49e1-4dec-b9ee-2af4ff3376ba"
-      (reference "R13") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/f592362c-c467-49da-b6bd-1f650213aaf4"
-      (reference "R14") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/28729a78-b33f-4482-b9b3-e1e17346bc10"
-      (reference "R15") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/85da2884-de54-4b09-be85-74d4c7a41633"
-      (reference "R16") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/754dcefb-ba5b-4ef3-a0e0-8c46687fc67a"
-      (reference "R17") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/6935f591-6de2-4064-b771-43a3f58c4c7e"
-      (reference "R18") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/1c7f2752-9632-44da-8608-a0c34f4f5f07"
-      (reference "R19") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/0b5b16d3-c8ef-45d4-8719-708c7bd83d13"
-      (reference "R20") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ed512d1e-9f45-423c-b09b-52fc887064af"
-      (reference "R21") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/a9e81585-642d-4aca-a94e-68b8bd13aa4d"
-      (reference "R22") (unit 1) (value "2k7") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ee02657f-c9ad-4356-bb03-793968c4452b"
-      (reference "R23") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/573703d4-ecd1-4944-8419-ff1f4877b990"
-      (reference "R24") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/9bcdbb85-2064-46fa-ac7c-cc9f0f97caa2"
-      (reference "R25") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/2c33185e-c47c-49e7-b09c-19e648b2f634"
-      (reference "R26") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/e723ac95-eb50-422d-81f9-b202ead5f8fb"
-      (reference "R27") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/b5daa3c8-4b26-491e-b02b-01773a115d4e"
-      (reference "R28") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/8544a5d8-6936-4503-acf6-e9dbab02249a"
-      (reference "R29") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/d982e766-536d-42a5-8df9-87b0f5942798"
-      (reference "R31") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/6afb388f-8890-4f47-9d8b-7d8e98bac5e7"
-      (reference "R32") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8e46a8a4-a623-4f92-ac94-eea22e461572"
-      (reference "R33") (unit 1) (value "150k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/83d839bd-5b64-47e4-8bca-9b314d4b5081"
-      (reference "R34") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7062fe9c-6786-4f64-a8f2-a2c01bcdaa6f"
-      (reference "R35") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3ec4ee12-e1be-4ab0-a7db-9e5fec1e1a3b"
-      (reference "R36") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/14b4b39c-0281-4ab9-ab6c-be2d94f571dc"
-      (reference "R37") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/badd9993-2d5d-435d-8a5e-8b58e347b7f6"
-      (reference "R38") (unit 1) (value "1M5") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/ab99e16b-fd86-44ab-a5ca-7f114d169b51"
-      (reference "R39") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/28c55571-48da-4f52-8566-13b7e88e7bb8"
-      (reference "R40") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/33fd8910-e987-4ded-8e89-df10b9fa320d"
-      (reference "R41") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/01d4aa7d-6da5-4bcf-b187-59592623b77a"
-      (reference "R42") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6d65e550-4e37-4e38-8ad4-e490948948f0"
-      (reference "R43") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8e018937-3148-4ca4-8fb0-2aeec067d00a"
-      (reference "R44") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/54870b57-ee77-42b1-982e-4e167de44ee5"
-      (reference "R45") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5b6e8790-7017-4f70-ac14-4eb6ed24d21e"
-      (reference "R46") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/f779947d-5ccd-43eb-8c73-f151922be873"
-      (reference "R47") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/d2a9c8e4-9366-498f-b15f-a0e98a6e2c79"
-      (reference "R48") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5ea76137-b6f8-437f-bf01-1ff33d9cb236"
-      (reference "R49") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52ef9e2a-0a1d-42aa-8d6e-9e6a0a12a6d4"
-      (reference "R50") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/176e8e0c-cc74-4ca4-80a4-b8ca12efbd81"
-      (reference "R51") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/2e383781-c99c-4205-8980-e6e33ebd3fd7"
-      (reference "R52") (unit 1) (value "4k7") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/1d332668-d606-4a0c-89b3-c40a07f7354a"
-      (reference "R53") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/fe955c6a-0ec8-4fe6-b927-986b3f87c7c3"
-      (reference "R54") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/c227fb53-37d3-4af2-8779-7c068236b10b"
-      (reference "R55") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/a9bd8fb3-2e52-4504-8953-7d43f47d5fa2"
-      (reference "R56") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/674cc5f5-6922-46c3-a835-56c142971059"
-      (reference "R57") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e2f10d91-a32a-4854-98d1-c963d2086b82"
-      (reference "R58") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/9f044e1b-092a-421b-90c0-1cd5fee85a2a"
-      (reference "R59") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e6ab8343-844f-4314-9731-d8ed65ca617a"
-      (reference "R60") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3aaa85a4-4a82-432b-9bfe-b6d6810f3895"
-      (reference "R61") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/cfbb5e5b-e9d9-427d-80d7-c6f3c51de97e"
-      (reference "R62") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/178cf9da-1d16-4b34-a547-d24e66d6d4ef"
-      (reference "R63") (unit 1) (value "6k8") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/813dc566-0a7d-410c-9aa9-1dbcfed18f1e"
-      (reference "R64") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/32c39f0f-6717-4b2c-94df-d03a416295e0"
-      (reference "R65") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/78a149e4-1a30-46c0-9517-f6e4ab891227"
-      (reference "R66") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8c9b8d4d-437d-43e9-92c4-dcf865bc6727"
-      (reference "R67") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/7779f44e-ecc4-4b56-88db-f99e3cc1db74"
-      (reference "R83") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/2305cb56-946b-4353-bf89-53be91055c49"
-      (reference "R84") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/d6104186-3306-4925-a87b-d080acea14f8"
-      (reference "R116") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/4b69ffdc-46d2-4739-940e-0e7fb10724a6"
+      (reference "R2") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/0f50192a-b32d-497e-90a3-f57db9d05294"
-      (reference "R117") (unit 1) (value "1m") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/28701b0e-b40a-49ed-8f43-d93bca83ab46"
-      (reference "R118") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/f82a9b2f-9989-490f-9c5a-0e930495937c"
-      (reference "R119") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R3") (unit 1) (value "1m") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/6e95ca40-e035-4a47-a52d-ade2b0b3b53c"
-      (reference "R120") (unit 1) (value "22r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R4") (unit 1) (value "22r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/74dcff05-9170-4773-a4b4-96e881916b78"
-      (reference "R121") (unit 1) (value "20k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/1a49bcb8-7ea4-461e-8c35-6deb93317ea9"
+      (reference "R5") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/f0f84537-ed30-459e-bc86-8a7a72f178c1"
-      (reference "R122") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/28701b0e-b40a-49ed-8f43-d93bca83ab46"
+      (reference "R6") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8640ea10-94ab-4fb7-a456-1e303db85ed9"
+      (reference "R7") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/4f8c60ba-7ae6-4e1e-a2f8-2f50b2ac2a6e"
+      (reference "R8") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/81115bc5-4cf7-4448-a086-69a257321be3"
+      (reference "R9") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/705d3eae-d201-489c-a6a2-6f76b8b98e55"
+      (reference "R10") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/050d3b5c-d30d-4cdb-98f3-01981d734c47"
+      (reference "R11") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/f82a9b2f-9989-490f-9c5a-0e930495937c"
+      (reference "R12") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/3baade23-d3b8-41d8-8ce1-06c9414fba81"
+      (reference "R13") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/5a6e784c-bc42-4795-8e46-92178697a99f"
+      (reference "R14") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/e53ae35a-9d43-4480-93aa-b9fdfce1dbaa"
+      (reference "R15") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/d6104186-3306-4925-a87b-d080acea14f8"
+      (reference "R16") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/45f7a871-75aa-43a5-ae3b-85f781d95834"
+      (reference "R17") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f5985b43-e20b-4665-aade-a9bb071ad017"
+      (reference "R18") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/3b483144-9cdb-44b2-88dc-c5983cf4f578"
+      (reference "R19") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/30b29e9a-70db-4f13-9b3d-cbcb10b6da78"
+      (reference "R20") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/2e383781-c99c-4205-8980-e6e33ebd3fd7"
+      (reference "R21") (unit 1) (value "4k7") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/3be4407b-9b04-4f97-90f8-499e7c76e703"
+      (reference "R22") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/32c39f0f-6717-4b2c-94df-d03a416295e0"
+      (reference "R23") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/3346b666-1f0f-4799-a467-2e4804b4aa67"
+      (reference "R24") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/c2b681fb-48ce-49b0-b35a-0f7ae3ec99e2"
+      (reference "R25") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/1ce5e142-e004-4094-befb-21629ca30a41"
+      (reference "R26") (unit 1) (value "120k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f65873e3-6d29-44ea-9669-dbc7e7d00ded"
+      (reference "R27") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/69574240-8fc9-4ba8-bac7-7084fbf375a5"
+      (reference "R28") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/4506f6e2-c356-40cc-9853-8a5e8b2e2a0e"
+      (reference "R29") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/1cfa8c4e-ddc6-40fe-9134-9d6586a737c1"
+      (reference "R30") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/62928a6c-3fc8-4d82-9519-0b1783d02929"
+      (reference "R31") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/2305cb56-946b-4353-bf89-53be91055c49"
+      (reference "R32") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/78a149e4-1a30-46c0-9517-f6e4ab891227"
+      (reference "R33") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/7779f44e-ecc4-4b56-88db-f99e3cc1db74"
+      (reference "R34") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/37aa24ac-11ff-4c82-a394-3fa4c99b7512"
+      (reference "R35") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c8f2ccfe-7a89-4884-90a9-de773cbefd1a"
+      (reference "R36") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/72a7bd93-f4d5-44d5-ad67-2bda97186ed9"
+      (reference "R37") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/bf416150-dded-4738-9962-793cbb74f8cf"
+      (reference "R38") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/c381711a-d930-4cd3-8ec4-bac025c92e6f"
+      (reference "R39") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+    )
+    (path "/d982e766-536d-42a5-8df9-87b0f5942798"
+      (reference "R40") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/cca16d90-5ee5-475a-8daf-abf705825b67"
+      (reference "R41") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+    )
+    (path "/310c614c-fa31-4b7f-bd37-2bb619469ae3"
+      (reference "R42") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/a7476275-b8cd-454e-ac49-8c5769249dcf"
+      (reference "R43") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/c376044d-ae23-4ce7-bcbc-fdc62071cf93"
+      (reference "R44") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
+    )
+    (path "/6afb388f-8890-4f47-9d8b-7d8e98bac5e7"
+      (reference "R45") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/e609d2b2-9fb8-4946-bab8-ac2f808ee8f0"
+      (reference "R46") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ee02657f-c9ad-4356-bb03-793968c4452b"
+      (reference "R47") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/39cf2821-28af-4c09-b52d-63de9a934c70"
+      (reference "R48") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/dd8dad88-49e1-4dec-b9ee-2af4ff3376ba"
+      (reference "R49") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/c90f7435-6b18-4fd4-811f-b720f20f464f"
+      (reference "R50") (unit 1) (value "33k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/2c33185e-c47c-49e7-b09c-19e648b2f634"
+      (reference "R51") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/28729a78-b33f-4482-b9b3-e1e17346bc10"
+      (reference "R52") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/f592362c-c467-49da-b6bd-1f650213aaf4"
+      (reference "R53") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/d97f6e8d-1912-4dfa-9f44-810d7b492bc7"
+      (reference "R54") (unit 1) (value "560k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/b571e4bc-7aca-442c-8198-e367d3a00109"
+      (reference "R55") (unit 1) (value "470r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/573703d4-ecd1-4944-8419-ff1f4877b990"
+      (reference "R56") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/fffe88af-dbbd-423e-ae36-2d7012f29c8c"
+      (reference "R57") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/59b8754b-a097-48cf-aec5-cd68a6568bfc"
+      (reference "R58") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/b5daa3c8-4b26-491e-b02b-01773a115d4e"
+      (reference "R59") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/e723ac95-eb50-422d-81f9-b202ead5f8fb"
+      (reference "R60") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/8b086955-97e9-4234-85ac-05fdb4095a9a"
+      (reference "R61") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/8544a5d8-6936-4503-acf6-e9dbab02249a"
+      (reference "R62") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/9bcdbb85-2064-46fa-ac7c-cc9f0f97caa2"
+      (reference "R63") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/1c7f2752-9632-44da-8608-a0c34f4f5f07"
+      (reference "R64") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/bcb968c9-945b-4e8d-9d4c-b29e2997006b"
+      (reference "R65") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/07cff873-7fe7-450f-ae22-052be82294f3"
+      (reference "R66") (unit 1) (value "560k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/85da2884-de54-4b09-be85-74d4c7a41633"
+      (reference "R67") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/754dcefb-ba5b-4ef3-a0e0-8c46687fc67a"
+      (reference "R68") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/a9e81585-642d-4aca-a94e-68b8bd13aa4d"
+      (reference "R69") (unit 1) (value "2k7") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ed512d1e-9f45-423c-b09b-52fc887064af"
+      (reference "R70") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/0b5b16d3-c8ef-45d4-8719-708c7bd83d13"
+      (reference "R71") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/ad7ff7dd-bed8-42c7-be50-ae478db5f64c"
+      (reference "R72") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/bd028881-9385-4e8c-82a3-733e90fbf49f"
+      (reference "R73") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/7c8e83c9-1ae9-41c5-8b57-a332bb1acc8a"
+      (reference "R74") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/15792b54-391a-48a0-9809-a490bd15d873"
+      (reference "R75") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/7ea0b826-5ffd-4d16-851c-e397289b9f1a"
+      (reference "R76") (unit 1) (value "82k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/06d6c630-7b1f-4d9d-9c1a-33882fbe99ad"
+      (reference "R77") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/316687a6-bd62-4f07-b0f8-f607b8627100"
+      (reference "R78") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/d34dd93d-e4ec-4c19-8dbb-f13e73b80a23"
+      (reference "R79") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/6935f591-6de2-4064-b771-43a3f58c4c7e"
+      (reference "R80") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/25cf66ff-9b18-498a-a9f4-d23d6b16e6bb"
+      (reference "R81") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/fe667c81-e20f-422e-817c-a4050126ad02"
+      (reference "R82") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/61eb0bb7-a90d-4d46-8a7c-fe0c856fd921"
+      (reference "R83") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/2e75cb17-1406-40d9-b669-54fbf31f6425"
+      (reference "R84") (unit 1) (value "2k2") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/f60bca78-02f9-410d-8bdb-46b63a75017c"
+      (reference "R85") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/1d332668-d606-4a0c-89b3-c40a07f7354a"
+      (reference "R86") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/9f044e1b-092a-421b-90c0-1cd5fee85a2a"
+      (reference "R87") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/52ef9e2a-0a1d-42aa-8d6e-9e6a0a12a6d4"
+      (reference "R88") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/fe955c6a-0ec8-4fe6-b927-986b3f87c7c3"
+      (reference "R89") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/c227fb53-37d3-4af2-8779-7c068236b10b"
+      (reference "R90") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/a9bd8fb3-2e52-4504-8953-7d43f47d5fa2"
+      (reference "R91") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/83d839bd-5b64-47e4-8bca-9b314d4b5081"
+      (reference "R92") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/7062fe9c-6786-4f64-a8f2-a2c01bcdaa6f"
+      (reference "R93") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/435ab7e8-ec23-4582-bf6c-04f924d257cc"
+      (reference "R94") (unit 1) (value "33k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/54870b57-ee77-42b1-982e-4e167de44ee5"
+      (reference "R95") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/f779947d-5ccd-43eb-8c73-f151922be873"
+      (reference "R96") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/178cf9da-1d16-4b34-a547-d24e66d6d4ef"
+      (reference "R97") (unit 1) (value "6k8") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5ea76137-b6f8-437f-bf01-1ff33d9cb236"
+      (reference "R98") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/8c9b8d4d-437d-43e9-92c4-dcf865bc6727"
+      (reference "R99") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e2f10d91-a32a-4854-98d1-c963d2086b82"
+      (reference "R100") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3ec4ee12-e1be-4ab0-a7db-9e5fec1e1a3b"
+      (reference "R101") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/ab99e16b-fd86-44ab-a5ca-7f114d169b51"
+      (reference "R102") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/6d65e550-4e37-4e38-8ad4-e490948948f0"
+      (reference "R103") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/d2a9c8e4-9366-498f-b15f-a0e98a6e2c79"
+      (reference "R104") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/14b4b39c-0281-4ab9-ab6c-be2d94f571dc"
+      (reference "R105") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8e018937-3148-4ca4-8fb0-2aeec067d00a"
+      (reference "R106") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/176e8e0c-cc74-4ca4-80a4-b8ca12efbd81"
+      (reference "R107") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/cfbb5e5b-e9d9-427d-80d7-c6f3c51de97e"
+      (reference "R108") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e6ab8343-844f-4314-9731-d8ed65ca617a"
+      (reference "R109") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/674cc5f5-6922-46c3-a835-56c142971059"
+      (reference "R110") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/28c55571-48da-4f52-8566-13b7e88e7bb8"
+      (reference "R111") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/01d4aa7d-6da5-4bcf-b187-59592623b77a"
+      (reference "R112") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5b6e8790-7017-4f70-ac14-4eb6ed24d21e"
+      (reference "R113") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/86db8b10-a2e1-408e-9f21-5114db5e45ca"
+      (reference "R114") (unit 1) (value "20k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/1f961e3f-798e-4d16-b8a5-8a20d459882a"
+      (reference "R115") (unit 1) (value "470r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/54f231f6-3ec4-42d1-a0b4-2cebc0d5c898"
+      (reference "R116") (unit 1) (value "2k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3aaa85a4-4a82-432b-9bfe-b6d6810f3895"
+      (reference "R117") (unit 1) (value "220r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/813dc566-0a7d-410c-9aa9-1dbcfed18f1e"
+      (reference "R118") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/e9477f03-82dd-4178-a01b-c20914e115a9"
-      (reference "R123") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R119") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/35bddd15-9ef7-40ba-954e-c5938b3d3f99"
+      (reference "R120") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/33fd8910-e987-4ded-8e89-df10b9fa320d"
+      (reference "R121") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/e81f0f45-a570-4d39-bff3-1f3a82da1b29"
+      (reference "R122") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/5d5e9828-c1f6-4c02-90b6-4e951daa69e3"
-      (reference "R124") (unit 1) (value "180k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R123") (unit 1) (value "180k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8e46a8a4-a623-4f92-ac94-eea22e461572"
+      (reference "R124") (unit 1) (value "150k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/ceae3319-c7e9-4d12-928f-9dd933a66d0d"
       (reference "R125") (unit 1) (value "20k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/f9fac0a9-4e27-4468-ad76-3ef9bb0e4e68"
-      (reference "R126") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/e81f0f45-a570-4d39-bff3-1f3a82da1b29"
-      (reference "R127") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/74dcff05-9170-4773-a4b4-96e881916b78"
+      (reference "R126") (unit 1) (value "20k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/6de8e1d9-37ca-4c02-bf58-f4c17798b11b"
-      (reference "R128") (unit 1) (value "180k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R127") (unit 1) (value "180k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/54f231f6-3ec4-42d1-a0b4-2cebc0d5c898"
-      (reference "R129") (unit 1) (value "2k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/f0f84537-ed30-459e-bc86-8a7a72f178c1"
+      (reference "R128") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/86db8b10-a2e1-408e-9f21-5114db5e45ca"
-      (reference "R130") (unit 1) (value "20k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/f9fac0a9-4e27-4468-ad76-3ef9bb0e4e68"
+      (reference "R129") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/1f961e3f-798e-4d16-b8a5-8a20d459882a"
-      (reference "R131") (unit 1) (value "470r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/badd9993-2d5d-435d-8a5e-8b58e347b7f6"
+      (reference "R130") (unit 1) (value "1M5") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/35bddd15-9ef7-40ba-954e-c5938b3d3f99"
-      (reference "R132") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/bd028881-9385-4e8c-82a3-733e90fbf49f"
-      (reference "R133") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/7c8e83c9-1ae9-41c5-8b57-a332bb1acc8a"
-      (reference "R134") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/ad7ff7dd-bed8-42c7-be50-ae478db5f64c"
-      (reference "R135") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/435ab7e8-ec23-4582-bf6c-04f924d257cc"
-      (reference "R136") (unit 1) (value "33k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/fffe88af-dbbd-423e-ae36-2d7012f29c8c"
-      (reference "R137") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/7ea0b826-5ffd-4d16-851c-e397289b9f1a"
-      (reference "R138") (unit 1) (value "82k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/fe667c81-e20f-422e-817c-a4050126ad02"
-      (reference "R139") (unit 1) (value "10k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/25cf66ff-9b18-498a-a9f4-d23d6b16e6bb"
-      (reference "R140") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/59b8754b-a097-48cf-aec5-cd68a6568bfc"
-      (reference "R141") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/8b086955-97e9-4234-85ac-05fdb4095a9a"
-      (reference "R142") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/bcb968c9-945b-4e8d-9d4c-b29e2997006b"
-      (reference "R143") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/06d6c630-7b1f-4d9d-9c1a-33882fbe99ad"
-      (reference "R144") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/316687a6-bd62-4f07-b0f8-f607b8627100"
-      (reference "R145") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/61eb0bb7-a90d-4d46-8a7c-fe0c856fd921"
-      (reference "R146") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/f60bca78-02f9-410d-8bdb-46b63a75017c"
-      (reference "R147") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/2e75cb17-1406-40d9-b669-54fbf31f6425"
-      (reference "R148") (unit 1) (value "2k2") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/d34dd93d-e4ec-4c19-8dbb-f13e73b80a23"
-      (reference "R149") (unit 1) (value "22k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/07cff873-7fe7-450f-ae22-052be82294f3"
-      (reference "R150") (unit 1) (value "560k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/15792b54-391a-48a0-9809-a490bd15d873"
-      (reference "R151") (unit 1) (value "1k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/b571e4bc-7aca-442c-8198-e367d3a00109"
-      (reference "R152") (unit 1) (value "470r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/bf416150-dded-4738-9962-793cbb74f8cf"
-      (reference "R153") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/72a7bd93-f4d5-44d5-ad67-2bda97186ed9"
-      (reference "R154") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/69574240-8fc9-4ba8-bac7-7084fbf375a5"
-      (reference "R155") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/3b483144-9cdb-44b2-88dc-c5983cf4f578"
-      (reference "R156") (unit 1) (value "330k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/30b29e9a-70db-4f13-9b3d-cbcb10b6da78"
-      (reference "R157") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/81115bc5-4cf7-4448-a086-69a257321be3"
-      (reference "R158") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/050d3b5c-d30d-4cdb-98f3-01981d734c47"
-      (reference "R159") (unit 1) (value "47k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/45f7a871-75aa-43a5-ae3b-85f781d95834"
-      (reference "R160") (unit 1) (value "220k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/c2b681fb-48ce-49b0-b35a-0f7ae3ec99e2"
-      (reference "R161") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/3be4407b-9b04-4f97-90f8-499e7c76e703"
-      (reference "R162") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/4f8c60ba-7ae6-4e1e-a2f8-2f50b2ac2a6e"
-      (reference "R163") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/4b69ffdc-46d2-4739-940e-0e7fb10724a6"
-      (reference "R164") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/1a49bcb8-7ea4-461e-8c35-6deb93317ea9"
-      (reference "R165") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
-    )
-    (path "/a7476275-b8cd-454e-ac49-8c5769249dcf"
-      (reference "R166") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/37aa24ac-11ff-4c82-a394-3fa4c99b7512"
-      (reference "R167") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/310c614c-fa31-4b7f-bd37-2bb619469ae3"
-      (reference "R168") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/c381711a-d930-4cd3-8ec4-bac025c92e6f"
-      (reference "R169") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
-    )
-    (path "/e609d2b2-9fb8-4946-bab8-ac2f808ee8f0"
-      (reference "R170") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/3baade23-d3b8-41d8-8ce1-06c9414fba81"
-      (reference "R171") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/cca16d90-5ee5-475a-8daf-abf705825b67"
-      (reference "R172") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
-    )
-    (path "/c376044d-ae23-4ce7-bcbc-fdc62071cf93"
-      (reference "R173") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
-    )
-    (path "/f65873e3-6d29-44ea-9669-dbc7e7d00ded"
-      (reference "R174") (unit 1) (value "330r") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c8f2ccfe-7a89-4884-90a9-de773cbefd1a"
-      (reference "R175") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/f5985b43-e20b-4665-aade-a9bb071ad017"
-      (reference "R176") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/3346b666-1f0f-4799-a467-2e4804b4aa67"
-      (reference "R177") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/71688d84-4fd4-435f-9f90-3d1712e05fd4"
-      (reference "RV1") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/2082a92a-03bf-4b22-bfeb-9a13b913f6c6"
+      (reference "RV1") (unit 1) (value "200k") (footprint "rumblesan-standard-parts:Potentiometer_THT_Bourns_3306P_Vertical")
     )
     (path "/21085989-bc3d-46f9-8af8-5dc4d21f65ca"
       (reference "RV2") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/65bf44f3-843f-40ca-b097-19a621109db5"
+    (path "/2a2ad07d-e07b-4cf8-9efc-db755e27cf3e"
       (reference "RV3") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/2a2ad07d-e07b-4cf8-9efc-db755e27cf3e"
+    (path "/0532e536-5c78-4c6e-82c3-ce90ccd3a9e8"
       (reference "RV4") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/6bcec6a4-d928-4f85-833f-ef23ecc53229"
+    (path "/71688d84-4fd4-435f-9f90-3d1712e05fd4"
       (reference "RV5") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/8b58ace8-f1c4-4e35-946a-71cd9669af7d"
       (reference "RV6") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/0532e536-5c78-4c6e-82c3-ce90ccd3a9e8"
+    (path "/6bcec6a4-d928-4f85-833f-ef23ecc53229"
       (reference "RV7") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/86f8483c-3d09-4246-b3b4-f874abb9e047"
+    (path "/a856e9f0-7658-44a2-a45b-39d038f6031e"
       (reference "RV8") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/a856e9f0-7658-44a2-a45b-39d038f6031e"
+    (path "/2e7fb674-886f-4e3f-8d95-576d44ea4b6e"
       (reference "RV9") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/2e7fb674-886f-4e3f-8d95-576d44ea4b6e"
+    (path "/65bf44f3-843f-40ca-b097-19a621109db5"
       (reference "RV10") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/00b62643-e07e-4735-a57a-27b0745e22c5"
+    (path "/a7d6bb7b-8d59-4f82-9bce-aaa8e61c19cb"
       (reference "RV11") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/312c5101-5324-4d76-b4c1-e9dfa8609098"
-      (reference "RV12") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/00b62643-e07e-4735-a57a-27b0745e22c5"
+      (reference "RV12") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c94484fb-492c-4eed-83cb-53b04392de86"
-      (reference "RV13") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
-    )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/e5ed6572-63f8-4d47-8425-c064b1df664e"
-      (reference "RV14") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/86f8483c-3d09-4246-b3b4-f874abb9e047"
+      (reference "RV13") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/ff88ce57-7720-49f8-9ed8-14da4dc190cb"
-      (reference "RV15") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV14") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/a7d6bb7b-8d59-4f82-9bce-aaa8e61c19cb"
-      (reference "RV16") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/e5ed6572-63f8-4d47-8425-c064b1df664e"
+      (reference "RV15") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/ae284e36-6d7a-4207-9dcd-99f599b0835d"
-      (reference "RV17") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/c94484fb-492c-4eed-83cb-53b04392de86"
+      (reference "RV16") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
-    (path "/277cfe6e-dc12-4141-9112-2d39a5bc42b0"
-      (reference "RV18") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/312c5101-5324-4d76-b4c1-e9dfa8609098"
+      (reference "RV17") (unit 1) (value "100kB") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/7ca9668d-dc0f-464e-8fca-b3e65bc11d25"
-      (reference "RV19") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+      (reference "RV18") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/ea48695a-2ff9-40e8-a9c7-06bde94a60f8"
+      (reference "RV19") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/277cfe6e-dc12-4141-9112-2d39a5bc42b0"
       (reference "RV20") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
+    )
+    (path "/ae284e36-6d7a-4207-9dcd-99f599b0835d"
+      (reference "RV21") (unit 1) (value "100k") (footprint "rumblesan-standard-parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical")
     )
     (path "/27c425ff-bec3-4071-8313-664b7a6d40af/f09649ec-c663-43e4-8680-14ee16a33a6e"
       (reference "RV22") (unit 1) (value "100r") (footprint "rumblesan-standard-parts:Potentiometer_THT_Bourns_3306P_Vertical")
     )
-    (path "/459ed064-87a6-4ffe-aa73-07fba40e5273/2082a92a-03bf-4b22-bfeb-9a13b913f6c6"
-      (reference "RV23") (unit 1) (value "200k") (footprint "rumblesan-standard-parts:Potentiometer_THT_Bourns_3306P_Vertical")
-    )
-    (path "/e3c8cb66-ce8c-4f81-b47b-58e26571078a"
-      (reference "TP1") (unit 1) (value "MixerTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/65afb25a-04b8-4c1b-8d00-219911f9acbb"
-      (reference "TP2") (unit 1) (value "DivisionCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/0c5222ad-c2a6-4399-9da5-ac528071f69c"
-      (reference "TP3") (unit 1) (value "AnalysisSignalTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    (path "/8404ddfd-6c37-47f7-bff6-52ebb388d8b8"
+      (reference "TP1") (unit 1) (value "-12VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/a894056a-0bb4-495f-867d-84bde023e2fb"
-      (reference "TP4") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+      (reference "TP2") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
-    (path "/86a537fa-3ae6-4b9f-83a9-709349582b52"
-      (reference "TP5") (unit 1) (value "VCACVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    (path "/ff19bfae-767f-4902-b91f-e49e979d4ea2"
+      (reference "TP3") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/077bd947-1add-47b5-adde-06f183388a5d"
+      (reference "TP4") (unit 1) (value "+12VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/a1a16d4d-5364-4f55-9429-ea97dc55a2fb"
+      (reference "TP5") (unit 1) (value "FilterResCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/4ef04a97-1ea2-4e25-afa1-6762504aa1b4"
       (reference "TP6") (unit 1) (value "FilterFreqCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
-    (path "/a1a16d4d-5364-4f55-9429-ea97dc55a2fb"
-      (reference "TP7") (unit 1) (value "FilterResCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/1eb2566e-16a2-498e-930b-b40c307d9ecf"
-      (reference "TP8") (unit 1) (value "5VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/077bd947-1add-47b5-adde-06f183388a5d"
-      (reference "TP9") (unit 1) (value "+12VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/8404ddfd-6c37-47f7-bff6-52ebb388d8b8"
-      (reference "TP10") (unit 1) (value "-12VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/0d05d3fc-0a74-402d-aaa4-5ae5b0ef0a59"
-      (reference "TP11") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/ff19bfae-767f-4902-b91f-e49e979d4ea2"
-      (reference "TP12") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/7c357a96-4aa9-4cb2-a64b-3d0ae18b2e62"
-      (reference "TP13") (unit 1) (value "DelayInputAudioTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    (path "/86a537fa-3ae6-4b9f-83a9-709349582b52"
+      (reference "TP7") (unit 1) (value "VCACVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/be2006bc-b8f1-4bab-83eb-e4845926b03d"
-      (reference "TP14") (unit 1) (value "DelayMainCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+      (reference "TP8") (unit 1) (value "DelayMainCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/0c5222ad-c2a6-4399-9da5-ac528071f69c"
+      (reference "TP9") (unit 1) (value "AnalysisSignalTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/65afb25a-04b8-4c1b-8d00-219911f9acbb"
+      (reference "TP10") (unit 1) (value "DivisionCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/1eb2566e-16a2-498e-930b-b40c307d9ecf"
+      (reference "TP11") (unit 1) (value "5VTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/0a29beae-0c76-472e-b222-c0afef324111"
-      (reference "TP15") (unit 1) (value "DelayScaledCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+      (reference "TP12") (unit 1) (value "DelayScaledCVTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/7088ce75-847a-460c-974d-9e412fa29a79"
-      (reference "TP16") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+      (reference "TP13") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/0d05d3fc-0a74-402d-aaa4-5ae5b0ef0a59"
+      (reference "TP14") (unit 1) (value "GNDTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/7c357a96-4aa9-4cb2-a64b-3d0ae18b2e62"
+      (reference "TP15") (unit 1) (value "DelayInputAudioTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
+    )
+    (path "/e3c8cb66-ce8c-4f81-b47b-58e26571078a"
+      (reference "TP16") (unit 1) (value "MixerTestPoint") (footprint "rumblesan-standard-parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile")
     )
     (path "/41fecd92-21ae-4bff-8900-37e0c53d05c3"
       (reference "U1") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
@@ -10014,23 +10014,17 @@
     (path "/8ae57018-26e4-4a71-b89c-cca04795afec"
       (reference "U1") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
-    (path "/6efbcb2f-d0a9-4b95-9153-41be0a4938a1"
-      (reference "U2") (unit 1) (value "L78L05_TO92") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/bc00185d-4325-454b-9281-5016b772c43c"
+      (reference "U2") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/6a620317-b45d-4bf4-93ea-5d564a1435a9"
-      (reference "U3") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/b8abb8e0-877a-4f5c-816b-e6935c437baa"
+      (reference "U2") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/5d3d310f-7ca5-48cf-81bc-0fac7e1a71f5"
-      (reference "U3") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/9268a17e-3810-42e7-8e98-472f30caf9b6"
+      (reference "U2") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
     )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/ef61d602-2eb4-41de-b784-e560d31085b8"
-      (reference "U3") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/e0aabdc9-1e64-45ba-9320-5917bf8aa36c"
-      (reference "U3") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/754db767-23b2-4e7e-a95e-8e5bc1116664"
-      (reference "U3") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    (path "/256127d0-0479-4408-a803-d00b3565e635/0740d84b-2640-4268-bccc-51bd676f1f2d"
+      (reference "U3") (unit 1) (value "4020") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
     )
     (path "/256127d0-0479-4408-a803-d00b3565e635/8147113d-c922-4730-a376-ae650f392636"
       (reference "U4") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
@@ -10041,119 +10035,125 @@
     (path "/256127d0-0479-4408-a803-d00b3565e635/1ae32509-5699-4d02-b8bc-97e06b0a10c9"
       (reference "U4") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
     )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/6a620317-b45d-4bf4-93ea-5d564a1435a9"
+      (reference "U5") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/5d3d310f-7ca5-48cf-81bc-0fac7e1a71f5"
+      (reference "U5") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/ef61d602-2eb4-41de-b784-e560d31085b8"
+      (reference "U5") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/e0aabdc9-1e64-45ba-9320-5917bf8aa36c"
+      (reference "U5") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/256127d0-0479-4408-a803-d00b3565e635/754db767-23b2-4e7e-a95e-8e5bc1116664"
+      (reference "U5") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
     (path "/256127d0-0479-4408-a803-d00b3565e635/8d2961c9-d95e-4fa9-a4bc-7e9988cd1c63"
-      (reference "U5") (unit 1) (value "PT2399") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/256127d0-0479-4408-a803-d00b3565e635/0740d84b-2640-4268-bccc-51bd676f1f2d"
-      (reference "U6") (unit 1) (value "4020") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5cef256f-6485-4cbc-964b-78371af40f26"
-      (reference "U7") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/88c9b165-4b24-47f6-af1e-d01ea007efbd"
-      (reference "U7") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5b866e93-339e-403b-8dd1-439ef31dc01d"
-      (reference "U7") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/84ba4fda-7362-47b1-b503-b0969ac73de0"
-      (reference "U7") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/a4aa8196-0611-47db-9c05-9c099f8bf5d5"
-      (reference "U7") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/09608b5b-7810-4f70-8e3d-211df0079988"
-      (reference "U8") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/de81a341-957e-4057-b3b4-25e12216a07f"
-      (reference "U8") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/155a45de-d634-4ac0-a7c9-cec959b06e68"
-      (reference "U8") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/262e8039-0956-4c59-bb79-a0da0d940c3b"
-      (reference "U9") (unit 1) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3dbe1708-40d7-400b-8fb2-71141e9228de"
-      (reference "U9") (unit 2) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/beb7ba92-17c4-4da3-afc3-29d486259322"
-      (reference "U9") (unit 3) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/0da6b14c-d635-470f-8ef1-87b79b6026dd"
-      (reference "U9") (unit 4) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8852905f-b912-4a28-bd74-551f535e942e"
-      (reference "U9") (unit 5) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/eda75273-9901-491a-9e9c-7098851d2252"
-      (reference "U10") (unit 1) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/87937f8d-f465-427b-974f-25b601f131f7"
-      (reference "U10") (unit 2) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e260dfc9-cc7a-45cb-a681-a16e905b3dc4"
-      (reference "U10") (unit 3) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/08417b57-3e1c-4052-bd93-33068154a885"
-      (reference "U10") (unit 4) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e2a5cee5-8443-4a33-b439-6ca3d930e1b2"
-      (reference "U10") (unit 5) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/59b48ffd-a226-4c76-8070-fc8568a032e2"
-      (reference "U11") (unit 1) (value "74LS241") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
-    )
-    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/d239b7f7-a360-4a5a-b8a6-bc7d2feff740"
-      (reference "U12") (unit 1) (value "ATtiny24A-P") (footprint "Package_DIP:DIP-14_W7.62mm")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/cb06ee37-8d77-4ddf-9f61-8b81f1c391f5"
-      (reference "U18") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/7042f9b1-26bc-46b4-8cd7-b27c2ccce009"
-      (reference "U18") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/6428f215-5a37-4aa5-87d6-694e76969b0b"
-      (reference "U18") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/e4d69649-3852-42b5-94a9-5213511cb5e1"
-      (reference "U18") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/41085d92-6ab4-48be-9913-7821372087bf"
-      (reference "U18") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/352aa081-882d-4a14-a0df-b14594d164d3"
-      (reference "U19") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/8e8190c5-c616-4751-b332-1e2b7b25bd5e"
-      (reference "U19") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
-    )
-    (path "/153ecf7e-2201-4471-a457-69b9252f0848/aacd85b6-8e5c-4391-9125-d000e53f5e33"
-      (reference "U19") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+      (reference "U6") (unit 1) (value "PT2399") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/b5114db6-069b-46a8-9763-fde1c64f41a1"
-      (reference "U20") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/ad6b6212-b21b-4f81-9310-76889627a3fc"
-      (reference "U20") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/95fa13b7-eeb6-4033-bbf7-1b0f9a209c07"
-      (reference "U20") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/7fdc1138-f1bd-42f6-8ce8-e6152145892a"
-      (reference "U20") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
     (path "/9bc8d8bb-29d4-4371-956d-620f98e83b22/6dd4f21d-3559-4ded-9f54-194759cc511d"
-      (reference "U20") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+      (reference "U7") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/bc00185d-4325-454b-9281-5016b772c43c"
-      (reference "U21") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    (path "/6efbcb2f-d0a9-4b95-9153-41be0a4938a1"
+      (reference "U8") (unit 1) (value "L78L05_TO92") (footprint "rumblesan-standard-parts:TO-92_Inline_Wide")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/b8abb8e0-877a-4f5c-816b-e6935c437baa"
-      (reference "U21") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/352aa081-882d-4a14-a0df-b14594d164d3"
+      (reference "U9") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
     )
-    (path "/8910ec24-817d-4de5-97c2-6d5a7027c76c/9268a17e-3810-42e7-8e98-472f30caf9b6"
-      (reference "U21") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/8e8190c5-c616-4751-b332-1e2b7b25bd5e"
+      (reference "U9") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    )
+    (path "/153ecf7e-2201-4471-a457-69b9252f0848/aacd85b6-8e5c-4391-9125-d000e53f5e33"
+      (reference "U9") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5cef256f-6485-4cbc-964b-78371af40f26"
+      (reference "U10") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/88c9b165-4b24-47f6-af1e-d01ea007efbd"
+      (reference "U10") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/5b866e93-339e-403b-8dd1-439ef31dc01d"
+      (reference "U10") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/84ba4fda-7362-47b1-b503-b0969ac73de0"
+      (reference "U10") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/a4aa8196-0611-47db-9c05-9c099f8bf5d5"
+      (reference "U10") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/d239b7f7-a360-4a5a-b8a6-bc7d2feff740"
+      (reference "U11") (unit 1) (value "ATtiny24A-P") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/eda75273-9901-491a-9e9c-7098851d2252"
+      (reference "U12") (unit 1) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/87937f8d-f465-427b-974f-25b601f131f7"
+      (reference "U12") (unit 2) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e260dfc9-cc7a-45cb-a681-a16e905b3dc4"
+      (reference "U12") (unit 3) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/08417b57-3e1c-4052-bd93-33068154a885"
+      (reference "U12") (unit 4) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/e2a5cee5-8443-4a33-b439-6ca3d930e1b2"
+      (reference "U12") (unit 5) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/262e8039-0956-4c59-bb79-a0da0d940c3b"
+      (reference "U13") (unit 1) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/3dbe1708-40d7-400b-8fb2-71141e9228de"
+      (reference "U13") (unit 2) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/beb7ba92-17c4-4da3-afc3-29d486259322"
+      (reference "U13") (unit 3) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/0da6b14c-d635-470f-8ef1-87b79b6026dd"
+      (reference "U13") (unit 4) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/8852905f-b912-4a28-bd74-551f535e942e"
+      (reference "U13") (unit 5) (value "LM13700") (footprint "rumblesan-standard-parts:DIP-16_W7.62mm_Socket")
+    )
+    (path "/e95780cf-5325-4c64-89b1-e833ad4ca347/59b48ffd-a226-4c76-8070-fc8568a032e2"
+      (reference "U14") (unit 1) (value "74LS241") (footprint "Package_DIP:DIP-20_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/09608b5b-7810-4f70-8e3d-211df0079988"
+      (reference "U15") (unit 1) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/de81a341-957e-4057-b3b4-25e12216a07f"
+      (reference "U15") (unit 2) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    )
+    (path "/f32e5966-d212-4c05-8d96-85619f8f02c1/155a45de-d634-4ac0-a7c9-cec959b06e68"
+      (reference "U15") (unit 3) (value "TL072") (footprint "rumblesan-standard-parts:DIP-8_W7.62mm_Socket")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/cb06ee37-8d77-4ddf-9f61-8b81f1c391f5"
+      (reference "U16") (unit 1) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/7042f9b1-26bc-46b4-8cd7-b27c2ccce009"
+      (reference "U16") (unit 2) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/6428f215-5a37-4aa5-87d6-694e76969b0b"
+      (reference "U16") (unit 3) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/e4d69649-3852-42b5-94a9-5213511cb5e1"
+      (reference "U16") (unit 4) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
+    )
+    (path "/27c425ff-bec3-4071-8313-664b7a6d40af/41085d92-6ab4-48be-9913-7821372087bf"
+      (reference "U16") (unit 5) (value "TL074") (footprint "rumblesan-standard-parts:DIP-14_W7.62mm_Socket")
     )
   )
 )
