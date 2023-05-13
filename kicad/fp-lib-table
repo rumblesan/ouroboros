@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "strata-graphics")(type "KiCad")(uri "${KIPRJMOD}/strata-graphics.pretty")(options "")(descr ""))
+  (lib (name "mercurial-graphics")(type "KiCad")(uri "${KIPRJMOD}/mercurial-graphics.pretty")(options "")(descr ""))
 )

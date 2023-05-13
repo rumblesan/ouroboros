@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "The Mercurial Machine")
+    (date "2023-05-13")
+    (rev "r02")
+    (comment 2 "creativecommons.org/licenses/by/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Guy John")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:TL072" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)

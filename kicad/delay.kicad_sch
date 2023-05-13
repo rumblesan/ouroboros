@@ -5,9 +5,9 @@
   (paper "A3")
 
   (title_block
-    (title "Dual Digi Delay")
-    (date "2022-03-04")
-    (rev "v05")
+    (title "The Mercurial Machine")
+    (date "2023-05-13")
+    (rev "r02")
     (comment 2 "creativecommons.org/licenses/by/4.0/")
     (comment 3 "License: CC BY 4.0")
     (comment 4 "Author: Guy John")
