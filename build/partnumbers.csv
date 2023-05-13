@@ -1,0 +1,69 @@
+parttype,value,spec,quantity,info,order code,part number,mouser,farnell,other
+diode,1n5818,,3,,,1n5818,833-1N5818-TP,,
+diode,1n4148,,16,,,1n4148,512-1N4148,,
+diode,4v7,4.7v zener,2,,,"bzx79-c4v7,133",771-BZX79-C4V7133,,
+diode,1n4001,,1,,,1n4001,833-1N4001-TP,,
+capacitor,22pf,ceramic c0g,16,,,fg28c0g1h220jnt06,810-FG28C0G1H220JNT0,,
+capacitor,220pf,ceramic c0g,3,,,fg28c0g1h221jnt06,810-FG28C0G1H221JNT6,,
+capacitor,220pf,film polypropylene,2,,,fkp2d002201d00jssd,505-FKP2220/100/5,,
+capacitor,560pf,ceramic c0g,2,,,fg28c0g1h561jnt06,810-FG28C0G1H561JNT0,,
+capacitor,4n7f,ceramic c0g,2,,,fg28c0g1h472jnt06,810-FG28C0G1H472JNT6,,
+capacitor,10nf,ceramic c0g,3,,,fg28c0g1h103jnt06,810-FG28C0G1H103JNT0,,
+capacitor,100nf,ceramic x7r,27,,,k104k15x7rf53h5,594-K104K15X7RF53H5,,
+capacitor,100nf,ceramic c0g,4,,,fg26c0g1h104jnt06,810-FG26C0G1H104JNT0,,
+capacitor,470nf,ceramic x7r,1,,,k474k20x7rf53h5,594-K474K20X7RF53H5,,
+capacitor,10uf,electrolytic,3,,,uvr1h100mdd,647-UVR1H100MDD,,
+capacitor,10uf,electrolytic audio,2,,,ufw1h100mdd,647-UFW1H100MDD,,
+capacitor,47uf,electrolytic,1,,,uvr1h470med,647-UVR1H470MED,,
+resistor,330r,metal film,18,,,mfr50sfte52-330r,603-MFR50SFTE52-330R,,
+resistor,220r,metal film,8,,,mfr50sfte52-220r,603-MFR50SFTE52-220R,,
+resistor,470r,metal film,2,,,mfr-50sfrf52470r,603-MFR-50SFRF52470R,,
+resistor,22r,metal film,1,,,mfr50sfte52-22r,603-MFR50SFTE52-22R,,
+resistor,1k,metal film,4,,,mfr50sfte52-1k,603-MFR50SFTE52-1K,,
+resistor,2k,metal film,1,,,mfr50sfte52-2k,603-MFR50SFTE52-2K,,
+resistor,2k2,metal film,1,,,mfr50sfte52-2k2,603-MFR50SFTE52-2K2,,
+resistor,2k7,metal film,1,,,mfr50sfte52-2k7,603-MFR50SFTE52-2K7,,
+resistor,4k7,metal film,1,,,mfr50sfte52-4k7,603-MFR50SFTE52-4K7,,
+resistor,6k8,metal film,1,,,mfr50sfte52-6k8,603-MFR50SFTE52-6K8,,
+resistor,10k,metal film,12,,,mfr50sfte52-10k,603-MFR50SFTE52-10K,,
+resistor,20k,metal film,3,,,mfr50sfte52-20k,603-MFR50SFTE52-20K,,
+resistor,22k,metal film,5,,,mfr50sfte52-22k,603-MFR50SFTE52-22K,,
+resistor,33k,metal film,2,,,mfr50sfte52-33k,603-MFR50SFTE52-33K,,
+resistor,47k,metal film,7,,,mfr50sfte52-47k,603-MFR50SFTE52-47K,,
+resistor,82k,metal film,1,,,mfr50sfte52-82k,603-MFR50SFTE52-82K,,
+resistor,100k,metal film,47,,,mfr50sfte52-100k,603-MFR50SFTE52-100K,,
+resistor,120k,metal film,1,,,mfr50sfte52-120k,603-MFR50SFTE52-120K,,
+resistor,150k,metal film,1,,,mfr50sfte52-150k,603-MFR50SFTE52-150K,,
+resistor,180k,metal film,2,,,mfr50sfte52-180k,603-MFR50SFTE52-180K,,
+resistor,220k,metal film,4,,,mfr50sfte52-220k,603-MFR50SFTE52-220K,,
+resistor,330k,metal film,3,,,mfr50sfte52-330k,603-MFR50SFTE52-330K,,
+resistor,560k,metal film,2,,,mfr50sfte52-560k,603-MFR50SFTE52-560K,,
+resistor,1m,metal film,1,,,mfr50sfte52-1m,603-MFR50SFTE52-1M,,
+resistor,1m5,metal film,1,,,mfr50sfte52-1m5,603-MFR50SFTE52-1M5,,
+transistor,2n3904,,6,,,2n3904,512-2N3904BU,,
+transistor,bc549c,,1,,,no part number,,,
+transistor,2n3906,,3,,,2n3906,512-2N3906BU,,
+transistor,bc547,,1,,,no part number,,,
+regulator,l78l05_to92,,1,,,L78L05ACZ,511-L78L05ACZ,,
+ic,lm13700,,2,,,LM13700N/NOPB,,,thonk
+ic,pt2399,,1,,,pt2399,,,bitsbox
+ic,tl072,,4,,,TL072IP,595-TL072IP,,
+ic,tl074,,5,,,TL074CN,595-TL074CN,,
+ic,cd4020,,1,,,CD4020BE,595-CD4020BE,,
+ic,74ls241,,1,,,SN74LS241N,595-SN74LS241N,,
+ic,attiny24a-p,,1,,,ATTINY24A-PU,556-ATTINY24A-PU,,
+potentiometer,100kb,,20,,,RV16AF-10-17K-B100K,,,thonk
+socket,eurorack mono jack,,26,,,wqp-pj398sm,,,thonk
+trimmer,100r,single turn,1,,,3306P-1-101,652-3306P-1-101,,
+trimmer,200k,single turn,1,,,3306P-1-204,652-3306P-1-204,,
+connector,conn_01x04_female,,4,,,no part number,,,thonk
+connector,conn_01x04_male,,4,,,no part number,,,thonk
+connector,conn_01x03_male,,2,,,no part number,,,thonk
+connector,conn_01x06_female,,2,,,no part number,,,thonk
+connector,conn_01x06_male,,2,,,no part number,,,thonk
+connector,conn_01x08_female,,2,,,no part number,,,thonk
+connector,conn_01x08_male,,2,,,no part number,,,thonk
+connector,conn_02x04_odd_even,,1,,,no part number,,,thonk
+connector,conn_02x03_male,,1,,,no part number,,,thonk
+jumper_2_bridged,conn_01x02_male,,1,,,TSW-102-14-T-S,200-TSW10214TS,,
+connector,eurorack power small,,1,,,61201021621,710-61201021621,,thonk
