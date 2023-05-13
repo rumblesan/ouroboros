@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6-0)"
     },
-    "CreationDate": "2022-11-11T14:24:23+00:00"
+    "CreationDate": "2023-05-13T23:48:38+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "strata",
-      "GUID": "73747261-7461-42e6-9b69-6361645f7063",
-      "Revision": "r01"
+      "Name": "ouroboros",
+      "GUID": "6f75726f-626f-4726-9f73-2e6b69636164",
+      "Revision": "r02"
     },
     "Size": {
       "X": 302.05,
@@ -34,37 +34,37 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "strata-F_Cu.gtl",
+      "Path": "ouroboros-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-B_Cu.gbl",
+      "Path": "ouroboros-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-F_Silkscreen.gto",
+      "Path": "ouroboros-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-B_Silkscreen.gbo",
+      "Path": "ouroboros-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-F_Mask.gts",
+      "Path": "ouroboros-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "strata-B_Mask.gbs",
+      "Path": "ouroboros-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "strata-Edge_Cuts.gm1",
+      "Path": "ouroboros-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
