@@ -1,10 +1,10 @@
 # 13700 Filter
 
-Designing a filter for the Strata instrument using the LM13700 OTA
+Designing a filter for the Mercurial Machine using the LM13700 OTA
 
 ## Creating
 
-`pdflatex strata-filter.tex`
+`pdflatex mercurial-filter.tex`
 
 ## Contact
 
