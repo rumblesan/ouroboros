@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.6-0)"
     },
-    "CreationDate": "2022-10-25T16:40:43+01:00"
+    "CreationDate": "2023-05-14T00:03:39+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "strata-frontpanel",
-      "GUID": "73747261-7461-42d6-9672-6f6e7470616e",
+      "Name": "ouroboros-frontpanel",
+      "GUID": "6f75726f-626f-4726-9f73-2d66726f6e74",
       "Revision": "r01"
     },
     "Size": {
@@ -24,44 +24,44 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.254,
-      "PadToTrack": 0.254,
-      "TrackToTrack": 0.254
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "strata-frontpanel-F_Cu.gtl",
+      "Path": "ouroboros-frontpanel-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-frontpanel-B_Cu.gbl",
+      "Path": "ouroboros-frontpanel-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-frontpanel-F_Silkscreen.gto",
+      "Path": "ouroboros-frontpanel-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-frontpanel-B_Silkscreen.gbo",
+      "Path": "ouroboros-frontpanel-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "strata-frontpanel-F_Mask.gts",
+      "Path": "ouroboros-frontpanel-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "strata-frontpanel-B_Mask.gbs",
+      "Path": "ouroboros-frontpanel-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "strata-frontpanel-Edge_Cuts.gm1",
+      "Path": "ouroboros-frontpanel-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
