@@ -1,7 +1,7 @@
 #define DIV_CV_PIN A0
 
-#define SIG_IN_PIN 1
-#define RESET_PIN 10
+#define SIG_IN_PIN 1 // PA1
+#define RESET_PIN 10 // PB0
 
 #define MIN_PULSE_DIVIDE 1
 #define MAX_PULSE_DIVIDE 64
@@ -11,6 +11,7 @@ int mainPulseCount = 0;
 int mainPulseLimit = 1;
 
 #define OUTPUT_COUNT 7
+// PB1, PA7, PB2, PA2, PA6, PA3, PA5
 int divOutputPins[OUTPUT_COUNT] = {9, 7, 8, 2, 6, 3, 5};
 int divCounts[OUTPUT_COUNT] = {0, 0, 0, 0, 0, 0, 0};
 int divLimits[OUTPUT_COUNT] = {2, 3, 4, 5, 6, 7, 8};
