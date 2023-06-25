@@ -1,71 +1,61 @@
-Component,Description,Part,References,Value,Footprint,PartNumber,Quantity Per PCB,Spec,Tolerance,Voltage,Name,mpn,Power
-1,Unpolarized capacitor,C,C3 C6 C7 C10 C13 C14 C16 C24 C25 C31 C39 C40 C43 C52 C57 C64,22pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,16,ceramic C0G,5%,,,,
-2,Unpolarized capacitor,C,C33 C46 C58,220pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,3,ceramic C0G,5%,,,,
-3,Unpolarized capacitor,C,C48 C49,220pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,2,film polypropylene,5%,,,,
-4,Unpolarized capacitor,C,C28 C29,560pF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,2,ceramic C0G,5%,,,,
-5,Unpolarized capacitor,C,C34 C60 C66,10nF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,3,ceramic C0G,5%,,,,
-6,Unpolarized capacitor,C,C1 C2 C4 C5 C8 C9 C11 C12 C15 C17 C23 C35 C37 C41 C42 C44 C45 C47 C50 C51 C53 C54 C55 C56 C59 C61 C65,100nF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,27,ceramic X7R,5%,,,,
-7,Unpolarized capacitor,C,C19 C20 C26 C30,100nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,4,ceramic C0G,5%,,,,
-8,Unpolarized capacitor,C,C18,470nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,1,ceramic X7R,5%,,,,
-9,Polarized capacitor,C_Polarized,C21 C22,10uF,CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal,,2,electrolytic audio,20%,50v,,,
-10,Polarized capacitor,C_Polarized,C32 C62 C63,10uF,CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal,,3,electrolytic,20%,50v,,,
-11,Polarized capacitor,C_Polarized,C27,47uF,CP_Radial_D6.3.0mm_L11.0mm_P2.00mm_Horizontal,,1,electrolytic,20%,50v,,,
-12,Unpolarized capacitor,C,C36 C38,4n7F,C_Rect_L7.0mm_W3.5mm_P5.00mm,,2,ceramic C0G,5%,,,,
-13,Diode,D,D1 D2 D3 D4 D6 D8 D9 D10 D11 D12 D13 D14 D17 D18 D19 D22,1N4148,D_DO-35_SOD27_P7.62mm_Horizontal,,16,,,,,,
-14,"30V 1A Schottky Barrier Rectifier Diode, DO-41",1N5818,D7 D20 D21,1N5818,D_DO-41_SOD81_P10.16mm_Horizontal,,3,,,,,,
-15,Diode,D,D5,1n4001,D_DO-41_SOD81_P10.16mm_Horizontal,,1,,,,,,
-16,Zener diode,D_Zener,D15 D16,4v7,D_DO-35_SOD27_P7.62mm_Horizontal,,2,4.7v zener,,,,,
-17,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Male,J10 J37,Conn_01x03_Male,PinHeader_1x03_P2.54mm_Vertical,,2,,,,Zener Limiter,,
-18,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,J42 J44 J45 J46,Conn_01x04_Female,PinSocket_1x04_P2.54mm_Vertical,,4,,,,,,
-19,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J29 J30 J31 J33,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,,4,,,,,,
-20,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Female,J43 J47,Conn_01x06_Female,PinSocket_1x06_P2.54mm_Vertical,,2,,,,,,
-21,"Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x06_Male,J28 J32,Conn_01x06_Male,PinHeader_1x06_P2.54mm_Vertical,,2,,,,,,
-22,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08_Female,J40 J41,Conn_01x08_Female,PinSocket_1x08_P2.54mm_Vertical,,2,,,,,,
-23,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08_Male,J34 J35,Conn_01x08_Male,PinHeader_1x08_P2.54mm_Vertical,,2,,,,,,
-24,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Odd_Even,J38,Conn_02x04_Odd_Even,PinHeader_2x04_P2.54mm_Vertical,,1,,,,,,
-25,"Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)",Eurorack Mono Jack,J1 J2 J3 J4 J5 J6 J7 J8 J9 J11 J12 J13 J14 J15 J16 J17 J18 J19 J20 J21 J22 J23 J24 J25 J26 J27,Eurorack Mono Jack,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical,,26,,,,Noise Out Delay Wet Mix In Delay Wet Out Audio Out Delay Clock Mix In Delay Clock Out VCA Input VCA Level CV Delay Time CV VCA Output Delay Input Filter Resonance CV Filter Frequency CV CV Mix 3 CV Mix Out /8 /5 /3 Divider Reset /13 /7 /4 /2 Filter Ping,WQP-WQP518MA,
-26,,Eurorack Power Small,J36,Eurorack Power Small,Eurorack_PowerHeader_2x05_P2.54mm_Shrouded,,1,,,,,,
-27,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J39,SPI,PinHeader_2x03_P2.54mm_Vertical,,1,,,,,,
-28,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP1,Jumper_2_Bridged,PinHeader_1x02_P2.54mm_Vertical,,1,,,,,,
-29,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",2N3904,Q3 Q4 Q5 Q6 Q8 Q10,2N3904,TO-92_Inline_Wide,,6,,,,,,
-30,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92",2N3906,Q7 Q9 Q11,2N3906,TO-92_Inline_Wide,,3,,,,,,
-31,"0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92",BC547,Q1,BC547,TO-92_Inline_Wide,,1,,,,,,
-32,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",2N3904,Q2,BC549C,TO-92_Inline_Wide,,1,,,,,,
-33,Resistor,R,R3,1m,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-34,Resistor,R,R4,22r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-35,Resistor,R,R90 R91 R95 R96 R98 R108 R113 R117,220r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,8,metal film,1%,,,,0.5W
-36,Resistor,R,R86 R87 R103,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,0.5W
-37,Resistor,R,R2 R8 R13 R22 R27 R33 R35 R37 R42 R43 R46,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,11,metal film,1%,,,,0.5W
-38,Resistor,R,R5 R39 R41 R44,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,4,metal film,1%,,,,0.5W
-39,Resistor,R,R55 R115,470r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,0.5W
-40,Resistor,R,R45 R75 R81 R110,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,4,metal film,1%,,,,0.5W
-41,Resistor,R,R116,2k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-42,Resistor,R,R84,2k2,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-43,Resistor,R,R69,2k7,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-44,Resistor,R,R21,4k7,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-45,Resistor,R,R97,6k8,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-46,Resistor,R,R12 R16 R23 R59 R60 R64 R67 R68 R70 R71 R80 R82,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,12,metal film,1%,,,,0.5W
-47,Resistor,R,R114 R125 R126,20k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,0.5W
-48,Resistor,R,R79 R100 R107 R111 R118,22k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,5,metal film,1%,,,,0.5W
-49,Resistor,R,R50 R94,33k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,0.5W
-50,Resistor,R,R9 R11 R40 R47 R56 R58 R61,47k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,7,metal film,1%,,,,0.5W
-51,Resistor,R,R76,82k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-52,Resistor,R,R1 R6 R7 R10 R14 R15 R18 R20 R24 R25 R28 R29 R30 R31 R32 R34 R36 R38 R48 R49 R51 R52 R53 R57 R62 R63 R65 R73 R74 R78 R83 R88 R89 R92 R93 R99 R101 R102 R104 R105 R106 R109 R119 R120 R122 R128 R129,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,47,metal film,1%,,,,0.5W
-53,Resistor,R,R26,120k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-54,Resistor,R,R124,150k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-55,Resistor,R,R123 R127,180k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,0.5W
-56,Resistor,R,R17 R77 R85 R112,220k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,4,metal film,1%,,,,0.5W
-57,Resistor,R,R19 R72 R121,330k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,0.5W
-58,Resistor,R,R54 R66,560k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,0.5W
-59,Resistor,R,R130,1M5,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,0.5W
-60,Trim-potentiometer,R_Potentiometer_Trim,RV22,100r,Potentiometer_THT_Bourns_3306P_Vertical,,1,single turn,,,,,
-61,Trim-potentiometer,R_Potentiometer_Trim,RV1,200k,Potentiometer_THT_Bourns_3306P_Vertical,,1,single turn,,,,,
-62,Potentiometer,R_Potentiometer,RV2 RV3 RV4 RV5 RV6 RV7 RV8 RV9 RV10 RV11 RV12 RV13 RV14 RV15 RV16 RV17 RV18 RV19 RV20 RV21,100kB,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,,20,,,,Delay Wet Stability Feedback Level Delay Feedback Stability Noise Level Delay Clock Stability Feedback Level Delay Wet Level Delay Dry Level Fixed Stability Voltage VCA Level CV Attenuverter Delay Input Level Division CV Mix Level 3 Filter Resonance CV Attenuverter Filter Frequency CV Attenuverter,,
-63,Binary counter 14 stages (asynchronous),4020,U3,4020,DIP-16_W7.62mm_Socket,,1,,,,,,
-64,"Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs",74LS241,U14,74LS241,DIP-20_W7.62mm_Socket,,1,,,,,,
-65,"20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, DIP-14",ATtiny24A-P,U11,ATtiny24A-P,DIP-14_W7.62mm,,1,,,,,,
-66,"Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92",L78L05_TO92,U8,L78L05_TO92,TO-92_Inline_Wide,,1,,,,,,
-67,"Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16",LM13700,U12 U13,LM13700,DIP-16_W7.62mm_Socket,,2,,,,,,
-68,Echo Processor IC,PT2399,U6,PT2399,DIP-16_W7.62mm_Socket,,1,,,,,,
-69,"Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8",TL072,U2 U4 U9 U15,TL072,DIP-8_W7.62mm_Socket,,4,,,,,,
-70,"Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14",TL074,U1 U5 U7 U10 U16,TL074,DIP-14_W7.62mm_Socket,,5,,,,,,
+Component,Description,Part,References,Value,Footprint,PartNumber,Quantity Per PCB,Spec,Tolerance,Voltage,Sim.Device,Sim.Pins,Name,mpn,Power
+1,Unpolarized capacitor,C,C3 C6 C7 C10 C13 C14 C16 C24 C25 C31 C39 C40 C43 C52 C57 C64,22pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,16,ceramic C0G,5%,,,,,,
+2,Unpolarized capacitor,C,C33 C46 C58,220pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,3,ceramic C0G,5%,,,,,,
+3,Unpolarized capacitor,C,C48 C49,220pF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,2,film polypropylene,5%,,,,,,
+4,Unpolarized capacitor,C,C28 C29,560pF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,2,ceramic C0G,5%,,,,,,
+5,Unpolarized capacitor,C,C34 C60 C66,10nF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,3,ceramic C0G,5%,,,,,,
+6,Unpolarized capacitor,C,C1 C2 C4 C5 C8 C9 C11 C12 C15 C17 C23 C35 C37 C41 C42 C44 C45 C47 C50 C51 C53 C54 C55 C56 C59 C61 C65,100nF,C_Rect_L7.0mm_W2.5mm_P5.00mm,,27,ceramic C0G,5%,,,,,,
+7,Unpolarized capacitor,C,C19 C20 C26 C30,100nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,4,ceramic C0G,5%,,,,,,
+8,Unpolarized capacitor,C,C18,470nF,C_Rect_L7.0mm_W3.5mm_P5.00mm,,1,ceramic C0G,5%,,,,,,
+9,Polarized capacitor,C_Polarized,C21 C22 C32 C62 C63,10uF,CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal,,5,electrolytic,20%,50v,,,,,
+10,Polarized capacitor,C_Polarized,C27,47uF,CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal,,1,electrolytic,20%,50v,,,,,
+11,Unpolarized capacitor,C,C36 C38,4n7F,C_Rect_L7.0mm_W3.5mm_P5.00mm,,2,ceramic C0G,5%,,,,,,
+12,Diode,D,D1 D2 D3 D4 D6 D8 D9 D10 D11 D12 D13 D14 D17 D18 D19 D22,1N4148,D_DO-35_SOD27_P7.62mm_Horizontal,,16,,,,D,1=K 2=A,,,
+13,"30V 1A Schottky Barrier Rectifier Diode, DO-41",1N5818,D5 D7 D20 D21,1N5818,D_DO-41_SOD81_P10.16mm_Horizontal,,4,,,,,,,,
+14,Zener diode,D_Zener,D15 D16,6v8,D_DO-35_SOD27_P7.62mm_Horizontal,,2,6.8v zener,,,,,,,
+15,"Generic connector, single row, 01x03, script generated",Conn_01x03_Pin,J10 J37,Conn_01x03_Male,PinHeader_1x03_P2.54mm_Vertical,,2,,,,,,Zener Limiter,,
+16,"Generic connector, single row, 01x04, script generated",Conn_01x04_Socket,J42 J44 J45 J46,Conn_01x04_Female,PinSocket_1x04_P2.54mm_Vertical,,4,,,,,,,,
+17,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J29 J30 J31 J33,Conn_01x04_Male,PinHeader_1x04_P2.54mm_Vertical,,4,,,,,,,,
+18,"Generic connector, single row, 01x06, script generated",Conn_01x06_Socket,J43 J47,Conn_01x06_Female,PinSocket_1x06_P2.54mm_Vertical,,2,,,,,,,,
+19,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J28 J32,Conn_01x06_Male,PinHeader_1x06_P2.54mm_Vertical,,2,,,,,,,,
+20,"Generic connector, single row, 01x08, script generated",Conn_01x08_Socket,J40 J41,Conn_01x08_Female,PinSocket_1x08_P2.54mm_Vertical,,2,,,,,,,,
+21,"Generic connector, single row, 01x08, script generated",Conn_01x08_Pin,J34 J35,Conn_01x08_Male,PinHeader_1x08_P2.54mm_Vertical,,2,,,,,,,,
+22,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x04_Odd_Even,J38,Conn_02x04_Odd_Even,PinHeader_2x04_P2.54mm_Vertical,,1,,,,,,,,
+23,"Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)",Eurorack_Mono_Jack,J1 J2 J3 J4 J5 J6 J7 J8 J9 J11 J12 J13 J14 J15 J16 J17 J18 J19 J20 J21 J22 J23 J24 J25 J26 J27,Eurorack Mono Jack,Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical,,26,,,,,,Noise Out Delay Wet Mix In Delay Wet Out Audio Out Delay Clock Mix In Delay Clock Out VCA Input VCA Level CV Delay Time CV VCA Output Delay Input Filter Resonance CV Filter Frequency CV CV Mix 3 CV Mix Out /7 /5 /3 Divider Reset /8 /6 /4 /2 Filter Ping,WQP-WQP518MA,
+24,,Eurorack Power Small,J36,Eurorack Power Small,Eurorack_PowerHeader_2x05_P2.54mm_Shrouded,,1,,,,,,,,
+25,"Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Odd_Even,J39,SPI,PinHeader_2x03_P2.54mm_Vertical,,1,,,,,,,,
+26,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",2N3904,Q3 Q4 Q5 Q6 Q8 Q10,2N3904,TO-92_Inline_Wide,,6,,,,,,,,
+27,"-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92",2N3906,Q7 Q9 Q11,2N3906,TO-92_Inline_Wide,,3,,,,,,,,
+28,"0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92",BC547,Q1,BC547,TO-92_Inline_Wide,,1,,,,,,,,
+29,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92",2N3904,Q2,BC549C,TO-92_Inline_Wide,,1,,,,,,,,
+30,Resistor,R,R4,22r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,,,0.5W
+31,Resistor,R,R90 R91 R95 R96 R98 R108 R113 R117,220r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,8,metal film,1%,,,,,,0.5W
+32,Resistor,R,R86 R87 R103,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,,,0.5W
+33,Resistor,R,R2 R8 R13 R22 R27 R33 R35 R37 R42 R43 R46,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,11,metal film,1%,,,,,,0.5W
+34,Resistor,R,R5 R39 R41 R44,330r,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,,4,metal film,1%,,,,,,0.5W
+35,Resistor,R,R55 R115,470r,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,,,0.5W
+36,Resistor,R,R45 R75 R81 R110,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,4,metal film,1%,,,,,,0.5W
+37,Resistor,R,R21 R69 R84 R116,2k2,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,4,metal film,1%,,,,,,0.5W
+38,Resistor,R,R12 R16 R23 R59 R60 R64 R67 R68 R70 R71 R80 R82 R97,10k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,13,metal film,1%,,,,,,0.5W
+39,Resistor,R,R79 R100 R107 R111 R114 R125 R126,20k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,7,metal film,1%,,,,,,0.5W
+40,Resistor,R,R50 R94,33k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,,,0.5W
+41,Resistor,R,R9 R11 R40 R47 R56 R58 R61,47k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,7,metal film,1%,,,,,,0.5W
+42,Resistor,R,R118,51k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,,,0.5W
+43,Resistor,R,R1 R6 R7 R10 R14 R15 R18 R20 R24 R25 R28 R29 R30 R31 R32 R34 R36 R38 R48 R49 R51 R52 R53 R62 R63 R65 R73 R74 R76 R78 R83 R88 R89 R92 R93 R99 R101 R102 R104 R105 R106 R109 R119 R120 R122 R128 R129,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,47,metal film,1%,,,,,,0.5W
+44,Resistor,R,R26 R57,120k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,2,metal film,1%,,,,,,0.5W
+45,Resistor,R,R123 R124 R127,180k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,,,0.5W
+46,Resistor,R,R17 R77 R85 R112,220k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,4,metal film,1%,,,,,,0.5W
+47,Resistor,R,R19 R72 R121,330k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,,,0.5W
+48,Resistor,R,R3 R54 R66,560k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,3,metal film,1%,,,,,,0.5W
+49,Resistor,R,R130,1M5,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1,metal film,1%,,,,,,0.5W
+50,Trim-potentiometer,R_Potentiometer_Trim,RV22,100r,Potentiometer_THT_Bourns_3306P_Vertical,,1,single turn,,,,,,,
+51,Potentiometer,R_Potentiometer,RV2 RV3 RV4 RV5 RV6 RV7 RV8 RV9 RV10 RV11 RV12 RV13 RV14 RV15 RV16 RV17 RV18 RV19 RV20 RV21,100kB,Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,,20,,,,,,Delay Wet Stability Feedback Level Delay Feedback Stability Noise Level Delay Clock Stability Feedback Level Delay Wet Level Delay Dry Level Fixed Stability Voltage VCA Level CV Attenuverter Delay Input Level Division CV Mix Level 3 Filter Resonance CV Attenuverter Filter Frequency CV Attenuverter,,
+52,Trim-potentiometer,R_Potentiometer_Trim,RV1,200kB,Potentiometer_THT_Bourns_3306P_Vertical,,1,single turn,,,,,,,
+53,Binary counter 14 stages (asynchronous),4020,U3,4020,DIP-16_W7.62mm_Socket,,1,,,,,,,,
+54,"Octal Buffer and Line Driver With 3-State Output, complementary enables, non-inverting outputs",74LS241,U14,74LS241,DIP-20_W7.62mm_Socket,,1,,,,,,,,
+55,"20MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, DIP-14",ATtiny24A-P,U11,ATtiny24A-P,DIP-14_W7.62mm,,1,,,,,,,,
+56,"Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92",L78L05_TO92,U8,L78L05_TO92,TO-92_Inline_Wide,,1,,,,,,,,
+57,"Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16",LM13700,U12 U13,LM13700,DIP-16_W7.62mm_Socket,,2,,,,,,,,
+58,Echo Processor IC,PT2399,U6,PT2399,DIP-16_W7.62mm_Socket,,1,,,,,,,,
+59,"Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8",TL072,U2 U4 U9 U15,TL072,DIP-8_W7.62mm_Socket,,4,,,,,,,,
+60,"Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14",TL074,U1 U5 U7 U10 U16,TL074,DIP-14_W7.62mm_Socket,,5,,,,,,,,
