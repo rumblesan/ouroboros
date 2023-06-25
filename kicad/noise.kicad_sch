@@ -611,7 +611,7 @@
     (property "Reference" "RV1" (at 85.09 66.675 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "200kB" (at 85.09 69.215 0)
+    (property "Value" "200k" (at 85.09 69.215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_THT_Bourns_3306P_Vertical" (at 93.98 67.31 90)

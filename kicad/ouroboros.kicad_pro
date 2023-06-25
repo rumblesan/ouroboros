@@ -493,6 +493,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": "Power",
       "Net-(D20-A)": "Power",
       "Net-(D21-K)": "Power",
       "VCC": "Power",
