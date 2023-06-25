@@ -1252,7 +1252,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 196.85 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a29beae-0c76-472e-b222-c0afef324111)
     (property "Reference" "TP12" (at 198.247 68.2533 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2168,7 +2168,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 152.4 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be2006bc-b8f1-4bab-83eb-e4845926b03d)
     (property "Reference" "TP8" (at 153.797 59.3633 0)
       (effects (font (size 1.27 1.27)) (justify left))

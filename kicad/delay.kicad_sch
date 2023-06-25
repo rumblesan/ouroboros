@@ -3586,7 +3586,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 152.4 78.74 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c357a96-4aa9-4cb2-a64b-3d0ae18b2e62)
     (property "Reference" "TP15" (at 157.099 77.9053 90)
       (effects (font (size 1.27 1.27)) (justify left))
