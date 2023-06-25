@@ -498,24 +498,7 @@
       "VCC": "Power",
       "VEE": "Power"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Ground",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VEE"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

@@ -1019,6 +1019,12 @@
     (uuid f3acb6f2-9acc-47b7-8a01-2aad28534224)
   )
 
+  (text "If volt per octave tuning is important then\nR116 should ideally be a 2K +3300ppm/°C tempco resistor"
+    (at 106.68 128.27 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2f786eaf-d849-436d-a29f-6bc0477537e9)
+  )
+
   (hierarchical_label "RES_CV_ATTV_BOTTOM" (shape input) (at 43.18 50.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2dc8ea1b-37ff-4737-907c-846e402f57e3)
@@ -1252,7 +1258,7 @@
     (property "Reference" "R116" (at 90.17 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2k" (at 90.17 128.27 90)
+    (property "Value" "2k2" (at 90.17 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 92.71 128.27 90)

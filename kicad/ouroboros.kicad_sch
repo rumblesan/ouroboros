@@ -5086,7 +5086,7 @@
     (property "Reference" "R21" (at 102.108 94.4153 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "4k7" (at 102.108 96.9522 0)
+    (property "Value" "2k2" (at 102.108 96.9522 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 97.79 97.79 90)
