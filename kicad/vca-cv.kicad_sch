@@ -727,6 +727,16 @@
     (uuid fbc47854-9f38-4dab-9a59-fcaea0fbfda0)
   )
 
+  (text "i_vca ma = Vc/Rin * (1k + 33k)/1k\n\n5V input so 5v/330 * 34 = 0.51ma"
+    (at 176.53 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 70a5e10e-1b0f-48c6-b01c-e81dcaa300bb)
+  )
+  (text "TODO calculate these values" (at 153.67 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c5e8abe1-5f16-4052-8fbd-67d103f2a6bd)
+  )
+
   (hierarchical_label "VCA_LEVEL" (shape input) (at 96.52 95.25 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 02fac29f-f2e1-4d18-97e3-aee3d7df850d)
@@ -1193,7 +1203,7 @@
     (property "Datasheet" "" (at 204.47 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fbc5166b-16a5-4e54-8df5-aef4e631e0fd))
+    (pin "1" (uuid 5d866dbe-6908-4a89-af26-09f292274a39))
     (instances
       (project "ouroboros"
         (path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/153ecf7e-2201-4471-a457-69b9252f0848"

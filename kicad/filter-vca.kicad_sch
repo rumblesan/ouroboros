@@ -2077,9 +2077,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a5032cbf-fd7d-44ce-81db-071ea119d824)
   )
-  (text "Test if this pinging path is useful" (at 124.46 34.29 0)
+  (text "Vout = Vin * (220 / 100k + 220) * 19.2 * i_vca * 51k\nGain = Vout/Vin\nGain = 1.07"
+    (at 281.94 173.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a8f4f50b-f145-487c-a40a-52cb83433deb)
+    (uuid c527398c-69e9-4c6a-a4c8-472915abd238)
   )
   (text "should make things less\nlikely to oscillate at\nmuch higher frequencies"
     (at 170.18 149.86 0)
