@@ -429,7 +429,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:C"
+		(symbol "Rumblesan_Standard_Parts:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -452,7 +452,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 				(at 5.715 1.27 90)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:R"
+		(symbol "Rumblesan_Standard_Parts:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -589,7 +589,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R?"
-				(at -5.08 0 90)
+				(at -4.318 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -597,14 +597,14 @@
 				)
 			)
 			(property "Value" "R"
-				(at -2.54 0 90)
+				(at -2.286 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 				(at 2.54 -2.54 90)
 				(effects
 					(font
@@ -678,8 +678,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -691,7 +691,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -709,7 +709,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -920,9 +920,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -996,8 +996,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1016,9 +1016,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1032,7 +1032,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1116,8 +1116,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1136,9 +1136,9 @@
 		)
 		(symbol "power:VEE"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1152,7 +1152,7 @@
 				)
 			)
 			(property "Value" "VEE"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1224,8 +1224,8 @@
 			(symbol "VEE_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VEE"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1882,7 +1882,7 @@
 		(uuid "cf4f9291-a487-434e-ac52-f7773db2a7fe")
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 133.35 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1892,7 +1892,7 @@
 		(fields_autoplaced yes)
 		(uuid "09aaa3bc-9084-402c-bd2d-4d4ac93f4e43")
 		(property "Reference" "C46"
-			(at 133.35 77.47 90)
+			(at 133.35 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 133.35 80.01 90)
+			(at 133.35 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 68.58 0)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 78.74 0)
 			(effects
 				(font
@@ -2187,8 +2187,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 138.43 64.77 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 138.43 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2197,7 +2197,7 @@
 		(fields_autoplaced yes)
 		(uuid "435ab7e8-ec23-4582-bf6c-04f924d257cc")
 		(property "Reference" "R94"
-			(at 138.43 59.69 90)
+			(at 138.43 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2205,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 138.43 62.23 90)
+			(at 138.43 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 140.97 62.23 90)
+			(at 135.89 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 58.42 0)
+			(at 138.43 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 144.78 59.69 90)
+			(at 132.08 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2249,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 130.81 59.69 90)
+			(at 146.05 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 138.43 59.69 90)
+			(at 138.43 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -2348,8 +2348,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 166.37 64.77 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 166.37 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2358,7 +2358,7 @@
 		(fields_autoplaced yes)
 		(uuid "674cc5f5-6922-46c3-a835-56c142971059")
 		(property "Reference" "R110"
-			(at 166.37 59.69 90)
+			(at 166.37 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2366,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 166.37 62.23 90)
+			(at 166.37 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2374,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 168.91 62.23 90)
+			(at 163.83 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 58.42 0)
+			(at 166.37 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 166.37 64.77 0)
 			(effects
 				(font
@@ -2401,7 +2401,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 172.72 59.69 90)
+			(at 160.02 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 158.75 59.69 90)
+			(at 173.99 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 166.37 59.69 90)
+			(at 166.37 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,8 +2443,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 109.22 74.93 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 109.22 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2453,7 +2453,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c8e83c9-1ae9-41c5-8b57-a332bb1acc8a")
 		(property "Reference" "R74"
-			(at 109.22 69.85 90)
+			(at 109.22 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2461,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 109.22 72.39 90)
+			(at 109.22 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +2469,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 111.76 72.39 90)
+			(at 106.68 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 68.58 0)
+			(at 109.22 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 109.22 74.93 0)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 115.57 69.85 90)
+			(at 102.87 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 101.6 69.85 90)
+			(at 116.84 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +2514,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 109.22 69.85 90)
+			(at 109.22 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 92.71 74.93 0)
 			(effects
 				(font
@@ -2737,7 +2737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-8_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 203.2 68.58 0)
 			(effects
 				(font
@@ -2798,8 +2798,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 110.49 95.25 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 110.49 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2808,7 +2808,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad7ff7dd-bed8-42c7-be50-ae478db5f64c")
 		(property "Reference" "R72"
-			(at 110.49 90.17 90)
+			(at 110.49 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 110.49 92.71 90)
+			(at 110.49 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 113.03 92.71 90)
+			(at 107.95 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 88.9 0)
+			(at 110.49 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 110.49 95.25 0)
 			(effects
 				(font
@@ -2851,7 +2851,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 116.84 90.17 90)
+			(at 104.14 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +2860,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 102.87 90.17 90)
+			(at 118.11 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2869,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 110.49 90.17 90)
+			(at 110.49 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,7 +2921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:TO-92_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 156.21 95.885 0)
 			(effects
 				(font
@@ -2970,7 +2970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 209.55 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2980,7 +2980,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5103092-6fe3-4d05-97da-02c4fd01a809")
 		(property "Reference" "C41"
-			(at 213.36 61.595 0)
+			(at 213.36 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2989,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 213.36 64.135 0)
+			(at 213.36 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 69.85 0)
 			(effects
 				(font
@@ -3124,8 +3124,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 92.71 59.69 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 92.71 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3134,7 +3134,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd028881-9385-4e8c-82a3-733e90fbf49f")
 		(property "Reference" "R73"
-			(at 92.71 54.61 90)
+			(at 92.71 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 92.71 57.15 90)
+			(at 92.71 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3150,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 95.25 57.15 90)
+			(at 90.17 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3159,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 53.34 0)
+			(at 92.71 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -3177,7 +3177,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 99.06 54.61 90)
+			(at 86.36 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +3186,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 85.09 54.61 90)
+			(at 100.33 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 92.71 54.61 90)
+			(at 92.71 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -3329,7 +3329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 200.66 81.28 0)
 			(effects
 				(font
@@ -3351,7 +3351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 209.55 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3361,7 +3361,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7b94d5d-e91b-496a-8db8-ef65bb742e2c")
 		(property "Reference" "C45"
-			(at 213.36 74.295 0)
+			(at 213.36 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3370,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 213.36 76.835 0)
+			(at 213.36 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)

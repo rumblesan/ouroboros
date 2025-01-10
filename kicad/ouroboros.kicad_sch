@@ -402,201 +402,6 @@
 				)
 			)
 		)
-		(symbol "Audio_Connectors:Eurorack_Mono_Jack"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 3.302 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Eurorack Mono Jack"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "rumblesan-standard-parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-				(at 1.27 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mpn" "WQP-WQP518MA"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector eurorack"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Eurorack_Mono_Jack_0_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.016) (xy -2.032 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.778 1.27) (xy -1.778 -1.016) (xy -1.524 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.635 -0.635) (xy -1.27 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 0.635 -3.81) (xy 0.635 -1.27) (xy 1.27 -0.635) (xy 1.905 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.27)
-					(end 3.81 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Eurorack_Mono_Jack_1_1"
-				(pin passive line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "Sleeve"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "Tip"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "Tip_normalize"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2862,6 +2667,200 @@
 				)
 			)
 		)
+		(symbol "Connector_Audio:AudioJack2_SwitchT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack2_SwitchT"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack2_SwitchT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -3320,250 +3319,6 @@
 				)
 			)
 		)
-		(symbol "Eurorack_Power:Eurorack Power Small"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J?"
-				(at 0 6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Eurorack Power Small"
-				(at 0 -6.985 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Eurorack Power Small_0_1"
-				(rectangle
-					(start -2.54 5.715)
-					(end 3.81 -5.715)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Eurorack Power Small_1_1"
-				(pin power_out line
-					(at 6.35 -3.81 180)
-					(length 2.54)
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 3.81 180)
-					(length 2.54) hide
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 2.54) hide
-					(name "-12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 6.35 3.81 180)
-					(length 2.54)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -3806,7 +3561,251 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:C"
+		(symbol "Rumblesan_Eurorack_Power:Eurorack Power Small"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J?"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Eurorack Power Small"
+				(at 0 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Eurorack Power Small_0_1"
+				(rectangle
+					(start -2.54 5.715)
+					(end 3.81 -5.715)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Eurorack Power Small_1_1"
+				(pin power_out line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 2.54) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54) hide
+					(name "-12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Rumblesan_Standard_Parts:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -3829,7 +3828,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 				(at 5.715 1.27 90)
 				(effects
 					(font
@@ -3957,7 +3956,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:C_Polarized"
+		(symbol "Rumblesan_Standard_Parts:C_Polarized"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -3980,7 +3979,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:CP_Radial_D5.0mm_P2.00mm"
+			(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 				(at 6.35 0 90)
 				(effects
 					(font
@@ -4139,7 +4138,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:R"
+		(symbol "Rumblesan_Standard_Parts:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -4148,7 +4147,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R?"
-				(at -5.08 0 90)
+				(at -4.318 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4156,14 +4155,14 @@
 				)
 			)
 			(property "Value" "R"
-				(at -2.54 0 90)
+				(at -2.286 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 				(at 2.54 -2.54 90)
 				(effects
 					(font
@@ -4237,8 +4236,8 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4250,7 +4249,7 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 0 3.81 270)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -4268,7 +4267,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -4287,7 +4286,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:R_Potentiometer"
+		(symbol "Rumblesan_Standard_Parts:R_Potentiometer"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -4309,7 +4308,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+			(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 				(at -10.16 -1.27 90)
 				(effects
 					(font
@@ -4450,9 +4449,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4550,8 +4549,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4570,9 +4569,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4646,8 +4645,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4729,7 +4728,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4762,9 +4761,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4778,7 +4777,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4862,8 +4861,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4882,9 +4881,9 @@
 		)
 		(symbol "power:VEE"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4898,7 +4897,7 @@
 				)
 			)
 			(property "Value" "VEE"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4970,8 +4969,8 @@
 			(symbol "VEE_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VEE"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10673,7 +10672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 187.96 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10699,7 +10698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 198.12 223.52 90)
 			(effects
 				(font
@@ -10717,7 +10716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 187.96 224.79 0)
 			(effects
 				(font
@@ -10753,8 +10752,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 44.45 142.24 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 44.45 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10763,25 +10762,25 @@
 		(fields_autoplaced yes)
 		(uuid "050d3b5c-d30d-4cdb-98f3-01981d734c47")
 		(property "Reference" "R11"
-			(at 46.99 141.605 0)
+			(at 46.99 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "47k"
-			(at 46.99 144.145 0)
+			(at 46.99 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.91 139.7 90)
+			(at 46.99 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +10789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 142.24 90)
+			(at 50.8 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 44.45 142.24 0)
 			(effects
 				(font
@@ -10808,7 +10807,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 39.37 135.89 90)
+			(at 49.53 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10816,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 39.37 149.86 90)
+			(at 49.53 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +10825,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 39.37 142.24 90)
+			(at 49.53 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 52.07 62.23 0)
 		(mirror x)
 		(unit 1)
@@ -10877,7 +10876,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 41.91 60.96 90)
 			(effects
 				(font
@@ -10895,7 +10894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -10975,7 +10974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 368.3 31.75 0)
 			(effects
 				(font
@@ -11041,7 +11040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 302.26 158.75 0)
 			(effects
 				(font
@@ -11242,7 +11241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 196.85 0)
 			(effects
 				(font
@@ -11605,7 +11604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 245.11 161.29 0)
 			(effects
 				(font
@@ -11671,7 +11670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 58.42 25.4 0)
 			(effects
 				(font
@@ -11693,8 +11692,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 269.24 21.59 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 269.24 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11702,7 +11701,7 @@
 		(dnp no)
 		(uuid "1749fbc3-4d2c-4c03-b6e5-7d4e1229afb4")
 		(property "Reference" "J19"
-			(at 270.51 16.51 0)
+			(at 267.97 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +11710,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 273.812 23.9272 0)
+			(at 264.668 20.5228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,8 +11719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 270.51 30.48 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 269.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,8 +11728,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 269.24 33.02 0)
+		(property "Datasheet" "~"
+			(at 269.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,8 +11737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 269.24 21.59 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 269.24 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11748,7 +11747,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 269.24 27.94 0)
+			(at 269.24 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,20 +11756,20 @@
 			)
 		)
 		(property "Name" "/7"
-			(at 274.32 24.13 0)
+			(at 274.574 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "7b781156-75dc-4242-a613-ea0c530a4711")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "d2ede43b-3bb0-437a-ba9a-157af980899c")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "30935054-dd69-4ec5-bd4b-2bc3d0263e93")
 		)
 		(instances
@@ -11827,7 +11826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 266.7 161.29 0)
 			(effects
 				(font
@@ -11893,7 +11892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 266.7 187.96 0)
 			(effects
 				(font
@@ -11915,8 +11914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 182.88 21.59 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 182.88 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11924,7 +11923,7 @@
 		(dnp no)
 		(uuid "18c45613-9e8a-46cc-b021-6093e6e63c1d")
 		(property "Reference" "J22"
-			(at 184.15 16.51 0)
+			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,7 +11932,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 187.452 23.9272 0)
+			(at 178.308 20.5228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,8 +11941,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 184.15 30.48 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 182.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,8 +11950,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 182.88 33.02 0)
+		(property "Datasheet" "~"
+			(at 182.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,8 +11959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 21.59 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 182.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +11969,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 182.88 27.94 0)
+			(at 182.88 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,20 +11978,20 @@
 			)
 		)
 		(property "Name" "Divider Reset"
-			(at 194.31 21.59 0)
+			(at 187.96 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "daa57628-a879-44ae-82b8-f549d1fc0eec")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "06410f67-a563-4a54-90ea-229bb4a9cad1")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "1a381131-f0ae-4535-abbb-57dd5a4bf394")
 		)
 		(instances
@@ -12049,7 +12048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -12071,8 +12070,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 48.26 29.21 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 48.26 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12081,25 +12080,25 @@
 		(fields_autoplaced yes)
 		(uuid "1a49bcb8-7ea4-461e-8c35-6deb93317ea9")
 		(property "Reference" "R5"
-			(at 50.8 28.575 0)
+			(at 50.8 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "330r"
-			(at 50.8 31.115 0)
+			(at 50.8 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 45.72 26.67 90)
+			(at 50.8 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 29.21 90)
+			(at 54.61 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +12115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 48.26 29.21 0)
 			(effects
 				(font
@@ -12126,7 +12125,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 43.18 22.86 90)
+			(at 53.34 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,7 +12134,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 43.18 36.83 90)
+			(at 53.34 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,7 +12143,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 43.18 29.21 90)
+			(at 53.34 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,8 +12167,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 266.7 168.91 0)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 266.7 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12177,7 +12176,7 @@
 		(dnp no)
 		(uuid "1ce5e142-e004-4094-befb-21629ca30a41")
 		(property "Reference" "R26"
-			(at 261.62 167.64 90)
+			(at 271.78 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +12185,7 @@
 			)
 		)
 		(property "Value" "120k"
-			(at 264.16 166.37 90)
+			(at 269.24 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +12194,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 269.24 171.45 90)
+			(at 264.16 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +12203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 168.91 90)
+			(at 260.35 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12212,7 +12211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -12222,7 +12221,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 271.78 175.26 90)
+			(at 261.62 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +12230,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 271.78 161.29 90)
+			(at 261.62 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +12239,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 271.78 168.91 90)
+			(at 261.62 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +12330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 44.45 110.49 0)
 		(mirror x)
 		(unit 1)
@@ -12358,7 +12357,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 34.29 109.22 90)
 			(effects
 				(font
@@ -12376,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 44.45 110.49 0)
 			(effects
 				(font
@@ -12456,7 +12455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 325.12 240.03 0)
 			(effects
 				(font
@@ -12522,7 +12521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 337.82 240.03 0)
 			(effects
 				(font
@@ -12544,8 +12543,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 309.88 123.19 270)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 309.88 123.19 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12553,7 +12553,7 @@
 		(dnp no)
 		(uuid "2305cb56-946b-4353-bf89-53be91055c49")
 		(property "Reference" "R32"
-			(at 311.15 118.11 90)
+			(at 308.61 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12562,7 +12562,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 312.42 120.65 90)
+			(at 307.34 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12571,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 307.34 125.73 90)
+			(at 312.42 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 309.88 123.19 0)
 			(effects
 				(font
@@ -12598,7 +12598,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 303.53 128.27 90)
+			(at 316.23 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,7 +12607,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 317.5 128.27 90)
+			(at 302.26 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12684,7 +12684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 311.15 29.21 0)
 			(effects
 				(font
@@ -12706,7 +12706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 96.52 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12716,7 +12716,7 @@
 		(fields_autoplaced yes)
 		(uuid "26aee799-a50a-4c97-86a0-80173e147f83")
 		(property "Reference" "C4"
-			(at 100.33 139.065 0)
+			(at 100.33 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12725,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 100.33 141.605 0)
+			(at 100.33 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +12838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 314.96 24.13 0)
 			(effects
 				(font
@@ -12860,7 +12860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 307.34 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12886,7 +12886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 297.18 66.04 90)
 			(effects
 				(font
@@ -12904,7 +12904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 307.34 64.77 0)
 			(effects
 				(font
@@ -12940,7 +12940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 67.31 248.92 0)
 		(mirror x)
 		(unit 1)
@@ -12967,7 +12967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 57.15 247.65 90)
 			(effects
 				(font
@@ -12985,7 +12985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 67.31 248.92 0)
 			(effects
 				(font
@@ -13021,8 +13021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 64.77 20.32 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 64.77 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13030,7 +13030,7 @@
 		(dnp no)
 		(uuid "2b504b34-55bd-484a-9289-1be87245fc81")
 		(property "Reference" "J1"
-			(at 69.342 20.1203 0)
+			(at 60.198 21.7897 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13039,7 +13039,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 69.342 22.6572 0)
+			(at 60.198 19.2528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,8 +13048,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 66.04 29.21 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 64.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,8 +13057,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 64.77 31.75 0)
+		(property "Datasheet" "~"
+			(at 64.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13066,8 +13066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 20.32 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 64.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13076,7 +13076,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 64.77 26.67 0)
+			(at 64.77 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13085,20 +13085,20 @@
 			)
 		)
 		(property "Name" "Noise Out"
-			(at 73.66 20.32 90)
+			(at 69.85 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "305e6b96-491a-4d06-b218-d6d584649770")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "7ab8e0fb-1722-496d-87af-17ea593a3095")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "fd660498-6d4a-4826-a47b-5be459d2bd5b")
 		)
 		(instances
@@ -13111,9 +13111,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 161.29 142.24 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 161.29 143.51 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13121,7 +13121,7 @@
 		(dnp no)
 		(uuid "2dc432a1-93fd-4a71-a8fa-e940ffcae530")
 		(property "Reference" "J9"
-			(at 156.718 142.0403 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,7 +13130,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 156.718 144.5772 0)
+			(at 165.862 141.1728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13139,8 +13139,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 160.02 151.13 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,8 +13148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 161.29 153.67 0)
+		(property "Datasheet" "~"
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13157,8 +13157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 161.29 142.24 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13167,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 161.29 148.59 0)
+			(at 161.29 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,20 +13176,20 @@
 			)
 		)
 		(property "Name" "Delay Time CV"
-			(at 151.13 139.7 0)
+			(at 149.86 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "e16532d6-b2f7-4aab-b0a2-c821516c7680")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "761cd866-5f2b-4208-a6b6-3079e50a6035")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "51ce7757-92e7-4bef-8283-d6424b709350")
 		)
 		(instances
@@ -13202,9 +13202,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 100.33 95.25 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13212,7 +13212,7 @@
 		(dnp no)
 		(uuid "2e383781-c99c-4205-8980-e6e33ebd3fd7")
 		(property "Reference" "R21"
-			(at 102.108 94.4153 0)
+			(at 98.552 96.0847 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13221,7 +13221,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 102.108 96.9522 0)
+			(at 98.552 93.5478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13230,7 +13230,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 97.79 97.79 90)
+			(at 102.87 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +13239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 95.25 90)
+			(at 106.68 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13247,7 +13247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 100.33 95.25 0)
 			(effects
 				(font
@@ -13257,7 +13257,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 95.25 101.6 90)
+			(at 105.41 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +13266,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 95.25 87.63 90)
+			(at 105.41 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13275,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 95.25 95.25 90)
+			(at 105.41 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,17 +13299,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 184.15 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e7fb674-886f-4e3f-8d95-576d44ea4b6e")
 		(property "Reference" "RV9"
-			(at 185.9279 164.2653 0)
+			(at 186.69 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +13317,7 @@
 			)
 		)
 		(property "Value" "100kB"
-			(at 185.9279 166.8022 0)
+			(at 186.69 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13326,7 +13325,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 194.31 163.83 90)
 			(effects
 				(font
@@ -13344,13 +13343,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 184.15 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Delay Time"
+			(at 192.024 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13372,18 +13379,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 109.22 88.9 270)
-		(mirror x)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 109.22 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30b29e9a-70db-4f13-9b3d-cbcb10b6da78")
 		(property "Reference" "R20"
-			(at 109.22 83.82 90)
+			(at 109.22 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13396,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 109.22 86.36 90)
+			(at 109.22 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13404,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 106.68 86.36 90)
+			(at 111.76 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 109.22 88.9 0)
 			(effects
 				(font
@@ -13426,7 +13431,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 102.87 83.82 90)
+			(at 115.57 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13440,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 116.84 83.82 90)
+			(at 101.6 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,8 +13473,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 203.2 40.64 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 203.2 40.64 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13477,7 +13483,7 @@
 		(dnp no)
 		(uuid "310c614c-fa31-4b7f-bd37-2bb619469ae3")
 		(property "Reference" "R42"
-			(at 204.978 39.8053 0)
+			(at 204.978 41.4747 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13492,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 204.978 42.3422 0)
+			(at 204.978 38.9378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +13501,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 200.66 38.1 90)
+			(at 200.66 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 203.2 40.64 0)
 			(effects
 				(font
@@ -13522,7 +13528,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 198.12 34.29 90)
+			(at 198.12 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,7 +13537,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 198.12 48.26 90)
+			(at 198.12 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,7 +13614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 334.01 30.48 0)
 			(effects
 				(font
@@ -13630,18 +13636,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 118.11 66.04 0)
-		(mirror y)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 118.11 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32c39f0f-6717-4b2c-94df-d03a416295e0")
 		(property "Reference" "R23"
-			(at 120.65 65.405 0)
+			(at 120.65 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13654,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 120.65 67.945 0)
+			(at 120.65 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13663,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 115.57 68.58 90)
+			(at 115.57 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 66.04 0)
 			(effects
 				(font
@@ -13686,7 +13690,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 113.03 72.39 90)
+			(at 113.03 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,7 +13699,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 113.03 58.42 90)
+			(at 113.03 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13728,8 +13732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 57.15 167.64 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 57.15 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13738,7 +13742,7 @@
 		(fields_autoplaced yes)
 		(uuid "3346b666-1f0f-4799-a467-2e4804b4aa67")
 		(property "Reference" "R24"
-			(at 57.15 162.56 90)
+			(at 57.15 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13746,7 +13750,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 57.15 165.1 90)
+			(at 57.15 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,7 +13758,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 59.69 165.1 90)
+			(at 54.61 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +13767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 161.29 90)
+			(at 57.15 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13771,7 +13775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 57.15 167.64 0)
 			(effects
 				(font
@@ -13781,7 +13785,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 63.5 162.56 90)
+			(at 50.8 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13790,7 +13794,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 49.53 162.56 90)
+			(at 64.77 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13799,7 +13803,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 57.15 162.56 90)
+			(at 57.15 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13868,7 +13872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 300.99 127 0)
 			(effects
 				(font
@@ -13965,7 +13969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 96.52 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13975,7 +13979,7 @@
 		(fields_autoplaced yes)
 		(uuid "37133eec-0633-443f-9e80-719391d28c23")
 		(property "Reference" "C5"
-			(at 100.33 126.365 0)
+			(at 100.33 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +13988,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 100.33 128.905 0)
+			(at 100.33 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,8 +14057,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 200.66 31.75 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 200.66 31.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14062,7 +14067,7 @@
 		(dnp no)
 		(uuid "37aa24ac-11ff-4c82-a394-3fa4c99b7512")
 		(property "Reference" "R35"
-			(at 198.12 30.48 90)
+			(at 198.12 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,7 +14076,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 198.12 35.56 90)
+			(at 198.12 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14080,7 +14085,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 198.12 29.21 90)
+			(at 198.12 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14097,7 +14102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -14107,7 +14112,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 195.58 25.4 90)
+			(at 195.58 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14121,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 195.58 39.37 90)
+			(at 195.58 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,8 +14154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 242.57 21.59 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 242.57 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14158,7 +14163,7 @@
 		(dnp no)
 		(uuid "3ac6b8eb-658f-47d8-b150-13c43d906592")
 		(property "Reference" "J20"
-			(at 243.84 16.51 0)
+			(at 241.3 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +14172,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 247.142 23.9272 0)
+			(at 237.998 20.5228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14176,8 +14181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 243.84 30.48 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 242.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14185,8 +14190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 242.57 33.02 0)
+		(property "Datasheet" "~"
+			(at 242.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14194,8 +14199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 242.57 21.59 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 242.57 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14209,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 242.57 27.94 0)
+			(at 242.57 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,20 +14218,20 @@
 			)
 		)
 		(property "Name" "/5"
-			(at 247.65 24.13 0)
+			(at 248.158 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "093a7e43-05bd-4332-b706-3dfbf84ed294")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "38fc1e19-c1a1-4be2-80be-5543764e1815")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "0b7079f0-e291-4d9b-a1dc-21942a9adaf4")
 		)
 		(instances
@@ -14239,8 +14244,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 261.62 198.12 270)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 261.62 198.12 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14248,7 +14254,7 @@
 		(dnp no)
 		(uuid "3b483144-9cdb-44b2-88dc-c5983cf4f578")
 		(property "Reference" "R19"
-			(at 262.89 193.04 90)
+			(at 260.35 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14257,7 +14263,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 264.16 195.58 90)
+			(at 259.08 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14266,7 +14272,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 259.08 200.66 90)
+			(at 264.16 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14283,7 +14289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 261.62 198.12 0)
 			(effects
 				(font
@@ -14293,7 +14299,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 255.27 203.2 90)
+			(at 267.97 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14302,7 +14308,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 269.24 203.2 90)
+			(at 254 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,8 +14341,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 236.22 248.92 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 236.22 248.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14345,7 +14351,7 @@
 		(fields_autoplaced yes)
 		(uuid "3baade23-d3b8-41d8-8ce1-06c9414fba81")
 		(property "Reference" "R13"
-			(at 236.22 243.84 90)
+			(at 236.22 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14353,7 +14359,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 236.22 246.38 90)
+			(at 236.22 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +14367,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 238.76 246.38 90)
+			(at 233.68 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,7 +14376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 242.57 90)
+			(at 236.22 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14378,7 +14384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 236.22 248.92 0)
 			(effects
 				(font
@@ -14388,7 +14394,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 242.57 243.84 90)
+			(at 229.87 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14403,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 228.6 243.84 90)
+			(at 243.84 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14412,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 236.22 243.84 90)
+			(at 236.22 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14430,8 +14436,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 40.64 200.66 0)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 40.64 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14440,25 +14446,25 @@
 		(fields_autoplaced yes)
 		(uuid "3be4407b-9b04-4f97-90f8-499e7c76e703")
 		(property "Reference" "R22"
-			(at 43.18 200.025 0)
+			(at 43.18 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "330r"
-			(at 43.18 202.565 0)
+			(at 43.18 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 43.18 203.2 90)
+			(at 38.1 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14467,7 +14473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 200.66 90)
+			(at 34.29 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,7 +14481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 40.64 200.66 0)
 			(effects
 				(font
@@ -14485,7 +14491,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 45.72 207.01 90)
+			(at 35.56 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14500,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 45.72 193.04 90)
+			(at 35.56 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14509,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 45.72 200.66 90)
+			(at 35.56 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14572,7 +14578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 283.21 74.93 0)
 			(effects
 				(font
@@ -14663,8 +14669,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 55.88 110.49 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 55.88 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14673,7 +14679,7 @@
 		(fields_autoplaced yes)
 		(uuid "408e0328-35ae-424a-af16-b880c1efaccf")
 		(property "Reference" "R1"
-			(at 55.88 105.41 90)
+			(at 55.88 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14681,7 +14687,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 55.88 107.95 90)
+			(at 55.88 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14689,7 +14695,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 58.42 107.95 90)
+			(at 53.34 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14698,7 +14704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 104.14 90)
+			(at 55.88 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14706,7 +14712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 55.88 110.49 0)
 			(effects
 				(font
@@ -14716,7 +14722,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 62.23 105.41 90)
+			(at 49.53 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +14731,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 48.26 105.41 90)
+			(at 63.5 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +14740,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 55.88 105.41 90)
+			(at 55.88 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,7 +14789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 81.28 77.47 0)
 			(effects
 				(font
@@ -14886,7 +14892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 55.88 195.58 0)
 			(effects
 				(font
@@ -15010,7 +15016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 401.32 153.67 0)
 			(effects
 				(font
@@ -15058,7 +15064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 38.1 52.07 0)
 			(effects
 				(font
@@ -15211,9 +15217,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 24.13 184.15 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 24.13 185.42 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15221,7 +15227,7 @@
 		(dnp no)
 		(uuid "4271d770-aec0-4f9e-bf94-28384d7fb79c")
 		(property "Reference" "J3"
-			(at 23.495 176.6402 0)
+			(at 24.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,7 +15235,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 23.495 179.1771 0)
+			(at 24.765 190.3929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,8 +15243,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 22.86 193.04 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 24.13 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15246,8 +15252,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 24.13 195.58 0)
+		(property "Datasheet" "~"
+			(at 24.13 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15255,8 +15261,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 24.13 184.15 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 24.13 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15265,7 +15271,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 24.13 190.5 0)
+			(at 24.13 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,20 +15280,20 @@
 			)
 		)
 		(property "Name" "Delay Wet Out"
-			(at 17.78 184.15 90)
+			(at 19.05 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "c37b0285-e199-49da-a2d3-f913254effaa")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "6f5c3ad8-9231-4d5f-a715-9f95f2ee7858")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "88f1298f-b88c-4760-8321-090e3f0f7ab3")
 		)
 		(instances
@@ -15345,7 +15351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 274.32 261.62 0)
 			(effects
 				(font
@@ -15411,7 +15417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -15433,8 +15439,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 39.37 36.83 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 39.37 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15443,7 +15449,7 @@
 		(fields_autoplaced yes)
 		(uuid "45f7a871-75aa-43a5-ae3b-85f781d95834")
 		(property "Reference" "R17"
-			(at 39.37 31.75 90)
+			(at 39.37 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,7 +15457,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 39.37 34.29 90)
+			(at 39.37 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15459,7 +15465,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 41.91 34.29 90)
+			(at 36.83 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +15474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 30.48 90)
+			(at 39.37 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,7 +15482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -15486,7 +15492,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 45.72 31.75 90)
+			(at 33.02 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15495,7 +15501,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 31.75 31.75 90)
+			(at 46.99 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15504,7 +15510,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 39.37 31.75 90)
+			(at 39.37 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15572,7 +15578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 342.9 240.03 0)
 			(effects
 				(font
@@ -15594,9 +15600,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 176.53 208.28 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 176.53 209.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15604,7 +15610,7 @@
 		(dnp no)
 		(uuid "47a77fbd-33bc-4f1b-8ea2-bd6d633a04c0")
 		(property "Reference" "J12"
-			(at 171.958 208.0803 0)
+			(at 181.102 209.7497 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15613,7 +15619,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 171.958 210.6172 0)
+			(at 181.102 207.2128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,8 +15628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 175.26 217.17 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 176.53 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,8 +15637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 176.53 219.71 0)
+		(property "Datasheet" "~"
+			(at 176.53 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15640,8 +15646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 176.53 208.28 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 176.53 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15650,7 +15656,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 176.53 214.63 0)
+			(at 176.53 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,20 +15665,20 @@
 			)
 		)
 		(property "Name" "Delay Input"
-			(at 167.64 205.74 0)
+			(at 166.624 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "4cd7c7b5-ad23-434e-aedd-a11ad240e5a9")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "000659c2-5005-4c5d-b662-a59d6b9dc742")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "0c9b48dd-2c50-4c98-b305-804b7b167ad8")
 		)
 		(instances
@@ -15685,18 +15691,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
+		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 31.75 172.72 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b69ffdc-46d2-4739-940e-0e7fb10724a6")
 		(property "Reference" "R2"
-			(at 29.21 172.085 0)
+			(at 26.924 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15705,7 +15710,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 29.21 174.625 0)
+			(at 25.908 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15719,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 34.29 170.18 90)
+			(at 29.21 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15723,7 +15728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 172.72 90)
+			(at 25.4 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +15736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 31.75 172.72 0)
 			(effects
 				(font
@@ -15741,7 +15746,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 36.83 166.37 90)
+			(at 26.67 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +15755,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 36.83 180.34 90)
+			(at 26.67 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +15764,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 36.83 172.72 90)
+			(at 26.67 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +15833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 184.15 171.45 0)
 			(effects
 				(font
@@ -15982,7 +15987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 347.98 45.72 0)
 			(effects
 				(font
@@ -16048,7 +16053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 241.3 39.37 0)
 			(effects
 				(font
@@ -16135,8 +16140,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 29.21 222.25 0)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 29.21 222.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16145,25 +16150,25 @@
 		(fields_autoplaced yes)
 		(uuid "4f8c60ba-7ae6-4e1e-a2f8-2f50b2ac2a6e")
 		(property "Reference" "R8"
-			(at 31.75 221.615 0)
+			(at 31.75 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "330r"
-			(at 31.75 224.155 0)
+			(at 31.75 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 224.79 90)
+			(at 26.67 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16172,7 +16177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 222.25 90)
+			(at 22.86 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16180,7 +16185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 29.21 222.25 0)
 			(effects
 				(font
@@ -16190,7 +16195,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 34.29 228.6 90)
+			(at 24.13 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16199,7 +16204,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 34.29 214.63 90)
+			(at 24.13 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16208,7 +16213,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 34.29 222.25 90)
+			(at 24.13 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,7 +16281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 397.51 43.18 0)
 			(effects
 				(font
@@ -16411,7 +16416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 392.43 57.15 0)
 			(effects
 				(font
@@ -16433,8 +16438,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 220.98 34.29 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 220.98 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16442,7 +16447,7 @@
 		(dnp no)
 		(uuid "57177173-d597-4b2a-813a-5ff56d12e96a")
 		(property "Reference" "J25"
-			(at 222.25 29.21 0)
+			(at 219.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16451,7 +16456,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 225.552 36.6272 0)
+			(at 216.408 33.2228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16460,8 +16465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 222.25 43.18 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 220.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16469,8 +16474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 220.98 45.72 0)
+		(property "Datasheet" "~"
+			(at 220.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16478,8 +16483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 34.29 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 220.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16493,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 220.98 40.64 0)
+			(at 220.98 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16497,20 +16502,20 @@
 			)
 		)
 		(property "Name" "/4"
-			(at 227.33 34.29 0)
+			(at 226.314 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "a23f9d70-e54d-447b-a5ab-c2542a44c715")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "7f163677-aeb7-4214-b51e-69373dbff158")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "266d8f0d-72df-4aee-8c3f-90f87f70148e")
 		)
 		(instances
@@ -16567,7 +16572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 294.64 105.41 0)
 			(effects
 				(font
@@ -16676,8 +16681,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 55.88 133.35 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 55.88 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16686,7 +16691,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a6e784c-bc42-4795-8e46-92178697a99f")
 		(property "Reference" "R14"
-			(at 55.88 128.27 90)
+			(at 55.88 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,7 +16699,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 55.88 130.81 90)
+			(at 55.88 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16702,7 +16707,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 58.42 130.81 90)
+			(at 53.34 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16711,7 +16716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 127 90)
+			(at 55.88 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +16724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 55.88 133.35 0)
 			(effects
 				(font
@@ -16729,7 +16734,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 62.23 128.27 90)
+			(at 49.53 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16738,7 +16743,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 48.26 128.27 90)
+			(at 63.5 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +16752,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 55.88 128.27 90)
+			(at 55.88 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16816,7 +16821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 187.96 231.14 0)
 			(effects
 				(font
@@ -16838,7 +16843,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at 397.51 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16848,7 +16853,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bf0b729-aac6-4585-bac0-2e1a7ffbf3b9")
 		(property "Reference" "C62"
-			(at 401.32 60.706 0)
+			(at 401.32 60.0709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16857,7 +16862,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 401.32 63.246 0)
+			(at 401.32 62.6109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16865,7 +16870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at 403.86 62.23 90)
 			(effects
 				(font
@@ -16883,7 +16888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 397.51 62.23 0)
 			(effects
 				(font
@@ -16935,8 +16940,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 274.32 34.29 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 274.32 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16944,7 +16949,7 @@
 		(dnp no)
 		(uuid "6084a268-b1e0-4ece-9cbe-c74257dcc8db")
 		(property "Reference" "J23"
-			(at 275.59 29.21 0)
+			(at 273.05 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16953,7 +16958,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 278.892 36.6272 0)
+			(at 269.748 33.2228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,8 +16967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 275.59 43.18 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,8 +16976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 274.32 45.72 0)
+		(property "Datasheet" "~"
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,8 +16985,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 274.32 34.29 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 274.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16990,7 +16995,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 274.32 40.64 0)
+			(at 274.32 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16999,20 +17004,20 @@
 			)
 		)
 		(property "Name" "/8"
-			(at 279.4 36.83 0)
+			(at 279.654 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "aa2d6441-2151-48da-ab23-d5d43b15da10")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "c5fa15a6-612f-4aed-8a9f-e7c55db3b7c6")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "aed25058-6996-422c-8d9f-4a5b26033e98")
 		)
 		(instances
@@ -17069,7 +17074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 87.63 146.05 0)
 			(effects
 				(font
@@ -17091,9 +17096,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 276.86 69.85 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 276.86 71.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17101,7 +17106,7 @@
 		(dnp no)
 		(uuid "618ba0d4-8c38-4be8-85f6-efa6402bdd89")
 		(property "Reference" "J13"
-			(at 272.288 69.6503 0)
+			(at 268.732 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17110,7 +17115,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 272.288 72.1872 0)
+			(at 281.432 68.7828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17119,8 +17124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 275.59 78.74 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 276.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17128,8 +17133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 276.86 81.28 0)
+		(property "Datasheet" "~"
+			(at 276.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,8 +17142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 276.86 69.85 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 276.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17147,7 +17152,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 276.86 76.2 0)
+			(at 276.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17156,20 +17161,20 @@
 			)
 		)
 		(property "Name" "Filter Resonance CV"
-			(at 261.62 66.04 0)
+			(at 262.382 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "09f0b9c9-4c42-4c7f-bd22-80a644e22e8e")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "455628d5-24ca-4849-a603-79dcb3777a6a")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "a67e2393-a7b1-4d76-bb27-a703fc3981e9")
 		)
 		(instances
@@ -17247,7 +17252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 44.45 133.35 0)
 		(mirror x)
 		(unit 1)
@@ -17274,7 +17279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 34.29 132.08 90)
 			(effects
 				(font
@@ -17292,7 +17297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 44.45 133.35 0)
 			(effects
 				(font
@@ -17302,7 +17307,7 @@
 			)
 		)
 		(property "Name" "Fixed Stability Voltage"
-			(at 58.42 125.73 0)
+			(at 58.674 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17373,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 237.49 0)
 			(effects
 				(font
@@ -17395,9 +17400,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 294.64 121.92 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 294.64 123.19 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17405,7 +17410,7 @@
 		(dnp no)
 		(uuid "6820993b-bef6-46b0-917c-7050665df8ba")
 		(property "Reference" "J14"
-			(at 290.068 121.7203 0)
+			(at 299.212 123.3897 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17414,7 +17419,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 290.068 124.2572 0)
+			(at 299.212 120.8528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17423,8 +17428,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 293.37 130.81 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 294.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17432,8 +17437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 294.64 133.35 0)
+		(property "Datasheet" "~"
+			(at 294.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17441,8 +17446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 294.64 121.92 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 294.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,7 +17456,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 294.64 128.27 0)
+			(at 294.64 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17460,20 +17465,20 @@
 			)
 		)
 		(property "Name" "Filter Frequency CV"
-			(at 276.86 121.92 0)
+			(at 280.924 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "7cf2c5a7-d235-4a80-8ec9-a759a425fc1a")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "3ca20bb5-11c9-4228-9029-91ae80eeaa7f")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "ecd80a64-7e81-4b0b-a54c-e7443cae03e6")
 		)
 		(instances
@@ -17531,7 +17536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 189.23 0)
 			(effects
 				(font
@@ -17598,7 +17603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 213.36 0)
 			(effects
 				(font
@@ -17664,7 +17669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 182.88 0)
 			(effects
 				(font
@@ -17686,8 +17691,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 308.61 147.32 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 308.61 147.32 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17711,7 +17717,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 311.15 144.78 90)
+			(at 306.07 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17720,7 +17726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 308.61 140.97 0)
+			(at 308.61 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17728,7 +17734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 308.61 147.32 0)
 			(effects
 				(font
@@ -17738,7 +17744,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 314.96 142.24 90)
+			(at 302.26 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17747,7 +17753,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 300.99 142.24 90)
+			(at 316.23 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17780,7 +17786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 62.23 232.41 0)
 		(mirror x)
 		(unit 1)
@@ -17807,7 +17813,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 52.07 231.14 90)
 			(effects
 				(font
@@ -17825,7 +17831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 62.23 232.41 0)
 			(effects
 				(font
@@ -17905,7 +17911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 214.63 39.37 0)
 			(effects
 				(font
@@ -17971,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 30.48 53.34 0)
 			(effects
 				(font
@@ -18106,7 +18112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:TO-92_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 356.87 51.435 0)
 			(effects
 				(font
@@ -18153,8 +18159,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 63.5 62.23 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 63.5 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18163,7 +18169,7 @@
 		(fields_autoplaced yes)
 		(uuid "705d3eae-d201-489c-a6a2-6f76b8b98e55")
 		(property "Reference" "R10"
-			(at 63.5 57.15 90)
+			(at 63.5 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18171,7 +18177,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 63.5 59.69 90)
+			(at 63.5 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18179,7 +18185,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 66.04 59.69 90)
+			(at 60.96 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18188,7 +18194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 55.88 90)
+			(at 63.5 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18196,7 +18202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -18206,7 +18212,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 69.85 57.15 90)
+			(at 57.15 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18215,7 +18221,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 55.88 57.15 90)
+			(at 71.12 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18224,7 +18230,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 63.5 57.15 90)
+			(at 63.5 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 44.45 86.36 0)
 		(mirror x)
 		(unit 1)
@@ -18342,7 +18348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 34.29 85.09 90)
 			(effects
 				(font
@@ -18360,7 +18366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -18521,7 +18527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 105.41 0)
 			(effects
 				(font
@@ -18697,7 +18703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Eurorack_Power:Eurorack Power Small")
+		(lib_id "Rumblesan_Eurorack_Power:Eurorack Power Small")
 		(at 344.17 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18723,7 +18729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
+		(property "Footprint" "Rumblesan_Eurorack_Power:Eurorack_PowerHeader_2x05_P2.54mm_Shrouded"
 			(at 344.17 34.29 0)
 			(effects
 				(font
@@ -18790,8 +18796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 290.83 71.12 270)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 290.83 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18799,7 +18805,7 @@
 		(dnp no)
 		(uuid "7779f44e-ecc4-4b56-88db-f99e3cc1db74")
 		(property "Reference" "R34"
-			(at 292.1 66.04 90)
+			(at 289.56 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18808,7 +18814,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 293.37 68.58 90)
+			(at 288.29 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18817,7 +18823,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 288.29 73.66 90)
+			(at 293.37 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18826,7 +18832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 77.47 90)
+			(at 290.83 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,7 +18840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 290.83 71.12 0)
 			(effects
 				(font
@@ -18844,7 +18850,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 284.48 76.2 90)
+			(at 297.18 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18853,7 +18859,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 298.45 76.2 90)
+			(at 283.21 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18862,7 +18868,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 290.83 76.2 90)
+			(at 290.83 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18912,7 +18918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 107.95 80.01 0)
 			(effects
 				(font
@@ -19080,8 +19086,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 215.9 21.59 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 215.9 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19089,7 +19095,7 @@
 		(dnp no)
 		(uuid "7a9c6d23-2dfb-4662-8090-56b1cabcceed")
 		(property "Reference" "J21"
-			(at 217.17 16.51 0)
+			(at 214.63 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19098,7 +19104,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 220.472 23.9272 0)
+			(at 211.328 20.5228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,8 +19113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 217.17 30.48 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,8 +19122,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 215.9 33.02 0)
+		(property "Datasheet" "~"
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19125,8 +19131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 21.59 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 215.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19135,7 +19141,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 215.9 27.94 0)
+			(at 215.9 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,20 +19150,20 @@
 			)
 		)
 		(property "Name" "/3"
-			(at 222.25 21.59 0)
+			(at 221.488 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "090580e4-e8ce-4d04-8a62-829cc35876ba")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "7022e96c-acf4-4d14-8124-814b9bb617f9")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "453f4d84-63dd-40c1-b658-11a4c53bf53f")
 		)
 		(instances
@@ -19170,7 +19176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 309.88 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -19197,7 +19203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 320.04 92.71 90)
 			(effects
 				(font
@@ -19215,7 +19221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 309.88 91.44 0)
 			(effects
 				(font
@@ -19295,7 +19301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 262.89 26.67 0)
 			(effects
 				(font
@@ -19317,9 +19323,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 21.59 234.95 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 21.59 236.22 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19327,7 +19333,7 @@
 		(dnp no)
 		(uuid "7ee7c24a-ec6d-41b0-a09c-aeef3a02aeef")
 		(property "Reference" "J6"
-			(at 20.955 227.4402 0)
+			(at 22.225 243.7298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19335,7 +19341,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 20.955 229.9771 0)
+			(at 22.225 241.1929 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19343,8 +19349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 20.32 243.84 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 21.59 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19352,8 +19358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 21.59 246.38 0)
+		(property "Datasheet" "~"
+			(at 21.59 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19361,8 +19367,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 21.59 234.95 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 21.59 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19371,7 +19377,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 21.59 241.3 0)
+			(at 21.59 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19380,20 +19386,20 @@
 			)
 		)
 		(property "Name" "Delay Clock Out"
-			(at 15.24 234.95 90)
+			(at 16.256 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "f5bb3475-3e8d-4500-90b3-253baa836d92")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "13a16503-f98a-4cc9-bfe2-ac44f8551eb2")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "9d161c7d-e44c-4fd7-aee3-39ce58357747")
 		)
 		(instances
@@ -19406,9 +19412,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 247.65 196.85 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 247.65 198.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19416,7 +19422,7 @@
 		(dnp no)
 		(uuid "7faf5986-eb65-4fde-ad6d-6b9452b98e29")
 		(property "Reference" "J8"
-			(at 243.078 196.6503 0)
+			(at 252.222 198.3197 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19425,7 +19431,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 243.078 199.1872 0)
+			(at 252.222 195.7828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19434,8 +19440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 246.38 205.74 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 247.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,8 +19449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 247.65 208.28 0)
+		(property "Datasheet" "~"
+			(at 247.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19452,8 +19458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 196.85 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 247.65 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19462,7 +19468,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 247.65 203.2 0)
+			(at 247.65 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19471,20 +19477,20 @@
 			)
 		)
 		(property "Name" "VCA Level CV"
-			(at 242.57 191.77 0)
+			(at 252.73 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "02274045-8002-4112-942a-630a84a1ef5e")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "cb1db640-c4ce-40bf-92a9-2e20aa1727bb")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "e6dab745-d8b2-466b-b9f1-06542c28261b")
 		)
 		(instances
@@ -19497,8 +19503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 38.1 127 270)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 38.1 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19507,7 +19513,7 @@
 		(fields_autoplaced yes)
 		(uuid "81115bc5-4cf7-4448-a086-69a257321be3")
 		(property "Reference" "R9"
-			(at 38.1 121.92 90)
+			(at 38.1 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19515,7 +19521,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 38.1 124.46 90)
+			(at 38.1 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19529,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 35.56 129.54 90)
+			(at 40.64 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,7 +19538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 133.35 90)
+			(at 38.1 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19540,7 +19546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 38.1 127 0)
 			(effects
 				(font
@@ -19550,7 +19556,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 31.75 132.08 90)
+			(at 44.45 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19559,7 +19565,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 45.72 132.08 90)
+			(at 30.48 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19568,7 +19574,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 38.1 132.08 90)
+			(at 38.1 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19703,7 +19709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 176.53 26.67 0)
 			(effects
 				(font
@@ -19725,8 +19731,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 55.88 86.36 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 55.88 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19735,7 +19741,7 @@
 		(fields_autoplaced yes)
 		(uuid "8640ea10-94ab-4fb7-a456-1e303db85ed9")
 		(property "Reference" "R7"
-			(at 55.88 81.28 90)
+			(at 55.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19743,7 +19749,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 55.88 83.82 90)
+			(at 55.88 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,7 +19757,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 58.42 83.82 90)
+			(at 53.34 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19760,7 +19766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 80.01 90)
+			(at 55.88 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19768,7 +19774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 55.88 86.36 0)
 			(effects
 				(font
@@ -19778,7 +19784,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 62.23 81.28 90)
+			(at 49.53 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19787,7 +19793,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 48.26 81.28 90)
+			(at 63.5 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19796,7 +19802,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 55.88 81.28 90)
+			(at 55.88 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19865,7 +19871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 240.03 0)
 			(effects
 				(font
@@ -19954,7 +19960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 87.63 34.29 0)
 		(mirror x)
 		(unit 1)
@@ -19981,7 +19987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 77.47 33.02 90)
 			(effects
 				(font
@@ -19999,7 +20005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 87.63 34.29 0)
 			(effects
 				(font
@@ -20035,26 +20041,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 27.94 100.33 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 27.94 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87478b9f-68c6-40f4-bee9-0cc76117983c")
 		(property "Reference" "J2"
-			(at 27.305 95.25 0)
+			(at 22.86 100.9651 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 23.368 102.6672 0)
+			(at 32.512 99.2628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20063,8 +20069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 26.67 109.22 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20072,8 +20078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 27.94 111.76 0)
+		(property "Datasheet" "~"
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20081,8 +20087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 27.94 100.33 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20091,7 +20097,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 27.94 106.68 0)
+			(at 27.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20100,7 +20106,7 @@
 			)
 		)
 		(property "Name" "Delay Wet Mix In"
-			(at 27.94 100.33 0)
+			(at 27.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20108,13 +20114,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "be2a2395-3503-4d92-ad81-4f991184eef0")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "62d760ea-d6fe-4ded-8503-59f094a83624")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "e4297c27-c603-4577-826a-d16a16c3ed48")
 		)
 		(instances
@@ -20154,7 +20160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:DIP-14_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 88.9 130.81 0)
 			(effects
 				(font
@@ -20233,7 +20239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 69.85 269.24 0)
 		(mirror x)
 		(unit 1)
@@ -20260,7 +20266,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 59.69 267.97 90)
 			(effects
 				(font
@@ -20278,7 +20284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 69.85 269.24 0)
 			(effects
 				(font
@@ -20358,7 +20364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 52.07 68.58 0)
 			(effects
 				(font
@@ -20399,7 +20405,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 375.285 22.0238 90)
+			(at 375.92 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20425,7 +20431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 372.11 21.59 0)
 			(effects
 				(font
@@ -20447,8 +20453,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 154.94 30.48 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 154.94 30.48 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20456,7 +20463,7 @@
 		(dnp no)
 		(uuid "8c9b8d4d-437d-43e9-92c4-dcf865bc6727")
 		(property "Reference" "R99"
-			(at 156.21 27.94 90)
+			(at 153.67 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20465,7 +20472,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 151.13 27.94 90)
+			(at 158.75 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20474,7 +20481,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 157.48 27.94 90)
+			(at 152.4 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,7 +20498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 154.94 30.48 0)
 			(effects
 				(font
@@ -20501,7 +20508,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 161.29 25.4 90)
+			(at 148.59 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20510,7 +20517,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 147.32 25.4 90)
+			(at 162.56 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20587,7 +20594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 294.64 93.98 0)
 			(effects
 				(font
@@ -20653,7 +20660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 368.3 19.05 0)
 			(effects
 				(font
@@ -20719,7 +20726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 331.47 240.03 0)
 			(effects
 				(font
@@ -20785,7 +20792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 68.58 0)
 			(effects
 				(font
@@ -20852,7 +20859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 184.15 158.75 0)
 			(effects
 				(font
@@ -21001,7 +21008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 67.31 254 0)
 			(effects
 				(font
@@ -21023,8 +21030,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 187.96 34.29 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 187.96 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21032,7 +21039,7 @@
 		(dnp no)
 		(uuid "96147a40-5d5c-48a7-b967-f012f31e7264")
 		(property "Reference" "J26"
-			(at 189.23 29.21 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21041,7 +21048,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 192.532 36.6272 0)
+			(at 183.388 33.2228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,8 +21057,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 189.23 43.18 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 187.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21059,8 +21066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 187.96 45.72 0)
+		(property "Datasheet" "~"
+			(at 187.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21068,8 +21075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 187.96 34.29 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 187.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21078,7 +21085,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 187.96 40.64 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21087,20 +21094,20 @@
 			)
 		)
 		(property "Name" "/2"
-			(at 194.31 34.29 0)
+			(at 193.548 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "72a48a56-1852-4ea3-ab0a-d8ef474a11b2")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "16f2358c-ab06-4e56-92a6-91762803eb34")
 		)
-		(pin "3"
+		(pin "S"
 			(uuid "485cfe02-3af7-408d-a5a3-563a2ec3bfb1")
 		)
 		(instances
@@ -21157,7 +21164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -21290,7 +21297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 44.45 147.32 0)
 			(effects
 				(font
@@ -21423,7 +21430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 78.74 0)
 			(effects
 				(font
@@ -21489,7 +21496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 347.98 240.03 0)
 			(effects
 				(font
@@ -21511,17 +21518,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 54.61 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0684895-17c9-4a0d-87f2-8db99a727cae")
 		(property "Reference" "C6"
-			(at 54.61 177.8 90)
+			(at 60.198 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21529,7 +21535,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 54.61 180.34 90)
+			(at 60.706 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21706,7 +21712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 307.34 58.42 0)
 			(effects
 				(font
@@ -21876,8 +21882,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 176.53 43.18 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 176.53 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21885,7 +21892,7 @@
 		(dnp no)
 		(uuid "a7476275-b8cd-454e-ac49-8c5769249dcf")
 		(property "Reference" "R43"
-			(at 173.99 41.91 90)
+			(at 173.99 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21894,7 +21901,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 173.99 46.99 90)
+			(at 173.99 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21903,7 +21910,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 173.99 40.64 90)
+			(at 173.99 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21920,7 +21927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 176.53 43.18 0)
 			(effects
 				(font
@@ -21930,7 +21937,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 171.45 36.83 90)
+			(at 171.45 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +21946,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 171.45 50.8 90)
+			(at 171.45 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21972,7 +21979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 273.05 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21998,7 +22005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 283.21 196.85 90)
 			(effects
 				(font
@@ -22016,7 +22023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 273.05 198.12 0)
 			(effects
 				(font
@@ -22052,17 +22059,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 172.72 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a856e9f0-7658-44a2-a45b-39d038f6031e")
 		(property "Reference" "RV8"
-			(at 174.498 175.6953 0)
+			(at 175.26 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22071,7 +22077,7 @@
 			)
 		)
 		(property "Value" "100kB"
-			(at 174.498 178.2322 0)
+			(at 175.26 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22079,7 +22085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 182.88 175.26 90)
 			(effects
 				(font
@@ -22097,13 +22103,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 172.72 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Delay Time CV Attenuverter"
+			(at 157.734 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22236,7 +22250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 314.96 34.29 0)
 			(effects
 				(font
@@ -22371,7 +22385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 209.55 26.67 0)
 			(effects
 				(font
@@ -22393,7 +22407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 294.64 100.33 0)
 		(mirror x)
 		(unit 1)
@@ -22420,7 +22434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 284.48 99.06 90)
 			(effects
 				(font
@@ -22438,7 +22452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 294.64 100.33 0)
 			(effects
 				(font
@@ -22518,7 +22532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87.63 40.64 0)
 			(effects
 				(font
@@ -22584,7 +22598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 307.34 71.12 0)
 			(effects
 				(font
@@ -22650,7 +22664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 397.51 68.58 0)
 			(effects
 				(font
@@ -22716,7 +22730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 378.46 26.67 0)
 			(effects
 				(font
@@ -22782,7 +22796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 330.2 24.13 0)
 			(effects
 				(font
@@ -22804,9 +22818,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 267.97 256.54 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 267.97 257.81 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22814,7 +22828,7 @@
 		(dnp no)
 		(uuid "b88f894a-797d-471e-91fc-b1029d7ea90d")
 		(property "Reference" "J7"
-			(at 263.398 256.3403 0)
+			(at 272.542 258.0097 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22823,7 +22837,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 263.398 258.8772 0)
+			(at 272.542 255.4728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22832,8 +22846,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 266.7 265.43 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 267.97 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22841,8 +22855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 267.97 267.97 0)
+		(property "Datasheet" "~"
+			(at 267.97 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22850,8 +22864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 267.97 256.54 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 267.97 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22860,7 +22874,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 267.97 262.89 0)
+			(at 267.97 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22869,20 +22883,20 @@
 			)
 		)
 		(property "Name" "VCA Input"
-			(at 260.35 254 0)
+			(at 275.59 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "d9e53c76-772b-4576-927a-4fa14b646127")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "bccff27a-36a6-4b4f-b1ef-58ddae02d9a6")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "4ac719a3-0e64-40ca-be06-49baee25d03e")
 		)
 		(instances
@@ -22939,7 +22953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 318.77 240.03 0)
 			(effects
 				(font
@@ -23006,7 +23020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 294.64 151.13 0)
 			(effects
 				(font
@@ -23072,7 +23086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 92.71 0)
 			(effects
 				(font
@@ -23168,8 +23182,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 69.85 200.66 0)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 69.85 200.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23178,25 +23192,25 @@
 		(fields_autoplaced yes)
 		(uuid "c2b681fb-48ce-49b0-b35a-0f7ae3ec99e2")
 		(property "Reference" "R25"
-			(at 72.39 200.025 0)
+			(at 72.39 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 72.39 202.565 0)
+			(at 72.39 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 72.39 203.2 90)
+			(at 67.31 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23205,7 +23219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 200.66 90)
+			(at 63.5 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23213,7 +23227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 69.85 200.66 0)
 			(effects
 				(font
@@ -23223,7 +23237,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 74.93 207.01 90)
+			(at 64.77 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23232,7 +23246,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 74.93 193.04 90)
+			(at 64.77 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23241,7 +23255,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 74.93 200.66 90)
+			(at 64.77 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23310,7 +23324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 147.32 0)
 			(effects
 				(font
@@ -23376,7 +23390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 99.06 38.1 0)
 			(effects
 				(font
@@ -23398,8 +23412,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 264.16 53.34 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 264.16 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23416,7 +23431,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 261.62 58.42 90)
+			(at 261.62 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23425,7 +23440,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 261.62 50.8 90)
+			(at 261.62 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23442,7 +23457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 264.16 53.34 0)
 			(effects
 				(font
@@ -23452,7 +23467,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 259.08 46.99 90)
+			(at 259.08 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23461,7 +23476,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 259.08 60.96 90)
+			(at 259.08 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23494,8 +23509,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 232.41 34.29 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 232.41 34.29 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23503,7 +23519,7 @@
 		(dnp no)
 		(uuid "c381711a-d930-4cd3-8ec4-bac025c92e6f")
 		(property "Reference" "R39"
-			(at 229.87 33.02 90)
+			(at 229.87 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23512,7 +23528,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 229.87 38.1 90)
+			(at 229.87 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23521,7 +23537,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 229.87 31.75 90)
+			(at 229.87 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23538,7 +23554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 232.41 34.29 0)
 			(effects
 				(font
@@ -23548,7 +23564,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 227.33 27.94 90)
+			(at 227.33 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23557,7 +23573,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 227.33 41.91 90)
+			(at 227.33 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23634,7 +23650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 116.84 38.1 0)
 			(effects
 				(font
@@ -23700,7 +23716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 44.45 116.84 0)
 			(effects
 				(font
@@ -23766,7 +23782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 353.06 240.03 0)
 			(effects
 				(font
@@ -23912,7 +23928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 236.22 26.67 0)
 			(effects
 				(font
@@ -23979,7 +23995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 254 201.93 0)
 			(effects
 				(font
@@ -24001,8 +24017,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 259.08 35.56 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 259.08 35.56 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24010,7 +24027,7 @@
 		(dnp no)
 		(uuid "cca16d90-5ee5-475a-8daf-abf705825b67")
 		(property "Reference" "R41"
-			(at 256.54 34.29 90)
+			(at 256.54 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24019,7 +24036,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 256.54 39.37 90)
+			(at 256.54 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24028,7 +24045,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 256.54 33.02 90)
+			(at 256.54 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24045,7 +24062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 259.08 35.56 0)
 			(effects
 				(font
@@ -24055,7 +24072,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 254 29.21 90)
+			(at 254 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24064,7 +24081,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 254 43.18 90)
+			(at 254 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24141,7 +24158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 365.76 45.72 0)
 			(effects
 				(font
@@ -24207,7 +24224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
 			(at 330.2 34.29 0)
 			(effects
 				(font
@@ -24341,7 +24358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 31.75 124.46 0)
 			(effects
 				(font
@@ -24363,17 +24380,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 82.55 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1b0e052-fc3f-4c83-b316-cde6c2551510")
 		(property "Reference" "C3"
-			(at 82.55 46.99 90)
+			(at 82.55 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24381,7 +24397,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 82.55 49.53 90)
+			(at 82.55 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24449,7 +24465,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C_Polarized")
+		(lib_id "Rumblesan_Standard_Parts:C_Polarized")
 		(at 397.51 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24459,7 +24475,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c4b4fd-5762-4000-9df8-83bd7b665ce2")
 		(property "Reference" "C63"
-			(at 401.32 48.006 0)
+			(at 401.32 47.3709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24468,7 +24484,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 401.32 50.546 0)
+			(at 401.32 49.9109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24476,7 +24492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_L11.0mm_P2.00mm_Horizontal"
+		(property "Footprint" "Rumblesan_Standard_Parts:CP_Radial_D5.0mm_P2.00mm"
 			(at 403.86 49.53 90)
 			(effects
 				(font
@@ -24494,7 +24510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 397.51 49.53 0)
 			(effects
 				(font
@@ -24546,8 +24562,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 22.86 46.99 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 22.86 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24556,7 +24572,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6104186-3306-4925-a87b-d080acea14f8")
 		(property "Reference" "R16"
-			(at 22.86 41.91 90)
+			(at 22.86 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24564,7 +24580,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 22.86 44.45 90)
+			(at 22.86 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24572,7 +24588,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 25.4 44.45 90)
+			(at 20.32 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24581,7 +24597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 40.64 90)
+			(at 22.86 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24589,7 +24605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 22.86 46.99 0)
 			(effects
 				(font
@@ -24599,7 +24615,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 29.21 41.91 90)
+			(at 16.51 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24624,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 15.24 41.91 90)
+			(at 30.48 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24617,7 +24633,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 22.86 41.91 90)
+			(at 22.86 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24648,7 +24664,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d925dec1-db63-40f4-814e-7cdfe9c7b735")
 		(property "Reference" "#FLG02"
 			(at 372.11 38.735 0)
@@ -24660,12 +24675,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 373.761 38.5338 0)
+			(at 379.222 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -24686,7 +24700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 372.11 36.83 0)
 			(effects
 				(font
@@ -24708,8 +24722,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 302.26 153.67 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 302.26 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24718,25 +24732,25 @@
 		(fields_autoplaced yes)
 		(uuid "d982e766-536d-42a5-8df9-87b0f5942798")
 		(property "Reference" "R40"
-			(at 304.8 153.035 0)
+			(at 304.8 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "47k"
-			(at 304.8 155.575 0)
+			(at 304.8 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 299.72 151.13 90)
+			(at 304.8 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24745,7 +24759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 295.91 153.67 0)
+			(at 308.61 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24753,7 +24767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 302.26 153.67 0)
 			(effects
 				(font
@@ -24763,7 +24777,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 297.18 147.32 90)
+			(at 307.34 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24772,7 +24786,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 297.18 161.29 90)
+			(at 307.34 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24781,7 +24795,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 297.18 153.67 90)
+			(at 307.34 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24850,7 +24864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 27.94 266.7 0)
 			(effects
 				(font
@@ -24917,7 +24931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -24939,9 +24953,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 21.59 261.62 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 21.59 262.89 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24949,7 +24963,7 @@
 		(dnp no)
 		(uuid "ddd9018c-b196-483c-a6e7-6d8f0594215d")
 		(property "Reference" "J4"
-			(at 19.05 256.54 0)
+			(at 24.13 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24957,7 +24971,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 20.955 256.6471 0)
+			(at 22.225 267.8629 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24965,8 +24979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 20.32 270.51 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 21.59 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24974,8 +24988,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 21.59 273.05 0)
+		(property "Datasheet" "~"
+			(at 21.59 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24983,8 +24997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 21.59 261.62 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 21.59 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24993,7 +25007,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 21.59 267.97 0)
+			(at 21.59 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25002,20 +25016,20 @@
 			)
 		)
 		(property "Name" "Audio Out"
-			(at 15.24 261.62 90)
+			(at 16.51 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "2e783cfd-243c-4823-a118-8f9b320c01de")
 		)
-		(pin "2"
+		(pin "TN"
 			(uuid "9bcce8bb-9a4a-48c5-b3a2-9c103d5a0055")
 		)
-		(pin "3"
+		(pin "T"
 			(uuid "ef1ac2d6-a368-45b3-b7c6-92a7e9efb0a2")
 		)
 		(instances
@@ -25028,8 +25042,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 247.65 34.29 0)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 247.65 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25037,7 +25051,7 @@
 		(dnp no)
 		(uuid "ddf02ac7-b8bc-47f2-a4d0-ddb7dc39dbc7")
 		(property "Reference" "J24"
-			(at 248.92 29.21 0)
+			(at 246.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25046,7 +25060,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 252.222 36.6272 0)
+			(at 243.078 33.2228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25055,8 +25069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 248.92 43.18 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 247.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25064,8 +25078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 247.65 45.72 0)
+		(property "Datasheet" "~"
+			(at 247.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25073,8 +25087,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 34.29 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 247.65 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25083,7 +25097,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 247.65 40.64 0)
+			(at 247.65 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25092,20 +25106,20 @@
 			)
 		)
 		(property "Name" "/6"
-			(at 252.73 36.83 0)
+			(at 252.984 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "T"
 			(uuid "5dfb6469-a293-4dc6-b7c5-b517f5b62ad4")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "14dc6e69-4307-4445-be09-201fc978c4d1")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "b59d7e55-69ad-484c-81e9-46d291445b7b")
 		)
 		(instances
@@ -25118,9 +25132,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 288.29 146.05 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 288.29 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25128,7 +25142,7 @@
 		(dnp no)
 		(uuid "de87d317-5db1-4f50-9be9-c2d0e5f1f7db")
 		(property "Reference" "J27"
-			(at 283.718 145.8503 0)
+			(at 292.862 147.5197 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25137,7 +25151,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 283.718 148.3872 0)
+			(at 292.862 144.9828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25146,8 +25160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 287.02 154.94 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 288.29 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25155,8 +25169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 288.29 157.48 0)
+		(property "Datasheet" "~"
+			(at 288.29 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25164,8 +25178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 288.29 146.05 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 288.29 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25174,7 +25188,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 288.29 152.4 0)
+			(at 288.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25183,20 +25197,20 @@
 			)
 		)
 		(property "Name" "Filter Ping"
-			(at 280.67 143.51 0)
+			(at 278.384 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "d15093f4-604a-4477-a724-f3cc82c51437")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "59f03f6a-14db-4ede-bb3e-2f2c477265e6")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "9ba55b91-3217-4bf6-9ee3-ea8bb087ecd0")
 		)
 		(instances
@@ -25320,7 +25334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 267.97 39.37 0)
 			(effects
 				(font
@@ -25342,17 +25356,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 82.55 62.23 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 82.55 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e53ae35a-9d43-4480-93aa-b9fdfce1dbaa")
 		(property "Reference" "R15"
-			(at 82.55 57.15 90)
+			(at 82.55 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25360,7 +25373,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 82.55 59.69 90)
+			(at 82.55 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25368,7 +25381,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 85.09 59.69 90)
+			(at 80.01 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25377,7 +25390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 55.88 90)
+			(at 82.55 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25385,7 +25398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -25395,7 +25408,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 88.9 57.15 90)
+			(at 76.2 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25404,7 +25417,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 74.93 57.15 90)
+			(at 90.17 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25413,7 +25426,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 82.55 57.15 90)
+			(at 82.55 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25437,8 +25450,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 234.95 41.91 180)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 234.95 41.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25446,7 +25460,7 @@
 		(dnp no)
 		(uuid "e609d2b2-9fb8-4946-bab8-ac2f808ee8f0")
 		(property "Reference" "R46"
-			(at 237.49 40.64 90)
+			(at 237.49 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25455,7 +25469,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 237.49 45.72 90)
+			(at 237.49 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25464,7 +25478,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 232.41 39.37 90)
+			(at 232.41 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25481,7 +25495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 234.95 41.91 0)
 			(effects
 				(font
@@ -25491,7 +25505,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 229.87 35.56 90)
+			(at 229.87 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25500,7 +25514,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 229.87 49.53 90)
+			(at 229.87 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25533,7 +25547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 323.85 107.95 0)
 		(mirror y)
 		(unit 1)
@@ -25560,7 +25574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 334.01 109.22 90)
 			(effects
 				(font
@@ -25578,7 +25592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 323.85 107.95 0)
 			(effects
 				(font
@@ -25614,9 +25628,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 238.76 156.21 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 238.76 157.48 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25624,7 +25638,7 @@
 		(dnp no)
 		(uuid "ece6f2d1-4164-49e4-8d6a-65b79497dc12")
 		(property "Reference" "J11"
-			(at 234.188 156.0103 0)
+			(at 243.332 157.6797 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25633,7 +25647,7 @@
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 234.188 158.5472 0)
+			(at 243.332 155.1428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25642,8 +25656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 237.49 165.1 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 238.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25651,8 +25665,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 238.76 167.64 0)
+		(property "Datasheet" "~"
+			(at 238.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25660,8 +25674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 156.21 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 238.76 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25670,7 +25684,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 238.76 162.56 0)
+			(at 238.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25679,20 +25693,20 @@
 			)
 		)
 		(property "Name" "VCA Output"
-			(at 229.87 153.67 0)
+			(at 247.65 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "9946ec02-f30a-42ad-929d-9e6c794e6b6f")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "d2e4eff1-32c8-48b5-b6d2-2f261e1324d2")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "1604b402-f56b-40e4-bb6a-84dab6821783")
 		)
 		(instances
@@ -25779,26 +25793,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Audio_Connectors:Eurorack_Mono_Jack")
-		(at 27.94 76.2 0)
-		(mirror y)
+		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(at 27.94 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eed6728c-28f6-4294-add7-82a7cd0abbd9")
 		(property "Reference" "J5"
-			(at 27.305 71.12 0)
+			(at 22.86 76.8351 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Eurorack Mono Jack"
-			(at 23.368 78.5372 0)
+			(at 32.512 75.1328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25807,8 +25821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
-			(at 26.67 85.09 0)
+		(property "Footprint" "Rumblesan_Audio_Connectors:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25816,8 +25830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html"
-			(at 27.94 87.63 0)
+		(property "Datasheet" "~"
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25825,8 +25839,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 27.94 76.2 0)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25835,7 +25849,7 @@
 			)
 		)
 		(property "mpn" "WQP-WQP518MA"
-			(at 27.94 82.55 0)
+			(at 27.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25844,7 +25858,7 @@
 			)
 		)
 		(property "Name" "Delay Clock Mix In"
-			(at 27.94 76.2 0)
+			(at 27.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25852,13 +25866,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "S"
 			(uuid "a3659a05-7fce-4368-b131-45def25b3ea7")
 		)
-		(pin "2"
+		(pin "T"
 			(uuid "bb8192ad-2d00-47e6-9c69-922cbadf8c84")
 		)
-		(pin "3"
+		(pin "TN"
 			(uuid "2a6bf194-c948-40f3-829e-73b91831c34a")
 		)
 		(instances
@@ -25946,17 +25960,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 54.61 175.26 90)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 54.61 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5985b43-e20b-4665-aade-a9bb071ad017")
 		(property "Reference" "R18"
-			(at 54.61 170.18 90)
+			(at 48.514 179.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25964,7 +25977,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.61 172.72 90)
+			(at 48.514 177.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25972,7 +25985,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 57.15 172.72 90)
+			(at 52.07 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25981,7 +25994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 168.91 90)
+			(at 54.61 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25989,7 +26002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 54.61 175.26 0)
 			(effects
 				(font
@@ -25999,7 +26012,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 60.96 170.18 90)
+			(at 48.26 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26008,7 +26021,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 46.99 170.18 90)
+			(at 62.23 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26017,7 +26030,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 54.61 170.18 90)
+			(at 54.61 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26086,7 +26099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 274.32 0)
 			(effects
 				(font
@@ -26108,8 +26121,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R")
-		(at 254 144.78 0)
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 254 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26117,7 +26130,7 @@
 		(dnp no)
 		(uuid "f65873e3-6d29-44ea-9669-dbc7e7d00ded")
 		(property "Reference" "R27"
-			(at 248.92 143.51 90)
+			(at 259.08 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26126,7 +26139,7 @@
 			)
 		)
 		(property "Value" "330r"
-			(at 251.46 142.24 90)
+			(at 256.54 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26135,7 +26148,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 256.54 147.32 90)
+			(at 251.46 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26144,7 +26157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 144.78 90)
+			(at 247.65 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26152,7 +26165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -26162,7 +26175,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 259.08 151.13 90)
+			(at 248.92 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26171,7 +26184,7 @@
 			)
 		)
 		(property "Power" "0.5W"
-			(at 259.08 137.16 90)
+			(at 248.92 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26180,7 +26193,7 @@
 			)
 		)
 		(property "Spec" "metal film"
-			(at 259.08 144.78 90)
+			(at 248.92 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26249,7 +26262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 34.29 81.28 0)
 			(effects
 				(font
@@ -26315,7 +26328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 181.61 39.37 0)
 			(effects
 				(font
@@ -26448,7 +26461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 356.87 66.04 0)
 			(effects
 				(font
@@ -26470,7 +26483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:R_Potentiometer")
+		(lib_id "Rumblesan_Standard_Parts:R_Potentiometer")
 		(at 266.7 181.61 0)
 		(mirror x)
 		(unit 1)
@@ -26481,7 +26494,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff88ce57-7720-49f8-9ed8-14da4dc190cb")
 		(property "Reference" "RV14"
-			(at 264.9221 180.7753 0)
+			(at 264.16 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26490,7 +26503,7 @@
 			)
 		)
 		(property "Value" "100kB"
-			(at 264.9221 183.3122 0)
+			(at 264.16 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26498,7 +26511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(property "Footprint" "Rumblesan_Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 256.54 180.34 90)
 			(effects
 				(font
@@ -26516,7 +26529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Potentiometer"
 			(at 266.7 181.61 0)
 			(effects
 				(font

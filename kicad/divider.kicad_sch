@@ -481,30 +481,33 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+		(symbol "Connector:AVR-ISP-6"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 5.08 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_02x03_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "AVR-ISP-6"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -6.35 1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -513,6 +516,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at -32.385 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Atmel 6-pin ISP connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -521,7 +533,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_keywords" "AVR ISP Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -530,7 +542,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "IDC?Header*2x03* Pin?Header*2x03*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -539,21 +551,12 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x03_Odd_Even_1_1"
+			(symbol "AVR-ISP-6_0_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -2.667 -6.858)
+					(end -2.413 -7.62)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -561,10 +564,10 @@
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -2.667 10.16)
+					(end -2.413 9.398)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -572,10 +575,10 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start 7.62 -2.413)
+					(end 6.858 -2.667)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -583,8 +586,41 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
+					(start 7.62 0.127)
+					(end 6.858 -0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 2.667)
+					(end 6.858 2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 5.207)
+					(end 6.858 4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 10.16)
+					(end -7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -593,43 +629,12 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "AVR-ISP-6_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -645,9 +650,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -663,9 +668,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -681,9 +686,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,9 +704,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{RST}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -717,9 +722,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1235,7 +1240,7 @@
 				)
 			)
 		)
-		(symbol "Rumblesan Standard Parts:C"
+		(symbol "Rumblesan_Standard_Parts:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -1258,7 +1263,7 @@
 					)
 				)
 			)
-			(property "Footprint" "rumblesan-standard-parts:C_Rect_L7.0mm_W3.5mm_P5.00mm"
+			(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 				(at 5.715 1.27 90)
 				(effects
 					(font
@@ -1578,9 +1583,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1678,8 +1683,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1698,9 +1703,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1774,8 +1779,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1818,12 +1823,12 @@
 		(uuid "f9f894da-887c-4abd-b7b9-e0f348d45c4a")
 	)
 	(no_connect
-		(at 250.19 80.01)
-		(uuid "38cbf959-ca70-49bf-b78e-88fd64082c73")
+		(at 132.08 36.83)
+		(uuid "359476b2-aa43-47db-81d7-52a217a9abd4")
 	)
 	(no_connect
-		(at 143.51 83.82)
-		(uuid "8f03c774-9287-41ce-ae9f-e4794b8d82f9")
+		(at 250.19 80.01)
+		(uuid "38cbf959-ca70-49bf-b78e-88fd64082c73")
 	)
 	(wire
 		(pts
@@ -1867,13 +1872,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 144.78 90.17)
+			(xy 146.05 49.53) (xy 144.78 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "157786a5-9d62-4a60-9ed4-64ae6ce0c81c")
+		(uuid "16770f47-7049-4442-9681-c8fc68a19d92")
 	)
 	(wire
 		(pts
@@ -1947,26 +1952,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb55eac-154b-4784-a2e9-10a3e01332e2")
-	)
-	(wire
-		(pts
-			(xy 128.27 88.9) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a13a8c-e1f9-4cfb-a83f-8a689abb60d6")
-	)
-	(wire
-		(pts
 			(xy 218.44 102.87) (xy 218.44 105.41)
 		)
 		(stroke
@@ -1974,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "4682d112-0e10-424b-ba2e-19cf2dfca474")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 130.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae1aabf-b3b0-4b4b-8f23-58042e8405a0")
 	)
 	(wire
 		(pts
@@ -2167,13 +2142,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 86.36) (xy 146.05 86.36)
+			(xy 146.05 44.45) (xy 144.78 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82a408f3-39ce-4c6d-afde-affbc1aaa3b8")
+		(uuid "88a58f3a-9e76-44f9-9402-879aa31d5276")
 	)
 	(wire
 		(pts
@@ -2357,6 +2332,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 52.07) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b9652d-fefe-43dc-bac5-5675236ced3a")
+	)
+	(wire
+		(pts
 			(xy 90.17 135.89) (xy 86.36 135.89)
 		)
 		(stroke
@@ -2457,6 +2442,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61c94d5-b531-4dd8-bba9-9f1675dd02b1")
+	)
+	(wire
+		(pts
 			(xy 86.36 128.27) (xy 96.52 128.27)
 		)
 		(stroke
@@ -2477,16 +2472,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 86.36) (xy 130.81 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3aaf09-1cd1-4dad-87e1-5409176ddf80")
-	)
-	(wire
-		(pts
 			(xy 222.25 100.33) (xy 209.55 100.33)
 		)
 		(stroke
@@ -2495,36 +2480,14 @@
 		)
 		(uuid "fc7182b6-c38d-4560-ac28-782c84373708")
 	)
-	(text "MOSI"
-		(exclude_from_sim no)
-		(at 104.14 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a8b083e-8576-4dd6-b059-542f1e4dfbc9")
-	)
-	(text "MISO"
-		(exclude_from_sim no)
-		(at 104.14 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb85c1c6-da96-45ef-9d2c-bb34306dd20e")
-	)
 	(label "IC_DIV_OUT_7"
-		(at 128.27 83.82 180)
+		(at 146.05 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0693781a-94ef-451e-b28a-665ae08208f4")
 	)
@@ -2551,7 +2514,7 @@
 		(uuid "1baacba9-6342-42c4-9305-4bcf158cf531")
 	)
 	(label "IC_DIV_OUT_5"
-		(at 146.05 86.36 0)
+		(at 146.05 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2606,13 +2569,13 @@
 		(uuid "5c8ba50a-fe0b-4e70-af0c-41d90ff62483")
 	)
 	(label "RST"
-		(at 128.27 88.9 180)
+		(at 146.05 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5ebb380b-e4b0-42cb-b285-e0257869963e")
 	)
@@ -2650,13 +2613,13 @@
 		(uuid "6f562426-3a30-4ef4-84d0-defbe379612f")
 	)
 	(label "SCK"
-		(at 128.27 86.36 180)
+		(at 146.05 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "80ad4af9-3579-4f07-970a-93c4adaaa16f")
 	)
@@ -2858,87 +2821,7 @@
 		(uuid "fcfa5b4d-0a90-4127-ba19-fb42113dcc0a")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 135.89 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06a304ff-9d25-4fc3-96c4-a18ac1f2c9bc")
-		(property "Reference" "J39"
-			(at 137.16 78.8502 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPI"
-			(at 137.16 81.3871 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a0987ef-061a-4566-899e-d139fbfe7b44")
-		)
-		(pin "2"
-			(uuid "e2831c6e-d228-4e4f-a7c8-4732766ce5b2")
-		)
-		(pin "3"
-			(uuid "161e4360-07e2-4ac9-984d-a35c55fc953e")
-		)
-		(pin "4"
-			(uuid "5c019455-bdd5-43c8-ae1b-8f1b984a0758")
-		)
-		(pin "5"
-			(uuid "b6e54600-0506-4dc5-85e5-26a4bbd84992")
-		)
-		(pin "6"
-			(uuid "58996a28-4fe5-468c-b757-2220801775c7")
-		)
-		(instances
-			(project "ouroboros"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/e95780cf-5325-4c64-89b1-e833ad4ca347"
-					(reference "J39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 26.67 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2948,7 +2831,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bf4697e-591d-415f-99d0-a9a26faaf383")
 		(property "Reference" "C47"
-			(at 30.48 78.105 0)
+			(at 30.48 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2840,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 30.48 80.645 0)
+			(at 30.48 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -3136,7 +3019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 255.27 46.99 0)
 			(effects
 				(font
@@ -3152,6 +3035,88 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/e95780cf-5325-4c64-89b1-e833ad4ca347"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:AVR-ISP-6")
+		(at 134.62 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5619f6b9-a52e-48c6-a507-6366d879f87d")
+		(property "Reference" "J39"
+			(at 125.73 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AVR-ISP-6"
+			(at 125.73 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 128.27 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.235 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Atmel 6-pin ISP connector"
+			(at 134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772cc28b-547a-4cfe-a0df-7cfb01e41821")
+		)
+		(pin "2"
+			(uuid "df88050b-a50b-456a-a5b8-6c1996656271")
+		)
+		(pin "4"
+			(uuid "b4f20f88-38c6-45a1-82a5-a5e8ad6922fb")
+		)
+		(pin "5"
+			(uuid "16fa4ca4-899a-406d-a45b-cfd8257de0ad")
+		)
+		(pin "6"
+			(uuid "595e7011-b841-4ccc-a93d-59b9b4a70aa7")
+		)
+		(pin "3"
+			(uuid "d1d5c2fe-4a8c-4bd2-b873-41b6459ab8a0")
+		)
+		(instances
+			(project ""
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/e95780cf-5325-4c64-89b1-e833ad4ca347"
+					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -3202,7 +3167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 218.44 105.41 0)
 			(effects
 				(font
@@ -3392,7 +3357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -3458,7 +3423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 26.67 85.09 0)
 			(effects
 				(font
@@ -3524,7 +3489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 26.67 72.39 0)
 			(effects
 				(font
@@ -3659,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:TO-92_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 106.68 130.175 0)
 			(effects
 				(font
@@ -3838,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 72.39 58.42 0)
 			(effects
 				(font
@@ -3887,7 +3852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rumblesan_Standard_Parts:TO-92_Inline_Wide"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 86.36 29.845 0)
 			(effects
 				(font
@@ -3980,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 234.95 113.03 0)
 			(effects
 				(font
@@ -4046,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 83.82 39.37 0)
 			(effects
 				(font
@@ -4112,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 104.14 139.7 0)
 			(effects
 				(font
@@ -4178,7 +4143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 209.55 105.41 0)
 			(effects
 				(font
@@ -4351,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 203.2 77.47 0)
 			(effects
 				(font
@@ -4374,7 +4339,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 90.17 0)
+		(at 132.08 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4383,7 +4348,7 @@
 		(fields_autoplaced yes)
 		(uuid "db397ea9-79aa-40c0-bc6f-63c0e87dad4b")
 		(property "Reference" "#PWR062"
-			(at 144.78 96.52 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 94.6134 0)
+			(at 132.08 64.1334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 90.17 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 90.17 0)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,8 +4382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 144.78 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 234.95 67.31 0)
 			(effects
 				(font
@@ -4505,7 +4470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Rumblesan Standard Parts:C")
+		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 255.27 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4515,7 +4480,7 @@
 		(fields_autoplaced yes)
 		(uuid "f085cb01-e4c1-4eb4-8744-3160cff41c28")
 		(property "Reference" "C53"
-			(at 259.08 52.705 0)
+			(at 259.08 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,7 +4489,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 259.08 55.245 0)
+			(at 259.08 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
