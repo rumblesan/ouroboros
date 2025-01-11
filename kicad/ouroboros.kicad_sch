@@ -8190,6 +8190,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 57.15) (xy 307.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e85e2a-a32f-429e-b78a-3cb5d442bb12")
+	)
+	(wire
+		(pts
 			(xy 200.66 45.72) (xy 200.66 95.25)
 		)
 		(stroke
@@ -9930,7 +9940,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 58.42) (xy 307.34 60.96)
+			(xy 307.34 48.26) (xy 307.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -19477,7 +19487,7 @@
 			)
 		)
 		(property "Name" "VCA Level CV"
-			(at 252.73 203.2 0)
+			(at 242.316 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21669,7 +21679,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 307.34 58.42 0)
+		(at 307.34 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21678,7 +21688,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2085c53-ca97-4fd0-96d6-0a3faee5879f")
 		(property "Reference" "#PWR050"
-			(at 307.34 62.23 0)
+			(at 307.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21687,7 +21697,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 307.34 54.8442 0)
+			(at 307.34 44.6842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21695,7 +21705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 58.42 0)
+			(at 307.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21704,7 +21714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.34 58.42 0)
+			(at 307.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21713,7 +21723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 307.34 58.42 0)
+			(at 307.34 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22200,6 +22210,103 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rumblesan_Standard_Parts:R")
+		(at 307.34 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a95a0854-068c-40cd-8e39-8946bcde7fb6")
+		(property "Reference" "R134"
+			(at 300.228 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 300.228 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Rumblesan_Standard_Parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 304.8 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 307.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 302.26 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.5W"
+			(at 302.26 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Spec" "metal film"
+			(at 302.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684d35d7-0d85-42fa-adf1-1486fa1f50e2")
+		)
+		(pin "2"
+			(uuid "473ffe56-3aad-4f7d-b30d-78bf7e64af71")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031"
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -25693,7 +25800,7 @@
 			)
 		)
 		(property "Name" "VCA Output"
-			(at 247.65 160.02 0)
+			(at 233.426 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
