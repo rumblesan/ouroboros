@@ -37,7 +37,7 @@ Whilst ultimately it's the combination of all of the parts interacting that make
 
 ### Filter
 
-The filter is a fairly standard state-variable, 12db per-octave design built around the LM13700 OTA chip. The cut-off frequency and resonance are voltage controllable with attenuverters on both.
+The filter is a fairly standard state-variable, 12db per-octave design built around the 2164 gain cell chip. The cut-off frequency and resonance are voltage controllable with attenuverters on both.
 
 There's also a dedicated ping input which is the primary sound generator when nothing else is patched.
 

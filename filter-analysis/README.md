@@ -1,10 +1,13 @@
-# 13700 Filter
+# Filter design docs
 
-Designing a filter for the Ouroboros using the LM13700 OTA
+For rev 1 and 2 the filter used LM13700 OTAs for the filter.
+Rev 3 has been redesigned to use the 2164 gain cell.
+
+This folder has the analysis of the first versions of the filter, but the analysis for the 2164 version still needs to be added.
 
 ## Creating
 
-`pdflatex ouroboros-filter.tex`
+`pdflatex lm13700-filter.tex`
 
 ## Contact
 
