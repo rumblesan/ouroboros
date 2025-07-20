@@ -6268,7 +6268,8 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 90.17 219.71 180)
+		(at 193.04 118.11 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +6278,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b866e93-339e-403b-8dd1-439ef31dc01d")
 		(property "Reference" "U10"
-			(at 90.17 210.9302 0)
+			(at 193.04 109.3302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6286,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 90.17 213.4671 0)
+			(at 193.04 111.8671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6294,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 91.44 222.25 0)
+			(at 191.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6303,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 88.9 224.79 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6312,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 219.71 0)
+			(at 193.04 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,8 +7401,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 193.04 118.11 0)
-		(mirror x)
+		(at 90.17 219.71 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7410,7 +7410,7 @@
 		(fields_autoplaced yes)
 		(uuid "84ba4fda-7362-47b1-b503-b0969ac73de0")
 		(property "Reference" "U10"
-			(at 193.04 109.3302 0)
+			(at 90.17 210.9302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7418,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 193.04 111.8671 0)
+			(at 90.17 213.4671 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7426,7 +7426,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 191.77 120.65 0)
+			(at 91.44 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 194.31 123.19 0)
+			(at 88.9 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 118.11 0)
+			(at 90.17 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
