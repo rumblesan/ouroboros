@@ -9853,7 +9853,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c357a96-4aa9-4cb2-a64b-3d0ae18b2e62")
 		(property "Reference" "TP15"
 			(at 157.099 77.9053 90)
@@ -9864,13 +9863,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DelayInputAudioTestPoint"
+		(property "Value" "TestPoint"
 			(at 157.099 80.4422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -9891,13 +9891,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 78.74 0)
+		(property "Description" "Delay Input"
+			(at 155.194 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"

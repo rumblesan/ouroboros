@@ -5754,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C")
-		(at 297.18 43.18 0)
+		(at 297.18 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5768,7 +5768,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
@@ -5777,11 +5777,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 302.895 41.91 0)
+			(at 291.465 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 304.8 43.18 0)
+			(at 289.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5808,7 @@
 			)
 		)
 		(property "Spec" "ceramic X7R"
-			(at 300.99 43.18 90)
+			(at 293.37 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +5817,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 300.99 34.925 90)
+			(at 293.37 51.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
