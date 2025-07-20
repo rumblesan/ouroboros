@@ -1683,6 +1683,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N5818"
 			(pin_numbers
 				(hide yes)
@@ -2758,6 +2884,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -3325,12 +3563,6 @@
 		(uuid "aa5ff2f4-6bed-427b-a262-093350db91b4")
 	)
 	(junction
-		(at 113.03 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aad13255-aaa2-460d-bf19-7799ffcf8f68")
-	)
-	(junction
 		(at 176.53 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3539,6 +3771,16 @@
 			(type default)
 		)
 		(uuid "03fe9198-f115-4af4-9991-97c3767932e5")
+	)
+	(wire
+		(pts
+			(xy 113.03 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046160ff-56db-42b5-8a8a-c81436229243")
 	)
 	(wire
 		(pts
@@ -4012,6 +4254,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 251.46) (xy 165.1 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bd1000-1462-4999-8e3b-9ff1752f0ee9")
+	)
+	(wire
+		(pts
 			(xy 143.51 144.78) (xy 171.45 144.78)
 		)
 		(stroke
@@ -4209,6 +4461,16 @@
 			(type default)
 		)
 		(uuid "3c28dec2-a924-4d6f-81e6-aef23d9b41ce")
+	)
+	(wire
+		(pts
+			(xy 101.6 144.78) (xy 118.11 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbda701-c51e-46ec-8ce7-01e66c0bfa01")
 	)
 	(wire
 		(pts
@@ -4622,6 +4884,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 186.69) (xy 293.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6129726d-54e2-497e-a517-cbae1767d18e")
+	)
+	(wire
+		(pts
 			(xy 265.43 96.52) (xy 257.81 96.52)
 		)
 		(stroke
@@ -4849,6 +5121,16 @@
 			(type default)
 		)
 		(uuid "74171ac1-4bf4-4f6f-9f89-71b25bb298f5")
+	)
+	(wire
+		(pts
+			(xy 171.45 251.46) (xy 172.72 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74252de3-4066-4eab-884a-1e88cf2e3e52")
 	)
 	(wire
 		(pts
@@ -5402,6 +5684,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 251.46) (xy 165.1 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d68f5-8ca6-40df-a33d-e4fd2117182f")
+	)
+	(wire
+		(pts
 			(xy 189.23 162.56) (xy 184.15 162.56)
 		)
 		(stroke
@@ -5542,16 +5834,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 147.32) (xy 113.03 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59888f3-4d62-498a-bb54-2638f58bbd78")
-	)
-	(wire
-		(pts
 			(xy 171.45 144.78) (xy 171.45 140.97)
 		)
 		(stroke
@@ -5652,16 +5934,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 144.78) (xy 118.11 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0a705fc-3aa6-4373-ab52-2762b304e781")
-	)
-	(wire
-		(pts
 			(xy 129.54 78.74) (xy 132.08 78.74)
 		)
 		(stroke
@@ -5712,16 +5984,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 113.03 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d88ef35b-8c1b-434d-8505-77fdd7f0f5ad")
-	)
-	(wire
-		(pts
 			(xy 280.67 107.95) (xy 280.67 119.38)
 		)
 		(stroke
@@ -5739,16 +6001,6 @@
 			(type default)
 		)
 		(uuid "dc8d876d-a6f3-4169-90fc-7aac1e52ab1e")
-	)
-	(wire
-		(pts
-			(xy 118.11 147.32) (xy 113.03 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce4efb1-c461-4192-8ccf-ab70edcdfdf7")
 	)
 	(wire
 		(pts
@@ -5919,6 +6171,16 @@
 			(type default)
 		)
 		(uuid "ec858e01-a6a9-439f-bc15-6c94b9a71d33")
+	)
+	(wire
+		(pts
+			(xy 172.72 251.46) (xy 172.72 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca61598-df76-4bd2-81c7-e21f6fb81550")
 	)
 	(wire
 		(pts
@@ -6950,71 +7212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 293.37 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1544b228-1a0a-429e-87fb-cbf87f9f9ce4")
-		(property "Reference" "#PWR0135"
-			(at 293.37 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.497 189.8142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72702cad-188b-48ab-a029-0429a46bdb6c")
-		)
-		(instances
-			(project "ouroboros"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL072")
 		(at 102.87 227.33 0)
 		(unit 3)
@@ -7632,71 +7829,6 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 270.51 223.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e3e70b3-50e2-4c24-bc95-ad8557f390a6")
-		(property "Reference" "#PWR082"
-			(at 270.51 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.637 227.9142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69abeeba-add1-48be-87a2-6f82463eafe6")
-		)
-		(instances
-			(project "ouroboros"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -8512,71 +8644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 256.54 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "543661a6-b2f2-4b82-ad20-2d56549acee9")
-		(property "Reference" "#PWR079"
-			(at 256.54 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 256.667 196.1642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "878df898-55a0-4662-8641-48f5fe3affb7")
-		)
-		(instances
-			(project "ouroboros"
-				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Rumblesan_Standard_Parts:R")
 		(at 269.24 69.85 90)
 		(unit 1)
@@ -8750,6 +8817,72 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 256.54 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57d90981-ebc2-45f1-89fa-bd555c580ded")
+		(property "Reference" "#PWR079"
+			(at 256.54 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 256.54 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 256.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2cf89e8-3cdb-4c2e-85f9-25d6fc040989")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8941,6 +9074,72 @@
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
 					(reference "U5")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "672dc970-e478-45de-9abc-6b06b2aa2259")
+		(property "Reference" "#PWR0128"
+			(at 172.72 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 257.2925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e72c7b-3e41-46e5-bf28-212712f61e7e")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR0128")
+					(unit 1)
 				)
 			)
 		)
@@ -10320,6 +10519,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 168.91 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2b78b7-9acf-4511-96a9-f38153f70b53")
+		(property "Reference" "NT1"
+			(at 168.91 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 168.91 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 168.91 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 168.91 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e352f41-5d30-4280-8f88-89534fa7463c")
+		)
+		(pin "2"
+			(uuid "4bdb8f05-4309-4509-bb7a-45b260cac4c8")
+		)
+		(instances
+			(project ""
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 83.82 0)
 		(unit 1)
@@ -10549,6 +10816,72 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 113.03 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f9d3a3-4dcd-4ada-b1e5-65eee48eeb84")
+		(property "Reference" "#PWR0116"
+			(at 113.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7a95bb8-5893-449c-938f-bfbfa035ed96")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -11360,6 +11693,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 270.51 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c53052f0-cdf6-4e82-a0ac-e01a5cfc3232")
+		(property "Reference" "#PWR0127"
+			(at 270.51 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 270.51 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 270.51 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a36239c-011f-480c-9dbd-3f40a8ecc01e")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C")
 		(at 293.37 181.61 0)
 		(unit 1)
@@ -11609,7 +12008,7 @@
 	)
 	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C")
-		(at 62.23 139.7 0)
+		(at 62.23 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11617,7 +12016,7 @@
 		(dnp no)
 		(uuid "c91a99fc-155d-4c98-ac3d-8306eeaa4798")
 		(property "Reference" "C18"
-			(at 65.151 138.5316 0)
+			(at 59.309 140.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +12025,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 65.151 140.843 0)
+			(at 59.309 138.557 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +12034,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W3.5mm_P5.00mm"
-			(at 67.945 138.43 0)
+			(at 56.515 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +12043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 139.7 0)
+			(at 54.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11662,7 +12061,7 @@
 			)
 		)
 		(property "Spec" "ceramic X7R"
-			(at 66.04 139.7 90)
+			(at 58.42 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +12070,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 66.04 131.445 90)
+			(at 58.42 147.955 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,6 +12154,72 @@
 			(project "ouroboros"
 				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 165.1 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd05064a-0dd6-4d5d-a352-1e21d09f14a7")
+		(property "Reference" "#PWR082"
+			(at 165.1 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 165.1 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 165.1 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e4b3d27-a7de-41b6-a051-e67bed1825c1")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -13374,8 +13839,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 293.37 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde36959-b1f8-4460-a26e-c8605f18a863")
+		(property "Reference" "#PWR0130"
+			(at 293.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 293.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 293.37 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f485878-e83d-4829-984a-3f932f2d7f67")
+		)
+		(instances
+			(project "ouroboros"
+				(path "/5b0acaca-dc50-4fa5-b146-164c1b9ad031/256127d0-0479-4408-a803-d00b3565e635"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Rumblesan_Standard_Parts:C")
-		(at 76.2 139.7 180)
+		(at 76.2 139.7 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13383,7 +13915,7 @@
 		(dnp no)
 		(uuid "ff556b99-65ed-48a2-966b-e88be7bebea5")
 		(property "Reference" "C17"
-			(at 79.121 138.5316 0)
+			(at 79.121 140.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13392,7 +13924,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 79.121 140.843 0)
+			(at 79.121 138.557 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13401,7 +13933,7 @@
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 70.485 140.97 0)
+			(at 70.485 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13437,7 +13969,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 72.39 147.955 90)
+			(at 72.39 131.445 90)
 			(effects
 				(font
 					(size 1.27 1.27)

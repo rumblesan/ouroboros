@@ -3202,7 +3202,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0a29beae-0c76-472e-b222-c0afef324111")
 		(property "Reference" "TP12"
 			(at 198.247 68.2533 0)
@@ -3213,13 +3212,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DelayScaledCVTestPoint"
+		(property "Value" "TestPoint"
 			(at 198.247 70.7902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -3247,6 +3247,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Delacy CV Scaled"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5682,7 +5690,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be2006bc-b8f1-4bab-83eb-e4845926b03d")
 		(property "Reference" "TP8"
 			(at 153.797 59.3633 0)
@@ -5693,13 +5700,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DelayMainCVTestPoint"
+		(property "Value" "TestPoint"
 			(at 153.797 61.9002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -5727,6 +5735,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "Delay CV"
+			(at 155.956 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

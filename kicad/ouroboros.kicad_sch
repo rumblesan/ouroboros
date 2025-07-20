@@ -11386,7 +11386,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "077bd947-1add-47b5-adde-06f183388a5d")
 		(property "Reference" "TP4"
 			(at 376.809 15.6753 90)
@@ -11397,13 +11396,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+12VTestPoint"
+		(property "Value" "TestPoint"
 			(at 376.809 18.2122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -11431,6 +11431,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "+12v"
+			(at 378.714 17.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12601,7 +12609,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1eb2566e-16a2-498e-930b-b40c307d9ecf")
 		(property "Reference" "TP11"
 			(at 374.269 49.9653 90)
@@ -12612,13 +12619,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5VTestPoint"
+		(property "Value" "TestPoint"
 			(at 374.269 52.5022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -12639,13 +12647,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 369.57 50.8 0)
+		(property "Description" "5v"
+			(at 375.92 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18884,7 +18891,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7088ce75-847a-460c-974d-9e412fa29a79")
 		(property "Reference" "TP13"
 			(at 386.969 24.5653 90)
@@ -18895,13 +18901,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GNDTestPoint"
+		(property "Value" "TestPoint"
 			(at 386.969 27.1022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -18929,6 +18936,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "GND"
+			(at 389.128 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20228,7 +20243,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8404ddfd-6c37-47f7-bff6-52ebb388d8b8")
 		(property "Reference" "TP1"
 			(at 380.619 33.4553 90)
@@ -20239,13 +20253,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "-12VTestPoint"
+		(property "Value" "TestPoint"
 			(at 380.619 35.9922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Rumblesan_Standard_Parts:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
@@ -20273,6 +20288,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "-12v"
+			(at 383.032 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
